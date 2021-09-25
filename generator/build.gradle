@@ -1,8 +1,11 @@
 plugins {
     id 'java'
+    id 'application'
     id 'org.jetbrains.kotlin.jvm'
     id 'org.jetbrains.kotlin.plugin.serialization'
 }
+
+mainClassName = 'MainKt'
 
 dependencies {
     implementation project(":pojos")

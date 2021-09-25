@@ -2,6 +2,7 @@ import io.github.wulkanowy.messages.pojo.Message
 import io.github.wulkanowy.messages.pojo.MessageType
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
+import java.io.File
 
 val messages = listOf(
     Message(
@@ -14,5 +15,5 @@ val messages = listOf(
 
 fun main() {
     val json = Json.encodeToString(messages)
-    println(json)
+    File("../dist/messages.json").writeText(json)
 }
