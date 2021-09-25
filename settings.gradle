@@ -1,3 +1,4 @@
+include "generator"
+include "pojos"
 
 rootProject.name = 'messages'
-
