@@ -4,17 +4,19 @@ import io.github.wulkanowy.messages.pojo.MessageType
 
 val messages = listOf(
     Message(
-        id = 1,
-        title = "Problemy z planem lekcji",
-        content = "Z powodu aktualizacji dziennika UONET+ przez firmę VULCAN mogą występować w Wulkanowyn problemy przy wysyłaniu wiadomości i dostępie do planu lekcji. Pracujemy nad aktualizacją która pojawi się niebawem. Prosimy o cierpliwość",
-        versionMin = 10,
-        versionMax = 95,
+        id = 5,
+        title = "Aktualizacja naprawiająca działanie Opolskiej eSzkoły",
+        content = "Przejdź do sklepu z Aplikacjami i zaktualizuj Wulkanowego",
+        targetRegisterHost = "eszkola.opolskie.net",
+        versionMax = 96,
         type = MessageType.DASHBOARD_MESSAGE,
     ),
     Message(
-        id = 2,
-        title = "Problemy z planem lekcji",
-        content = "Ostatnia aktualizacja dziennika VULCAN UONET+ spowodowała problemy z ładowaniem planu lekcji. Nie ma to nic wspólnego z naszą aplikacją. Prosimy o cierpliwość do czasu, aż VULCAN rozwiąże ten problem po swojej stronie",
+        id = 4,
+        title = "Ważny komunikat dla użytkowników F-Droida",
+        content = "Aktualizacja Wulkanowego właśnie pojawiła się w twoim sklepie! Nie zwlekaj tylko pobierz ją już teraz",
+        targetFlavor = MessageFlavor.FDROID,
+        versionMax = 97,
         type = MessageType.DASHBOARD_MESSAGE,
     ),
     Message(
@@ -25,11 +27,17 @@ val messages = listOf(
         type = MessageType.DASHBOARD_MESSAGE,
     ),
     Message(
-        id = 4,
-        title = "Ważny komunikat dla użytkowników F-Droida",
-        content = "Aktualizacja Wulkanowego właśnie pojawiła się w twoim sklepie! Nie zwlekaj tylko pobierz ją już teraz",
-        targetFlavor = MessageFlavor.FDROID,
-        versionMax = 97,
+        id = 2,
+        title = "Problemy z planem lekcji",
+        content = "Ostatnia aktualizacja dziennika VULCAN UONET+ spowodowała problemy z ładowaniem planu lekcji. Nie ma to nic wspólnego z naszą aplikacją. Prosimy o cierpliwość do czasu, aż VULCAN rozwiąże ten problem po swojej stronie",
         type = MessageType.DASHBOARD_MESSAGE,
-    )
+    ),
+    Message(
+        id = 1,
+        title = "Problemy z planem lekcji",
+        content = "Z powodu aktualizacji dziennika UONET+ przez firmę VULCAN mogą występować w Wulkanowyn problemy przy wysyłaniu wiadomości i dostępie do planu lekcji. Pracujemy nad aktualizacją która pojawi się niebawem. Prosimy o cierpliwość",
+        versionMin = 10,
+        versionMax = 95,
+        type = MessageType.DASHBOARD_MESSAGE,
+    ),
 )
