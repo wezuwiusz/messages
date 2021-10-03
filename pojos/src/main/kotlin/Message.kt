@@ -9,5 +9,6 @@ data class Message(
     val content: String,
     val versionMin: Int? = null,
     val versionMax: Int? = null,
+    val targetRegisterHost: String? = null,
     val type: MessageType,
 )
