@@ -1,5 +1,6 @@
-import io.github.wulkanowy.messages.pojo.Message
 import io.github.wulkanowy.messages.pojo.AppFlavor
+import io.github.wulkanowy.messages.pojo.Message
+import io.github.wulkanowy.messages.pojo.MessagePriority
 import io.github.wulkanowy.messages.pojo.MessageType
 
 val messages = listOf(
@@ -8,6 +9,7 @@ val messages = listOf(
         title = "Aktualizacja naprawiająca wszystko!",
         content = "Przejdź do sklepu z Aplikacjami i zaktualizuj Wulkanowego",
         destinationUrl = "market://details?id=io.github.wulkanowy",
+        priority = MessagePriority.MEDIUM,
         versionMax = 97,
         type = MessageType.DASHBOARD_MESSAGE,
     ),
@@ -16,6 +18,7 @@ val messages = listOf(
         title = "Aktualizacja naprawiająca działanie Opolskiej eSzkoły",
         content = "Przejdź do sklepu z Aplikacjami i zaktualizuj Wulkanowego",
         targetRegisterHost = "eszkola.opolskie.net",
+        priority = MessagePriority.HIGH,
         versionMax = 96,
         type = MessageType.DASHBOARD_MESSAGE,
     ),
@@ -32,6 +35,7 @@ val messages = listOf(
         title = "Problemy z zadaniami domowymi",
         content = "Przez błąd w systemie UONET+ (potwierdzony przez firmę VULCAN) u niektórych zadania pojawiają się dopiero w dniu terminu ich oddania. W tym czasie prosimy o uważne sprawdzanie zadań w różnych źródłach i prosimy o cierpliwość!",
         targetRegisterHost = "fakelog.cf",
+        priority = MessagePriority.HIGH,
         type = MessageType.DASHBOARD_MESSAGE,
     ),
     Message(
