@@ -15,3 +15,18 @@ compileKotlin {
 compileTestKotlin {
     kotlinOptions.jvmTarget = 11
 }
+
+java {
+    withJavadocJar()
+    withSourcesJar()
+}
+
+publishing {
+    publications {
+        messages(MavenPublication) {
+            from components.java
+            groupId = "io.github.wulkanowy"
+            artifactId = "messages"
+        }
+    }
+}
