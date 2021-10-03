@@ -8,6 +8,7 @@ data class Message(
     val title: String,
     val content: String,
     val type: MessageType,
+    val openUrl: String? = null,
     val versionMin: Int? = null,
     val versionMax: Int? = null,
     val targetRegisterHost: String? = null,

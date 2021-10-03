@@ -4,6 +4,14 @@ import io.github.wulkanowy.messages.pojo.MessageType
 
 val messages = listOf(
     Message(
+        id = 6,
+        title = "Aktualizacja naprawiająca wszystko!",
+        content = "Przejdź do sklepu z Aplikacjami i zaktualizuj Wulkanowego",
+        openUrl = "market://details?id=io.github.wulkanowy",
+        versionMax = 97,
+        type = MessageType.DASHBOARD_MESSAGE,
+    ),
+    Message(
         id = 5,
         title = "Aktualizacja naprawiająca działanie Opolskiej eSzkoły",
         content = "Przejdź do sklepu z Aplikacjami i zaktualizuj Wulkanowego",
