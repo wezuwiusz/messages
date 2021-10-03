@@ -7,7 +7,7 @@ val messages = listOf(
         id = 6,
         title = "Aktualizacja naprawiająca wszystko!",
         content = "Przejdź do sklepu z Aplikacjami i zaktualizuj Wulkanowego",
-        openUrl = "market://details?id=io.github.wulkanowy",
+        destinationUrl = "market://details?id=io.github.wulkanowy",
         versionMax = 97,
         type = MessageType.DASHBOARD_MESSAGE,
     ),
