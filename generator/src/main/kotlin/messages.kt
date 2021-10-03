@@ -1,5 +1,5 @@
 import io.github.wulkanowy.messages.pojo.Message
-import io.github.wulkanowy.messages.pojo.MessageFlavor
+import io.github.wulkanowy.messages.pojo.AppFlavor
 import io.github.wulkanowy.messages.pojo.MessageType
 
 val messages = listOf(
@@ -23,7 +23,7 @@ val messages = listOf(
         id = 4,
         title = "Ważny komunikat dla użytkowników F-Droida",
         content = "Aktualizacja Wulkanowego właśnie pojawiła się w twoim sklepie! Nie zwlekaj tylko pobierz ją już teraz",
-        targetFlavor = MessageFlavor.FDROID,
+        targetFlavor = AppFlavor.FDROID,
         versionMax = 97,
         type = MessageType.DASHBOARD_MESSAGE,
     ),

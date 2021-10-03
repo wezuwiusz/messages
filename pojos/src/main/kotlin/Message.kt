@@ -12,5 +12,5 @@ data class Message(
     val versionMin: Int? = null,
     val versionMax: Int? = null,
     val targetRegisterHost: String? = null,
-    val targetFlavor: MessageFlavor? = null,
+    val targetFlavor: AppFlavor? = null,
 )

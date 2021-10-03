@@ -1,6 +1,6 @@
 package io.github.wulkanowy.messages.pojo
 
-enum class MessageFlavor {
+enum class AppFlavor {
     PLAY,
     HMS,
     FDROID,
