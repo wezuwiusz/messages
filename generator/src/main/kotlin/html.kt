@@ -2,6 +2,7 @@ import io.github.wulkanowy.messages.pojo.Message
 import kotlinx.html.*
 import kotlinx.html.stream.appendHTML
 import java.time.LocalDate
+import java.time.LocalDateTime
 
 fun generateHtml(messages: List<Message>): String = buildString {
     appendLine("<!DOCTYPE html>")
@@ -33,7 +34,7 @@ fun generateHtml(messages: List<Message>): String = buildString {
             }
             footer {
                 +"© ${LocalDate.now().year} by Wulkanowy | "
-                +"wygenerowano ${LocalDate.now()} | "
+                +"wygenerowano ${LocalDateTime.now()} | "
                 a("v1.json") {
                     +"raw json"
                 }
