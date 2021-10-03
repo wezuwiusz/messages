@@ -9,7 +9,7 @@ val messages = listOf(
         id = 1,
         title = "Problemy z zadaniami domowymi",
         content = "Występują problemy z zadaniami domowymi. Zaktualizuj aplikację!",
-        type = MessageType.USER_MESSAGE,
+        type = MessageType.DASHBOARD_MESSAGE,
     )
 )
 
