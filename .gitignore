@@ -72,4 +72,5 @@ gradle-app.setting
 classes
 .DS_Store
 .idea/libraries-with-intellij-classes.xml
-dist/v*.json
+dist/
+!dist/favicon.ico
