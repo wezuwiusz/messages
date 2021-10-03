@@ -15,5 +15,5 @@ val messages = listOf(
 
 fun main() {
     val json = Json.encodeToString(messages)
-    File("../dist/messages.json").writeText(json)
+    File("../dist/v1.json").writeText(json)
 }
