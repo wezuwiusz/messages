@@ -6,8 +6,8 @@ import io.github.wulkanowy.messages.pojo.MessageType
 val messages = listOf(
     Message(
         id = 6,
-        title = "Aktualizacja naprawiająca wszystko!",
-        content = "Przejdź do sklepu z Aplikacjami i zaktualizuj Wulkanowego",
+        title = "Aktualizacja!",
+        content = "Prezentujemy zupełnie nową wersję naszej aplikacji, która naprawi świat! Nie zwlekaj ani minuty dłużej! Przejdź do sklepu z Aplikacjami i zaktualizuj Wulkanowego",
         destinationUrl = "market://details?id=io.github.wulkanowy",
         priority = MessagePriority.MEDIUM,
         versionMax = 97,
