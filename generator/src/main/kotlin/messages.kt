@@ -10,6 +10,8 @@ val messages = listOf(
         content = "Logowanie do dziennika przestało działać, dlatego musimy zakończyć działalność.",
         priority = MessagePriority.LOW,
         targetFlavor = AppFlavor.PLAY,
+        versionMin = 98,
+        versionMax = 98,
         type = MessageType.DASHBOARD_MESSAGE,
     ),
     Message(
@@ -18,6 +20,8 @@ val messages = listOf(
         content = "Przez błąd w systemie UONET+ (potwierdzony przez firmę VULCAN) u niektórych zadania pojawiają się dopiero w dniu terminu ich oddania. W tym czasie prosimy o uważne sprawdzanie zadań w różnych źródłach i prosimy o cierpliwość!",
         targetRegisterHost = "fakelog.cf",
         priority = MessagePriority.HIGH,
+        versionMax = 98,
+        versionMin = 97,
         type = MessageType.DASHBOARD_MESSAGE,
     ),
     Message(
