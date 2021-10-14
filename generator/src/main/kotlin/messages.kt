@@ -1,8 +1,8 @@
 import io.github.wulkanowy.messages.pojo.Message
-import io.github.wulkanowy.MessagePriority
-import io.github.wulkanowy.MessageType
+import io.github.wulkanowy.messages.pojo.MessagePriority
+import io.github.wulkanowy.messages.pojo.MessageType
 
-val messages = listOf<Message>(
+val messages = listOf(
     Message(
         id = 1,
         title = "Problemy z Fakelogiem",
