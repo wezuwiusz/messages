@@ -2,7 +2,7 @@ import io.github.wulkanowy.messages.pojo.Message
 import io.github.wulkanowy.messages.pojo.MessagePriority
 import io.github.wulkanowy.messages.pojo.MessageType
 
-val messages = listOf(
+val messages = listOf<Message>(
     //Message(
     //    id = 1,
     //    title = "Problemy z Fakelogiem",
