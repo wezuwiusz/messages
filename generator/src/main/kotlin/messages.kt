@@ -9,6 +9,7 @@ val messages = listOf(
         content = "Zaktualizowaliśmy politykę prywatności. Kliknij aby zobaczyć więcej",
         priority = MessagePriority.LOW,
         type = MessageType.DASHBOARD_MESSAGE,
-        destinationUrl = "https://wulkanowy.github.io/polityka-prywatnosci"
+        destinationUrl = "https://wulkanowy.github.io/polityka-prywatnosci",
+        isDismissible = true
     )
 )
