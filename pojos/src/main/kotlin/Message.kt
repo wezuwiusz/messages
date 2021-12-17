@@ -14,5 +14,6 @@ data class Message(
     val versionMax: Int? = null,
     val targetRegisterHost: String? = null,
     val targetFlavor: AppFlavor? = null,
-    val isDismissible: Boolean = false
+    val isDismissible: Boolean = false,
+    val isVisible: Boolean = true,
 )
