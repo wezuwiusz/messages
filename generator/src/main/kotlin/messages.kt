@@ -1,6 +1,7 @@
 import io.github.wulkanowy.messages.pojo.Message
 import io.github.wulkanowy.messages.pojo.MessagePriority
 import io.github.wulkanowy.messages.pojo.MessageType
+import io.github.wulkanowy.messages.pojo.RegisterAddress
 
 val messages = listOf(
     Message(
@@ -9,7 +10,7 @@ val messages = listOf(
         content = "Przez aktualizację dziennika Gdańskiej Platformy Edukacyjnej przestało działać logowanie w Wulkanowym. Przez to przy odświeżaniu danych pokazuje się komunikat o braku połączenia z internetem. Pracujemy nad poprawką, która powinna pojawić się w aktualizacji do końca tego tygodnia",
         priority = MessagePriority.HIGH,
         destinationUrl = "https://twitter.com/wulkanowy/status/1471930756087914511",
-        targetRegisterHost = "edu.gdansk.pl",
+        targetRegisterHost = RegisterAddress.EDU_GDANSK.url,
         type = MessageType.DASHBOARD_MESSAGE,
         isVisible = true,
     ),
