@@ -7,11 +7,12 @@ val messages = listOf(
     Message(
         id = 3,
         title = "Problemy z logowaniem",
-        content = "Przez aktualizację dziennika Gdańskiej Platformy Edukacyjnej przestało działać logowanie w Wulkanowym. Przez to przy odświeżaniu danych pokazuje się komunikat o braku połączenia z internetem. Pracujemy nad poprawką, która powinna pojawić się w aktualizacji do końca tego tygodnia",
+        content = "Przez aktualizację dziennika Gdańskiej Platformy Edukacyjnej przestało działać logowanie w Wulkanowym. Przez to przy odświeżaniu danych pokazuje się komunikat o nieznanym błędzie dziennika. Pracujemy nad poprawką, która powinna pojawić się niedługo",
         priority = MessagePriority.HIGH,
         destinationUrl = "https://twitter.com/wulkanowy/status/1471930756087914511",
         targetRegisterHost = RegisterAddress.EDU_GDANSK.url,
         type = MessageType.DASHBOARD_MESSAGE,
+        versionMax = 101,
         isVisible = true,
     ),
     Message(
