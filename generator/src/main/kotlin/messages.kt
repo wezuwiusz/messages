@@ -9,7 +9,7 @@ val messages = listOf(
         type = MessageType.DASHBOARD_MESSAGE,
         versionMin = 102,
         isDismissible = true,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 4,
