@@ -3,7 +3,7 @@ import io.github.wulkanowy.messages.pojo.*
 val messages = listOf(
     Message(
         id = 8,
-        title = "Błędy w frekwencji",
+        title = "Błędy we frekwencji",
         content = "W szczegółach frekwencji mogą występować błędy przy ładowaniu danych. Problem spowodowany jest ostatnią aktualizacją systemu UONET+. Pracujemy nad poprawką, która naprawi ładowanie danych i wydamy niedługo aktualizację Wulkanowego",
         priority = MessagePriority.HIGH,
         targetRegisterHost = RegisterAddress.EDU_LUBLIN.url,
@@ -13,7 +13,7 @@ val messages = listOf(
     ),
     Message(
         id = 7,
-        title = "Błędy w frekwencji",
+        title = "Błędy we frekwencji",
         content = "W szczegółach frekwencji mogą występować błędy przy ładowaniu danych. Problem spowodowany jest ostatnią aktualizacją systemu UONET+. Pracujemy nad poprawką, która naprawi ładowanie danych i wydamy niedługo aktualizację Wulkanowego",
         priority = MessagePriority.HIGH,
         targetRegisterHost = RegisterAddress.EDU_GDANSK.url,
