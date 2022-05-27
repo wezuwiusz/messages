@@ -2,6 +2,14 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 9,
+        title = "Błędy we frekwencji",
+        content = "Przez ostatnią aktualizację systemu UONET+ we frekwencji brakuje informacji o przedmiotach. To nie błąd aplikacji - czekamy na rozwiązanie problemu przez firmę VULCAN",
+        priority = MessagePriority.MEDIUM,
+        type = MessageType.DASHBOARD_MESSAGE,
+        isVisible = true,
+    ),
+    Message(
         id = 8,
         title = "Błędy we frekwencji",
         content = "W szczegółach frekwencji mogą występować błędy przy ładowaniu danych. Problem spowodowany jest ostatnią aktualizacją systemu UONET+. Pracujemy nad poprawką, która naprawi ładowanie danych i wydamy niedługo aktualizację Wulkanowego",
