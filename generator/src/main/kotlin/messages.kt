@@ -9,7 +9,7 @@ val messages = listOf(
         targetRegisterHost = RegisterAddress.VULCAN.url,
         type = MessageType.DASHBOARD_MESSAGE,
         isDismissible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 10,
