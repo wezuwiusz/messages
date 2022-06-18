@@ -2,6 +2,16 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 11,
+        title = "Problemy z odświeżaniem danych i logowaniem",
+        content = "Ostatnia aktualizacja systemu VULCAN UONET+ zepsuła w Wulkanowym logowanie do dziennika i odświeżanie danych. Pracujemy nad poprawką, ale nie wiemy kiedy uda nam się ją przygotować. Do tego czasu prosimy o cierpliwość",
+        priority = MessagePriority.HIGH,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        type = MessageType.DASHBOARD_MESSAGE,
+        isDismissible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 10,
         title = "Przerwa techniczna",
         content = "Aktualnie trwają prace konserwacyjne. Nie mamy pojęcia kiedy się zakończą. Prosimy o zachowanie cierpliwości i sprawdzenie dziennika ponownie za jakiś czas",
