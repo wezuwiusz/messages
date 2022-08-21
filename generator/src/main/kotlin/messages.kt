@@ -7,6 +7,8 @@ val messages = listOf(
         content = "W ostatniej aktualizacji systemu UONET+ firma VULCAN gruntownie zmieniła moduł wiadomości, co w konsekwencji zepsuło obsługę wiadomości w Wulkanowym. Pracujemy nad naprawą",
         priority = MessagePriority.HIGH,
         type = MessageType.DASHBOARD_MESSAGE,
+        destinationUrl = "https://www.facebook.com/wulkanowy/posts/450349017107872",
+        versionMax = 108,
         isDismissible = false,
         isVisible = true,
     ),
