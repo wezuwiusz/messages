@@ -2,6 +2,30 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 14,
+        title = "Dostepna aktualizacja",
+        content = "W sklepie Play powinna być już dostępna aktualizacja, która przywraca podstawowe funkcjonalności modułu wiadomości. Kliknij, aby przejść do sklepu Play",
+        priority = MessagePriority.HIGH,
+        targetFlavor = AppFlavor.PLAY,
+        type = MessageType.DASHBOARD_MESSAGE,
+        destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy",
+        versionMax = 108,
+        isDismissible = false,
+        isVisible = true,
+    ),
+    Message(
+        id = 13,
+        title = "Dostepna aktualizacja",
+        content = "W sklepie AppGallery powinna być już dostępna aktualizacja, która przywraca podstawowe funkcjonalności modułu wiadomości. Kliknij, aby przejść do sklepu AppGallery",
+        priority = MessagePriority.HIGH,
+        targetFlavor = AppFlavor.HMS,
+        type = MessageType.DASHBOARD_MESSAGE,
+        destinationUrl = "https://appgallery.huawei.com/#/app/C101440411",
+        versionMax = 108,
+        isDismissible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 12,
         title = "Problemy z wiadomościami",
         content = "W ostatniej aktualizacji systemu UONET+ firma VULCAN gruntownie zmieniła moduł wiadomości, co w konsekwencji zepsuło obsługę wiadomości w Wulkanowym. Pracujemy nad naprawą",
@@ -10,7 +34,7 @@ val messages = listOf(
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/450349017107872",
         versionMax = 108,
         isDismissible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 11,
