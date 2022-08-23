@@ -2,6 +2,17 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 15,
+        title = "Ważna informacja dotycząca wiadomości",
+        content = "Zastanawiasz się, gdzie podziały się starsze wiadomości? Kliknij, żeby przeczytać więcej na ten temat na naszym fanpage'u na Facebooku",
+        priority = MessagePriority.MEDIUM,
+        type = MessageType.DASHBOARD_MESSAGE,
+        destinationUrl = "https://www.facebook.com/wulkanowy/posts/453319193477521",
+        versionMin = 107,
+        isDismissible = true,
+        isVisible = true,
+    ),
+    Message(
         id = 14,
         title = "Dostepna aktualizacja",
         content = "W sklepie Play powinna być już dostępna aktualizacja, która przywraca podstawowe funkcjonalności modułu wiadomości. Kliknij, aby przejść do sklepu Play",
@@ -9,7 +20,7 @@ val messages = listOf(
         targetFlavor = AppFlavor.PLAY,
         type = MessageType.DASHBOARD_MESSAGE,
         destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy",
-        versionMax = 108,
+        versionMax = 107,
         isDismissible = false,
         isVisible = true,
     ),
@@ -21,7 +32,7 @@ val messages = listOf(
         targetFlavor = AppFlavor.HMS,
         type = MessageType.DASHBOARD_MESSAGE,
         destinationUrl = "https://appgallery.huawei.com/#/app/C101440411",
-        versionMax = 108,
+        versionMax = 107,
         isDismissible = false,
         isVisible = true,
     ),
