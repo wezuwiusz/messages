@@ -8,7 +8,7 @@ val messages = listOf(
         priority = MessagePriority.MEDIUM,
         type = MessageType.DASHBOARD_MESSAGE,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/453319193477521",
-        versionMin = 107,
+        versionMin = 108,
         isDismissible = true,
         isVisible = true,
     ),
