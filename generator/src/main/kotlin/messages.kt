@@ -2,6 +2,15 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 17,
+        title = "Awaria systemu UONET+",
+        content = "Obserwujemy problemy z dostępem do dziennika UONET+. To NIE JEST błąd po stronie aplikacji tylko po stronie serwerów VULCANa. Spróbuj ponownie później",
+        priority = MessagePriority.HIGH,
+        type = MessageType.DASHBOARD_MESSAGE,
+        isDismissible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 16,
         title = "Ważna informacja dotycząca wiadomości",
         content = "Na zainstalowanej wersji Wulkanowego mogą występować problemy z wiadomościami. Kliknij, by dowiedzieć się więcej",
@@ -22,7 +31,7 @@ val messages = listOf(
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/453319193477521",
         versionMin = 108,
         isDismissible = true,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 14,
