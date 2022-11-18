@@ -2,6 +2,25 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 19,
+        title = "Problemy techniczne z systemem UONET+",
+        content = "Obserwujemy problemy z dostępem do dziennika UONET+. To NIE JEST błąd po stronie aplikacji tylko po stronie serwerów VULCANa",
+        priority = MessagePriority.HIGH,
+        type = MessageType.DASHBOARD_MESSAGE,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        isDismissible = false,
+        isVisible = true,
+    ),
+    Message(
+        id = 18,
+        title = "Problemy techniczne z systemem UONET+",
+        content = "Obserwujemy problemy z dostępem do dziennika UONET+. To NIE JEST błąd po stronie aplikacji tylko po stronie serwerów VULCANa. Spróbuj ponownie później",
+        priority = MessagePriority.HIGH,
+        type = MessageType.DASHBOARD_MESSAGE,
+        isDismissible = false,
+        isVisible = false,
+    ),
+    Message(
         id = 17,
         title = "Awaria systemu UONET+",
         content = "Obserwujemy problemy z dostępem do dziennika UONET+. To NIE JEST błąd po stronie aplikacji tylko po stronie serwerów VULCANa. Spróbuj ponownie później",
