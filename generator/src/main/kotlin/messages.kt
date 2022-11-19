@@ -8,6 +8,7 @@ val messages = listOf(
         priority = MessagePriority.MEDIUM,
         type = MessageType.DASHBOARD_MESSAGE,
         targetRegisterHost = RegisterAddress.VULCAN.url,
+        destinationUrl = "https://www.facebook.com/wulkanowy/posts/524562059686567",
         isDismissible = false,
         isVisible = true,
     ),
