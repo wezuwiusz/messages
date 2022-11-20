@@ -2,6 +2,17 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 20,
+        title = "Informacje o wydaniu wersji 1.8.1",
+        content = "Dziękujemy za aktualizację Wulkanowego! Zobacz informacje o nowościach w tej wersji klikając tutaj",
+        priority = MessagePriority.LOW,
+        type = MessageType.DASHBOARD_MESSAGE,
+        destinationUrl = "https://www.facebook.com/wulkanowy/posts/525359099606863",
+        versionMin = 116,
+        isDismissible = true,
+        isVisible = true,
+    ),
+    Message(
         id = 19,
         title = "Obserwujemy problemy z dostępem do systemu UONET+",
         content = "To nie są problemy po stronie naszej aplikacji a po stronie serwerów VULCANa. Kliknij, by dowiedzieć się więcej",
