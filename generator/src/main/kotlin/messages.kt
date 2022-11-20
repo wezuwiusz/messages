@@ -4,7 +4,7 @@ val messages = listOf(
     Message(
         id = 20,
         title = "Informacje o wydaniu wersji 1.8.1",
-        content = "Dziękujemy za aktualizację Wulkanowego! Zobacz informacje o nowościach w tej wersji klikając tutaj",
+        content = "Dziękujemy za aktualizację Wulkanowego! Kliknij w kafelek, żeby przeczytać o nowościach w tej wersji",
         priority = MessagePriority.LOW,
         type = MessageType.DASHBOARD_MESSAGE,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/525359099606863",
