@@ -74,3 +74,5 @@ classes
 .idea/libraries-with-intellij-classes.xml
 dist/
 !dist/favicon.ico
+.idea/jsonSchemas.xml
+.idea/kotlinc.xml

@@ -1,0 +1,20 @@
+name: Purge cloudflare cache
+
+on: deployment_status
+
+jobs:
+  publish:
+    if: github.event.deployment_status.state == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Call API"
+        uses: indiesdev/curl@v1.1
+        with:
+          method: "POST"
+          url: https://api.cloudflare.com/client/v4/zones/0dd93531047ba376c2a1167f841c2bfd/purge_cache
+          headers: ${{ secrets.custom_headers }}
+          bearer-token: ${{ secrets.bearer_token }}
+          body: '{"files": ["https://messages.wulkanowy.net.pl/", "https://messages.wulkanowy.net.pl/v1.json"]}'
+          accept: 200
+          log-response: false
+          retries: 3
