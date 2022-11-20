@@ -3,8 +3,8 @@ import io.github.wulkanowy.messages.pojo.*
 val messages = listOf(
     Message(
         id = 19,
-        title = "Problemy techniczne z systemem UONET+",
-        content = "Obserwujemy problemy z dostępem do systemu UONET+. To nie są problemy po stronie Wulkanowego a po stronie serwerów VULCANa",
+        title = "Obserwujemy problemy z dostępem do systemu UONET+",
+        content = "To nie są problemy po stronie naszej aplikacji a po stronie serwerów VULCANa. Kliknij, by dowiedzieć się więcej",
         priority = MessagePriority.MEDIUM,
         type = MessageType.DASHBOARD_MESSAGE,
         targetRegisterHost = RegisterAddress.VULCAN.url,
