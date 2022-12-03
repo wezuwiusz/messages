@@ -2,6 +2,17 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 21,
+        title = "Ważna informacja dotycząca wiadomości",
+        content = "Na zainstalowanej wersji Wulkanowego mogą występować problemy z wiadomościami. Kliknij w kafelek, by dowiedzieć się więcej",
+        priority = MessagePriority.MEDIUM,
+        type = MessageType.DASHBOARD_MESSAGE,
+        destinationUrl = "https://www.facebook.com/wulkanowy/posts/534950415314398",
+        versionMax = 115,
+        isDismissible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 20,
         title = "Informacje o wydaniu wersji 1.8.1",
         content = "Dziękujemy za aktualizację Wulkanowego! Kliknij w kafelek, żeby przeczytać o nowościach w tej wersji",
