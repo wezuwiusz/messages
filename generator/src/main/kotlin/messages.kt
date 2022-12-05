@@ -7,6 +7,7 @@ val messages = listOf(
         content = "VULCAN ma teraz problemy techniczne. Jako twórcy Wulkanowego nie mamy na to żadnego wpływu. Zachowaj spokój i spróbuj ponownie później. Kliknij, by dowiedzieć się więcej",
         priority = MessagePriority.HIGH,
         type = MessageType.DASHBOARD_MESSAGE,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/536251861850920",
         isDismissible = false,
         isVisible = true,
