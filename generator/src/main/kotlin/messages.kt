@@ -2,6 +2,15 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 22,
+        title = "UWAGA. Informacja o przyczynie problemów z odświeżaniem danych",
+        content = "VULCAN ma teraz problemy techniczne. Jako twórcy Wulkanowego nie mamy na to żadnego wpływu. Zachowaj spokój i spróbuj ponownie później",
+        priority = MessagePriority.HIGH,
+        type = MessageType.DASHBOARD_MESSAGE,
+        isDismissible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 21,
         title = "Ważna informacja dotycząca wiadomości",
         content = "Na zainstalowanej wersji Wulkanowego mogą występować problemy z wiadomościami. Kliknij w kafelek, by dowiedzieć się więcej",
