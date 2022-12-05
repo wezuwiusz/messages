@@ -4,9 +4,10 @@ val messages = listOf(
     Message(
         id = 22,
         title = "UWAGA. Informacja o przyczynie problemów z odświeżaniem danych",
-        content = "VULCAN ma teraz problemy techniczne. Jako twórcy Wulkanowego nie mamy na to żadnego wpływu. Zachowaj spokój i spróbuj ponownie później",
+        content = "VULCAN ma teraz problemy techniczne. Jako twórcy Wulkanowego nie mamy na to żadnego wpływu. Zachowaj spokój i spróbuj ponownie później. Kliknij, by dowiedzieć się więcej",
         priority = MessagePriority.HIGH,
         type = MessageType.DASHBOARD_MESSAGE,
+        destinationUrl = "https://www.facebook.com/wulkanowy/posts/536251861850920",
         isDismissible = false,
         isVisible = true,
     ),
