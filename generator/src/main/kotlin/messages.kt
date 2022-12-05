@@ -10,7 +10,7 @@ val messages = listOf(
         targetRegisterHost = RegisterAddress.VULCAN.url,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/536251861850920",
         isDismissible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 21,
