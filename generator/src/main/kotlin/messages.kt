@@ -2,6 +2,17 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 24,
+        title = "UWAGA",
+        content = "Resman przestał działać w Wulkanowym ze względu na niespodziewane i niezapowiedziane zmiany w systemie Resman Rzeszów. Kliknij, by dowiedzieć się więcej",
+        priority = MessagePriority.HIGH,
+        type = MessageType.DASHBOARD_MESSAGE,
+        targetRegisterHost = RegisterAddress.RESMAN.url,
+        destinationUrl = "https://www.facebook.com/wulkanowy/posts/546997824109657",
+        isDismissible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 23,
         title = "UWAGA. Kolejna awaria systemu UONET+",
         content = "VULCAN ma drugi dzień z rzędu problemy techniczne. Zachowaj spokój i spróbuj ponownie później. Kliknij, by dowiedzieć się więcej",
