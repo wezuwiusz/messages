@@ -4,11 +4,12 @@ val messages = listOf(
     Message(
         id = 24,
         title = "UWAGA",
-        content = "Resman przestał działać w Wulkanowym ze względu na niespodziewane i niezapowiedziane zmiany w systemie Resman Rzeszów. Kliknij, by dowiedzieć się więcej",
+        content = "Aktualizacja naprawiająca obsługę systemu Resman powinna być już dostępna. Kliknij, by dowiedzieć się więcej",
         priority = MessagePriority.HIGH,
         type = MessageType.DASHBOARD_MESSAGE,
         targetRegisterHost = RegisterAddress.RESMAN.url,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/546997824109657",
+        versionMax = 116,
         isDismissible = false,
         isVisible = true,
     ),
