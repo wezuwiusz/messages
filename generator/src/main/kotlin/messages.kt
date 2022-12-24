@@ -2,6 +2,16 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 25,
+        title = "Wesołych Świąt!",
+        content = "Wesołych, spokojnych Świąt Bożego Narodzenia oraz szczęśliwego, bezawaryjnego Nowego Roku życzy Wulkanowy zespół! 🎄",
+        priority = MessagePriority.LOW,
+        type = MessageType.DASHBOARD_MESSAGE,
+        destinationUrl = "https://www.facebook.com/wulkanowy/posts/552841720191934",
+        isDismissible = true,
+        isVisible = true,
+    ),
+    Message(
         id = 24,
         title = "UWAGA",
         content = "Aktualizacja naprawiająca obsługę systemu Resman powinna być już dostępna. Kliknij, by dowiedzieć się więcej",
