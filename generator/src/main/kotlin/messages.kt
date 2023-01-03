@@ -9,7 +9,7 @@ val messages = listOf(
         type = MessageType.DASHBOARD_MESSAGE,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/552841720191934",
         isDismissible = true,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 24,
