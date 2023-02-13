@@ -2,6 +2,16 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 26,
+        title = "UWAGA",
+        content = "W związku z problemami technicznymi po stronie systemu UONET+ dostęp do dziennika może być w najbliższym czasie utrudniony lub nawet niemożliwy. Prosimy o cierpliwość i spróbowanie ponownie później",
+        priority = MessagePriority.HIGH,
+        type = MessageType.DASHBOARD_MESSAGE,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        isDismissible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 25,
         title = "Wesołych Świąt!",
         content = "Wesołych, spokojnych Świąt Bożego Narodzenia oraz szczęśliwego, bezawaryjnego Nowego Roku życzy Wulkanowy zespół! 🎄",
