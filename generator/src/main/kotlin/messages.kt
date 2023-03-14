@@ -2,6 +2,16 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 27,
+        title = "UWAGA",
+        content = "System UONET+ ma obecnie problemy techniczne. W tym czasie może wyświetlać się komunikat o trwającej przerwie technicznej. Prosimy o cierpliwość i spróbowanie ponownie później",
+        priority = MessagePriority.MEDIUM,
+        type = MessageType.DASHBOARD_MESSAGE,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        isDismissible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 26,
         title = "UWAGA",
         content = "W związku z problemami technicznymi po stronie systemu UONET+ dostęp do dziennika może być w najbliższym czasie utrudniony lub nawet niemożliwy. Prosimy o cierpliwość i spróbowanie ponownie później",
