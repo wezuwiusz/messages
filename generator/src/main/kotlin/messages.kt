@@ -2,6 +2,28 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 29,
+        title = "UWAGA",
+        content = "Z powodu aktualizacji systemu UONET+ przestało w Wulkanowym działać odświeanie większości danych (wiadomości jednak ciągle powinny działać). Aktualizacja naprawiająca ten problem pojawi się w okolicach niedzieli i poniedziałku",
+        priority = MessagePriority.HIGH,
+        type = MessageType.DASHBOARD_MESSAGE,
+        targetRegisterHost = RegisterAddress.EDU_LUBLIN.url,
+        destinationUrl = "https://twitter.com/wulkanowy/status/1654404443264122882",
+        isDismissible = false,
+        isVisible = true,
+    ),
+    Message(
+        id = 28,
+        title = "UWAGA",
+        content = "Z powodu aktualizacji systemu UONET+ przestało w Wulkanowym działać odświeanie większości danych (wiadomości jednak ciągle powinny działać). Aktualizacja naprawiająca ten problem pojawi się w okolicach niedzieli i poniedziałku",
+        priority = MessagePriority.HIGH,
+        type = MessageType.DASHBOARD_MESSAGE,
+        targetRegisterHost = RegisterAddress.EDU_GDANSK.url,
+        destinationUrl = "https://twitter.com/wulkanowy/status/1654404443264122882",
+        isDismissible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 27,
         title = "UWAGA",
         content = "System UONET+ ma obecnie problemy techniczne. W tym czasie może wyświetlać się komunikat o trwającej przerwie technicznej. Prosimy o cierpliwość i spróbowanie ponownie później",
