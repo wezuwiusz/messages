@@ -3,7 +3,7 @@ import io.github.wulkanowy.messages.pojo.*
 val messages = listOf(
     Message(
         id = 31,
-        title = "Masz gwiazdki w imieniu i nazwisku, a apka pokazuje dużo błedów?",
+        title = "Masz gwiazdki w imieniu i nazwisku, a apka pokazuje nieznane błedy?",
         content = "Kliknij tutaj po instrukcję naprawy tego problemu",
         priority = MessagePriority.HIGH,
         type = MessageType.DASHBOARD_MESSAGE,
