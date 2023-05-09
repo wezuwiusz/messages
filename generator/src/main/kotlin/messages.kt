@@ -10,7 +10,7 @@ val messages = listOf(
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/643228434486595",
         versionMin = 122,
         isDismissible = false,
-        isVisible = false,
+        isVisible = true,
     ),
     Message(
         id = 29,
