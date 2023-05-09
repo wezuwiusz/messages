@@ -2,6 +2,17 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 31,
+        title = "Masz gwiazdki w imieniu i nazwisku, a apka pokazuje dużo błedów?",
+        content = "Kliknij tutaj po instrukcję naprawy tego problemu",
+        priority = MessagePriority.HIGH,
+        type = MessageType.DASHBOARD_MESSAGE,
+        destinationUrl = "https://www.facebook.com/wulkanowy/posts/643278101148295",
+        versionMin = 122,
+        isDismissible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 30,
         title = "Witaj w nowej wersji Wulkanowego!",
         content = "Dużo się ostatnio działo :) Jeśli masz jakieś problemy z aktualną wersją - kliknij tutaj i weź udział w dyskusji pod naszym postem na Facebooku",
