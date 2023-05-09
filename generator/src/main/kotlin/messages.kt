@@ -2,6 +2,17 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 30,
+        title = "Witaj w nowej wersji Wulkanowego!",
+        content = "Dużo się ostatnio działo :) Jeśli masz jakieś problemy z aktualną wersją - kliknij tutaj i weź udział w dyskusji pod naszym postem na Facebooku",
+        priority = MessagePriority.LOW,
+        type = MessageType.DASHBOARD_MESSAGE,
+        destinationUrl = "https://www.facebook.com/wulkanowy/posts/643228434486595",
+        versionMin = 122,
+        isDismissible = false,
+        isVisible = false,
+    ),
+    Message(
         id = 29,
         title = "UWAGA",
         content = "Z powodu aktualizacji systemu UONET+ przestało w Wulkanowym działać odświeanie większości danych (wiadomości jednak ciągle powinny działać). Aktualizacja naprawiająca ten problem pojawi się w okolicach niedzieli i poniedziałku",
@@ -11,7 +22,7 @@ val messages = listOf(
         destinationUrl = "https://twitter.com/wulkanowy/status/1654404443264122882",
         versionMax = 122,
         isDismissible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 28,
@@ -23,7 +34,7 @@ val messages = listOf(
         destinationUrl = "https://twitter.com/wulkanowy/status/1654404443264122882",
         versionMax = 122,
         isDismissible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 27,
