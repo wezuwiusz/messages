@@ -3,8 +3,8 @@ import io.github.wulkanowy.messages.pojo.*
 val messages = listOf(
     Message(
         id = 31,
-        title = "Masz gwiazdki w imieniu i nazwisku, a apka pokazuje nieznane błedy?",
-        content = "Kliknij tutaj po instrukcję naprawy tego problemu",
+        title = "W imieniu poniżej wyświetlają się gwiazdki i w apce pokazują się błędy?",
+        content = "Jeśli tak, to kliknij tutaj po instrukcję naprawy tego problemu. Jeśli nie - zignoruj ten komunikat",
         priority = MessagePriority.HIGH,
         type = MessageType.DASHBOARD_MESSAGE,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/643278101148295",
