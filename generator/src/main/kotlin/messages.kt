@@ -9,7 +9,7 @@ val messages = listOf(
         type = MessageType.DASHBOARD_MESSAGE,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/643278101148295",
         versionMin = 122,
-        isDismissible = false,
+        isDismissible = true,
         isVisible = true,
     ),
     Message(
@@ -20,7 +20,7 @@ val messages = listOf(
         type = MessageType.DASHBOARD_MESSAGE,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/643228434486595",
         versionMin = 122,
-        isDismissible = false,
+        isDismissible = true,
         isVisible = true,
     ),
     Message(
