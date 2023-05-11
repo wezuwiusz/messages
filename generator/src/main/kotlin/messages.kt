@@ -5,11 +5,11 @@ val messages = listOf(
         id = 31,
         title = "W imieniu poniżej wyświetlają się gwiazdki i w apce pokazują się błędy?",
         content = "Jeśli tak, to kliknij tutaj po instrukcję naprawy tego problemu. Jeśli nie - zignoruj ten komunikat",
-        priority = MessagePriority.HIGH,
+        priority = MessagePriority.MEDIUM,
         type = MessageType.DASHBOARD_MESSAGE,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/643278101148295",
         versionMin = 122,
-        isDismissible = true,
+        isDismissible = false,
         isVisible = true,
     ),
     Message(
