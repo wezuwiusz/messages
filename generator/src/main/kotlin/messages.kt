@@ -2,6 +2,30 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 33,
+        title = "Dostępna aktualizacja",
+        content = "Na wersji, której używasz mogą występować problemy. Zaktualizuj Wulkanowego do najnowszej wersji",
+        priority = MessagePriority.HIGH,
+        type = MessageType.DASHBOARD_MESSAGE,
+        targetFlavor = AppFlavor.HMS,
+        destinationUrl = "https://appgallery.huawei.com/#/app/C101440411",
+        versionMax = 124,
+        isDismissible = false,
+        isVisible = true,
+    ),
+    Message(
+        id = 32,
+        title = "Dostępna aktualizacja",
+        content = "Na wersji, której używasz mogą występować problemy. Zaktualizuj Wulkanowego do najnowszej wersji",
+        priority = MessagePriority.HIGH,
+        type = MessageType.DASHBOARD_MESSAGE,
+        targetFlavor = AppFlavor.PLAY,
+        destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy",
+        versionMax = 124,
+        isDismissible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 31,
         title = "W imieniu poniżej wyświetlają się gwiazdki i w apce pokazują się błędy?",
         content = "Jeśli tak, to kliknij tutaj po instrukcję naprawy tego problemu. Jeśli nie - zignoruj ten komunikat",
@@ -11,7 +35,7 @@ val messages = listOf(
         versionMax = 123,
         versionMin = 122,
         isDismissible = true,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 30,
@@ -22,7 +46,7 @@ val messages = listOf(
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/643228434486595",
         versionMin = 122,
         isDismissible = true,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 29,
