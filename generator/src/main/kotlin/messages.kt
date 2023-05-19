@@ -2,6 +2,15 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 35,
+        title = "Przerwa techniczna systemu UONET+",
+        content = "Jest piątek wieczór! Nie wysyłajcie nam zgłoszeń o przerwie technicznej bo i tak nic na nią nie poradzimy!",
+        priority = MessagePriority.MEDIUM,
+        type = MessageType.DASHBOARD_MESSAGE,
+        isDismissible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 34,
         title = "Witaj w najnowszej wersji Wulkanowego",
         content = "Jeśli Cię to interesuje, to po kliknięciu tutaj znajdziesz opis zmian w tej aktualizacji. Jeśli nie chcesz tego widzieć kliknij OK",
@@ -10,7 +19,7 @@ val messages = listOf(
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/646383727504399",
         versionMin = 125,
         isDismissible = true,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 33,
