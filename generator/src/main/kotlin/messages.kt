@@ -4,11 +4,11 @@ val messages = listOf(
     Message(
         id = 35,
         title = "Przerwa techniczna systemu UONET+",
-        content = "Jest piątek wieczór! Nie wysyłajcie nam zgłoszeń o przerwie technicznej bo i tak nic na nią nie poradzimy!",
+        content = "Jest weekend! Nie wysyłajcie nam zgłoszeń o przerwie technicznej bo i tak nic na nią nie poradzimy!",
         priority = MessagePriority.MEDIUM,
         type = MessageType.DASHBOARD_MESSAGE,
         isDismissible = false,
-        isVisible = false,
+        isVisible = true,
     ),
     Message(
         id = 34,
