@@ -8,7 +8,7 @@ val messages = listOf(
         priority = MessagePriority.MEDIUM,
         type = MessageType.DASHBOARD_MESSAGE,
         isDismissible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 34,
