@@ -2,6 +2,17 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 36,
+        title = "Planowane przerwy techniczne dziennika",
+        content = "Przekazujemy informacje o planowanych przez VULCANa przerwach technicznych (w godzinach 22:00 – 06:00) w najbliższych dniach. Przeczytasz o nich więcej klikając tutaj",
+        priority = MessagePriority.MEDIUM,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        destinationUrl = "https://www.vulcan.edu.pl/aktualnosci/planowana-przerwa-techniczna-w-e-dzienniku-uonet-529",
+        type = MessageType.DASHBOARD_MESSAGE,
+        isDismissible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 35,
         title = "Przerwa techniczna systemu UONET+",
         content = "Tak, zgadza się. Trzeci dzień z rzędu dziennik nie działa. To awaria całego systemu UONET+, a nie naszej apki. Nic na to nie poradzimy, trzeba czekać na reakcję VULCANa",
