@@ -3,8 +3,8 @@ import io.github.wulkanowy.messages.pojo.*
 val messages = listOf(
     Message(
         id = 36,
-        title = "Planowane przerwy techniczne dziennika",
-        content = "Przekazujemy informacje o planowanych przez VULCANa przerwach technicznych (w godzinach 22:00 – 06:00) w najbliższych dniach. Przeczytasz o nich więcej klikając tutaj",
+        title = "Planowane przerwy techniczne dziennika UONET+",
+        content = "VULCAN planuje w najbliższych dniach przerwy techniczne w godzinach 22:00 – 06:00. Przeczytasz o nich więcej na stronie VULCANa klikając tutaj",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
         destinationUrl = "https://www.vulcan.edu.pl/aktualnosci/planowana-przerwa-techniczna-w-e-dzienniku-uonet-529",
