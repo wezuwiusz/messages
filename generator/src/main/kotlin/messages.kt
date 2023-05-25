@@ -10,7 +10,7 @@ val messages = listOf(
         destinationUrl = "https://www.vulcan.edu.pl/aktualnosci/planowana-przerwa-techniczna-w-e-dzienniku-uonet-529",
         type = MessageType.DASHBOARD_MESSAGE,
         isDismissible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 35,
