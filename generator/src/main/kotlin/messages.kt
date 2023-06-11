@@ -2,6 +2,16 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 37,
+        title = "Problemy na Gdańskim Portalu Edukacyjnym",
+        content = "Otrzymujemy zgłoszenia dotyczące problemów z logowaniem i odświeżaniem danych w Wulkanowym u użytkowników GPE. To nie jest błąd po stronie Wulkanowego i nic z tym nie możemy zrobić. Problem należy zgłaszać do administracji GPE",
+        priority = MessagePriority.MEDIUM,
+        targetRegisterHost = RegisterAddress.EDU_GDANSK.url,
+        type = MessageType.DASHBOARD_MESSAGE,
+        isDismissible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 36,
         title = "Planowane przerwy techniczne dziennika UONET+",
         content = "VULCAN planuje w najbliższych dniach przerwy techniczne w godzinach 22:00 – 06:00. Przeczytasz o nich więcej na stronie VULCANa klikając tutaj",
@@ -40,7 +50,7 @@ val messages = listOf(
         type = MessageType.DASHBOARD_MESSAGE,
         targetFlavor = AppFlavor.HMS,
         destinationUrl = "https://appgallery.huawei.com/#/app/C101440411",
-        versionMax = 127,
+        versionMax = 129,
         isDismissible = false,
         isVisible = true,
     ),
@@ -52,7 +62,7 @@ val messages = listOf(
         type = MessageType.DASHBOARD_MESSAGE,
         targetFlavor = AppFlavor.PLAY,
         destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy",
-        versionMax = 127,
+        versionMax = 129,
         isDismissible = false,
         isVisible = true,
     ),
