@@ -8,6 +8,6 @@ enum class RegisterAddress(val url: String) {
     UMT_TARNOW("https://umt.tarnow.pl"),
     RESMAN("https://resman.pl"),
     EDU_PORTAL_KOSZALIN("https://eduportal.koszalin.pl"),
-    FAKE_LOG("http://fakelog.cf")
+    FAKE_LOG("https://fakelog.cf")
 }
 
