@@ -2,6 +2,18 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 38,
+        title = "Wiadomość testowa do testowania wiadomości na ekranie logowania i resetu hasła",
+        content = "Ta wiadomość powinna pokazać się na razie tylko na ekranie logowania",
+        priority = MessagePriority.MEDIUM,
+        type = MessageType.LOGIN_MESSAGE,
+        types = listOf(
+            MessageType.LOGIN_MESSAGE,
+        ),
+        isDismissible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 37,
         title = "Problemy na Gdańskim Portalu Edukacyjnym",
         content = "Otrzymujemy zgłoszenia dotyczące problemów z logowaniem i odświeżaniem danych w Wulkanowym u użytkowników GPE. To nie jest błąd po stronie Wulkanowego i nic z tym nie możemy zrobić. Problem należy zgłaszać do administracji GPE",

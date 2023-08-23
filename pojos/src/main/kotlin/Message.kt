@@ -8,6 +8,7 @@ data class Message(
     val title: String,
     val content: String,
     val type: MessageType,
+    val types: List<MessageType>? = null,
     val priority: MessagePriority = MessagePriority.LOW,
     val destinationUrl: String? = null,
     val versionMin: Int? = null,
