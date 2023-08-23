@@ -16,16 +16,22 @@ fun generateJson(messages: List<Message>): String {
 
 private fun List<Message>.addNewTypeMigration(): List<Message> {
     return map {
-        if (!it.types.isNullOrEmpty()) {
-            it.copy(
-                // first app version, which correctly handles other types
-                versionMin = 131,
-                type = if (MessageType.DASHBOARD_MESSAGE in it.types!!) {
-                    MessageType.DASHBOARD_MESSAGE
-                } else it.types?.first(),
+        when {
+            MessageType.DASHBOARD_MESSAGE in it.types.orEmpty() -> it.copy(
+                type = MessageType.DASHBOARD_MESSAGE,
             )
-        } else it.copy(
-            type = MessageType.DASHBOARD_MESSAGE, // default value up to version 130
-        )
+
+            !it.types.isNullOrEmpty() -> {
+                it.copy(
+                    // first app version, which correctly handles other types
+                    versionMin = 131,
+                    type = it.types?.first(),
+                )
+            }
+
+            else -> it.copy(
+                type = MessageType.DASHBOARD_MESSAGE, // default value up to version 130
+            )
+        }
     }
 }
