@@ -2,10 +2,23 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
-        id = 38,
-        title = "Wiadomość testowa do testowania wiadomości na ekranie logowania i resetu hasła",
-        content = "Ta wiadomość powinna pokazać się na razie tylko na ekranie logowania",
+        id = 39,
+        title = "Problemy z logowaniem",
+        content = "Z powodu prac po stronie systemu UONET+ mogą występować problemy z logowaniem do aplikacji. W razie czego spróbuj ponownie później",
         priority = MessagePriority.MEDIUM,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        types = listOf(
+            MessageType.LOGIN_MESSAGE,
+        ),
+        isDismissible = false,
+        isVisible = true,
+    ),
+    Message(
+        id = 38,
+        title = "Problemy z logowaniem na fakelog",
+        content = "Z powodu prac po stronie systemu FAKELOG+ mogą występować problemy z logowaniem do aplikacji. W razie czego spróbuj ponownie później",
+        priority = MessagePriority.MEDIUM,
+        targetRegisterHost = RegisterAddress.FAKE_LOG.url,
         types = listOf(
             MessageType.LOGIN_MESSAGE,
         ),
