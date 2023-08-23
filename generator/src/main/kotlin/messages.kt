@@ -7,10 +7,11 @@ val messages = listOf(
         content = "Z powodu prac po stronie systemu UONET+ mogą występować problemy z logowaniem do aplikacji. W razie czego spróbuj ponownie później",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
+        destinationUrl = "https://wulkanowy.github.io/",
         types = listOf(
             MessageType.LOGIN_MESSAGE,
         ),
-        isDismissible = false,
+        isDismissible = true,
         isVisible = true,
     ),
     Message(
@@ -19,10 +20,11 @@ val messages = listOf(
         content = "Z powodu prac po stronie systemu FAKELOG+ mogą występować problemy z logowaniem do aplikacji. W razie czego spróbuj ponownie później",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.FAKE_LOG.url,
+        destinationUrl = "https://wulkanowy.github.io/",
         types = listOf(
             MessageType.LOGIN_MESSAGE,
         ),
-        isDismissible = false,
+        isDismissible = true,
         isVisible = true,
     ),
     Message(
