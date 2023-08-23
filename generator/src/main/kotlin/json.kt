@@ -10,5 +10,16 @@ val json = Json {
 }
 
 fun generateJson(messages: List<Message>): String {
-    return json.encodeToString(messages)
+    return json.encodeToString(messages.addNewTypeMigration())
+}
+
+private fun List<Message>.addNewTypeMigration(): List<Message> {
+    return map {
+        if (!it.types.isNullOrEmpty()) {
+            it.copy(
+                // first app version, which correctly handles other types
+                versionMin = 131,
+            )
+        } else it
+    }
 }
