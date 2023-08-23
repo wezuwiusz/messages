@@ -76,3 +76,4 @@ dist/
 !dist/favicon.ico
 .idea/jsonSchemas.xml
 .idea/kotlinc.xml
+.idea/jpa-buddy.xml

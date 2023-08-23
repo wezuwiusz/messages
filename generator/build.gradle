@@ -10,9 +10,9 @@ mainClassName = 'MainKt'
 dependencies {
     implementation project(":pojos")
     implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:$serialization_version"
-    implementation 'org.jetbrains.kotlinx:kotlinx-html-jvm:0.8.0'
+    implementation 'org.jetbrains.kotlinx:kotlinx-html-jvm:0.9.1'
 
-    testImplementation platform('org.junit:junit-bom:5.9.0')
+    testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation "org.junit.jupiter:junit-jupiter"
 }
 
@@ -21,14 +21,4 @@ test {
     testLogging {
         events "passed", "skipped", "failed"
     }
-}
-
-compileKotlin {
-    kotlinOptions {
-        jvmTarget = 11
-        freeCompilerArgs += ["-Xopt-in=kotlin.RequiresOptIn", "-Xjvm-default=all"]
-    }
-}
-compileTestKotlin {
-    kotlinOptions.jvmTarget = 11
 }

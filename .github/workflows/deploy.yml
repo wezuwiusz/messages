@@ -15,7 +15,7 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: fkirc/skip-duplicate-actions@master
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: gradle/wrapper-validation-action@v1
       - uses: actions/setup-java@v3
         with:
@@ -53,7 +53,7 @@ jobs:
     needs: deploy
     steps:
       - name: "Call Cloudflare API"
-        uses: indiesdev/curl@v1.1
+        uses: indiesdev/curl@v1
         with:
           method: "POST"
           url: https://api.cloudflare.com/client/v4/zones/0dd93531047ba376c2a1167f841c2bfd/purge_cache
