@@ -2,29 +2,15 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
-        id = 39,
-        title = "Problemy z logowaniem",
-        content = "Z powodu prac po stronie systemu UONET+ mogą występować problemy z logowaniem do aplikacji. W razie czego spróbuj ponownie później",
+        id = 38,
+        title = "Problemy z logowaniem do dziennika",
+        content = "Jeśli na kolejnym ekranie zobaczysz czerwony komunikat \"Trwa wylogowywanie...\" to... spróbuj ponownie później :)",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
-        destinationUrl = "https://wulkanowy.github.io/",
         types = listOf(
             MessageType.LOGIN_MESSAGE,
         ),
-        isDismissible = true,
-        isVisible = true,
-    ),
-    Message(
-        id = 38,
-        title = "Problemy z logowaniem na fakelog",
-        content = "Z powodu prac po stronie systemu FAKELOG+ mogą występować problemy z logowaniem do aplikacji. W razie czego spróbuj ponownie później",
-        priority = MessagePriority.MEDIUM,
-        targetRegisterHost = RegisterAddress.FAKE_LOG.url,
-        destinationUrl = "https://wulkanowy.github.io/",
-        types = listOf(
-            MessageType.LOGIN_MESSAGE,
-        ),
-        isDismissible = true,
+        isDismissible = false,
         isVisible = true,
     ),
     Message(
