@@ -4,7 +4,7 @@ val messages = listOf(
     Message(
         id = 38,
         title = "Problemy z logowaniem do dziennika",
-        content = "Jeśli na kolejnym ekranie zobaczysz czerwony komunikat \"Trwa wylogowywanie...\" to... spróbuj ponownie później :)",
+        content = "Jeśli po wpisaniu hasła zobaczysz czerwony komunikat \"Trwa wylogowywanie...\" to... spróbuj ponownie później :)",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
         types = listOf(
