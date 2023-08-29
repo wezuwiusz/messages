@@ -2,6 +2,18 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 39,
+        title = "Problemy z logowaniem?",
+        content = "Kliknij tutaj, by zobaczyć najczęstsze znane problemy z logowaniem",
+        priority = MessagePriority.MEDIUM,
+        destinationUrl = "https://www.facebook.com/wulkanowy/posts/711506164325488",
+        types = listOf(
+            MessageType.LOGIN_MESSAGE,
+        ),
+        isDismissible = false,
+        isVisible = false,
+    ),
+    Message(
         id = 38,
         title = "Problemy z logowaniem do dziennika",
         content = "Jeśli po wpisaniu hasła zobaczysz czerwony komunikat \"Trwa wylogowywanie...\" to... spróbuj ponownie później :)",
@@ -11,7 +23,7 @@ val messages = listOf(
             MessageType.LOGIN_MESSAGE,
         ),
         isDismissible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 37,
