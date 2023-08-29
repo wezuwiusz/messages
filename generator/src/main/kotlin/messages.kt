@@ -11,7 +11,7 @@ val messages = listOf(
             MessageType.LOGIN_MESSAGE,
         ),
         isDismissible = false,
-        isVisible = false,
+        isVisible = true,
     ),
     Message(
         id = 38,
