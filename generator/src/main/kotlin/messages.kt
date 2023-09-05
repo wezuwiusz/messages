@@ -4,7 +4,7 @@ val messages = listOf(
     Message(
         id = 39,
         title = "Problemy z logowaniem?",
-        content = "Kliknij tutaj, by zobaczyć najczęstsze znane problemy z logowaniem",
+        content = "Kliknij tutaj, by zobaczyć najczęstsze znane problemy z logowaniem.\n\nPS. Pierwsze logowanie do dziennika zalecamy robić przez stronę www dziennika według instrukcji szkoły",
         priority = MessagePriority.MEDIUM,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/711506164325488",
         types = listOf(
