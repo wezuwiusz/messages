@@ -2,6 +2,18 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 40,
+        title = "Problemy z logowaniem?",
+        content = "Aktualnie mogą występować przejściowe problemy z logowaniem do dziennika spowodowane ostatnią aktualizacją systemu VULCAN. W razie problemu - spróbuj ponownie później",
+        priority = MessagePriority.HIGH,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        types = listOf(
+            MessageType.LOGIN_MESSAGE,
+        ),
+        isDismissible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 39,
         title = "Problemy z logowaniem?",
         content = "Kliknij tutaj, by zobaczyć najczęstsze znane problemy z logowaniem.\n\nPS. Pierwsze logowanie do dziennika zalecamy robić przez stronę www dziennika według instrukcji szkoły",
