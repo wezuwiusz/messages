@@ -2,6 +2,18 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 41,
+        title = "Widzisz dziwne błędy w aplikacji?",
+        content = "Aktualnie mogą występować problemy z dostępem do dziennika. Spowodowane są one ostatnią aktualizacją systemu VULCAN",
+        priority = MessagePriority.MEDIUM,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        types = listOf(
+            MessageType.DASHBOARD_MESSAGE,
+        ),
+        isDismissible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 40,
         title = "Problemy z logowaniem?",
         content = "Aktualnie mogą występować przejściowe problemy z logowaniem do dziennika spowodowane ostatnią aktualizacją systemu VULCAN. W razie problemu - spróbuj ponownie później",
