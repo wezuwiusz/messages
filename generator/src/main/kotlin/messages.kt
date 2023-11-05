@@ -16,7 +16,7 @@ val messages = listOf(
     Message(
         id = 40,
         title = "Problemy z logowaniem?",
-        content = "Widzisz nieznane błędy dziennika lub komunikat \"Trwa wylogowanie...\"? Nie tylko ty! To przez ostatnią aktualizację systemu dziennika. Nic na to nie poradzimy i nie wiemy kiedy zostanie to naprawione",
+        content = "Widzisz ciągle nieznane błędy dziennika? Nie tylko ty! To przez ostatnią aktualizację systemu dziennika. Nic na to nie poradzimy i nie wiemy kiedy zostanie to naprawione",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
         types = listOf(
