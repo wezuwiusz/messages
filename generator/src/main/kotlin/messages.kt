@@ -3,8 +3,8 @@ import io.github.wulkanowy.messages.pojo.*
 val messages = listOf(
     Message(
         id = 41,
-        title = "Wyjaśnienie błędów w aplikacji",
-        content = "Aktualnie mogą występować problemy z dostępem do dziennika. Spowodowane są one ostatnią aktualizacją systemu VULCAN. Nic na to nie poradzimy, trzeba czekać na ich rozwiązanie przez firmę VULCAN",
+        title = "Widzisz \"Nieznane błędy dziennika\"?",
+        content = "Widzisz nieznane błędy dziennika lub komunikat \"Trwa wylogowanie...\"? Nie tylko ty! To przez ostatnią aktualizację systemu dziennika. Nic na to nie poradzimy i nie wiemy kiedy zostanie to naprawione",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
         types = listOf(
@@ -16,8 +16,8 @@ val messages = listOf(
     Message(
         id = 40,
         title = "Problemy z logowaniem?",
-        content = "Aktualnie mogą występować przejściowe problemy z logowaniem do dziennika spowodowane ostatnią aktualizacją systemu VULCAN. W razie problemu - spróbuj ponownie później",
-        priority = MessagePriority.HIGH,
+        content = "Widzisz nieznane błędy dziennika lub komunikat \"Trwa wylogowanie...\"? Nie tylko ty! To przez ostatnią aktualizację systemu dziennika. Nic na to nie poradzimy i nie wiemy kiedy zostanie to naprawione",
+        priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
         types = listOf(
             MessageType.LOGIN_MESSAGE,
