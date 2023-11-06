@@ -7,6 +7,10 @@ val messages = listOf(
         content = "Pracujemy nad przywróceniem logowania i odświeżania danych w apce. Niedługo pojawi się aktualizacja",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
+        types = listOf(
+            MessageType.DASHBOARD_MESSAGE,
+            MessageType.LOGIN_MESSAGE,
+        ),
         versionMax = 137,
         isDismissible = false,
         isVisible = true,
