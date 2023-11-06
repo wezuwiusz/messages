@@ -2,11 +2,28 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
-        id = 42,
-        title = "Ważny komunikat",
-        content = "Pracujemy nad przywróceniem logowania i odświeżania danych w apce. Niedługo pojawi się aktualizacja",
+        id = 43,
+        title = "Aktualizacja aplikacji",
+        content = "Aktualizacja naprawiająca ostatnie problemy powinna być u was już dostępna",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
+        destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy&utm_source=message",
+        targetFlavor = AppFlavor.PLAY,
+        types = listOf(
+            MessageType.DASHBOARD_MESSAGE,
+            MessageType.LOGIN_MESSAGE,
+        ),
+        versionMax = 137,
+        isDismissible = false,
+        isVisible = true,
+    ),
+    Message(
+        id = 42,
+        title = "Ważny komunikat",
+        content = "Aktualizacja naprawiająca ostatnie problemy powinna być u was juz dostępna",
+        priority = MessagePriority.MEDIUM,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        targetFlavor = AppFlavor.HMS,
         types = listOf(
             MessageType.DASHBOARD_MESSAGE,
             MessageType.LOGIN_MESSAGE,
