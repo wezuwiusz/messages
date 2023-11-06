@@ -4,7 +4,7 @@ val messages = listOf(
     Message(
         id = 43,
         title = "Aktualizacja aplikacji",
-        content = "Aktualizacja naprawiająca ostatnie problemy powinna być u was już dostępna",
+        content = "Aktualizacja naprawiająca ostatnie problemy powinna być u was już dostępna. Kliknij, aby przejść do Google Play",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
         destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy&utm_source=message",
