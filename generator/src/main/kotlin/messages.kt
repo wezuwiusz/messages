@@ -2,6 +2,16 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 42,
+        title = "Ważny komunikat",
+        content = "Pracujemy nad przywróceniem logowania i odświeżania danych w apce. Niedługo pojawi się aktualizacja",
+        priority = MessagePriority.MEDIUM,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        versionMax = 137,
+        isDismissible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 41,
         title = "Widzisz \"Nieznane błędy dziennika\"?",
         content = "Widzisz nieznane błędy dziennika? Nie tylko ty! To przez ostatnią aktualizację systemu dziennika. Nic na to nie poradzimy i nie wiemy kiedy zostanie to naprawione",
@@ -12,7 +22,7 @@ val messages = listOf(
         ),
         versionMax = 137,
         isDismissible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 40,
@@ -25,7 +35,7 @@ val messages = listOf(
         ),
         versionMax = 137,
         isDismissible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 39,
