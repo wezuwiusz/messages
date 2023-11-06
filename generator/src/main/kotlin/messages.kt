@@ -10,6 +10,7 @@ val messages = listOf(
         types = listOf(
             MessageType.DASHBOARD_MESSAGE,
         ),
+        versionMax = 137,
         isDismissible = false,
         isVisible = true,
     ),
@@ -22,6 +23,7 @@ val messages = listOf(
         types = listOf(
             MessageType.LOGIN_MESSAGE,
         ),
+        versionMax = 137,
         isDismissible = false,
         isVisible = true,
     ),
