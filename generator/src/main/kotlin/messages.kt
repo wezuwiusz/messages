@@ -20,9 +20,10 @@ val messages = listOf(
     Message(
         id = 42,
         title = "Ważny komunikat",
-        content = "Aktualizacja naprawiająca ostatnie problemy powinna być u was juz dostępna",
+        content = "Aktualizacja naprawiająca ostatnie problemy powinna być u was juz dostępna. Kliknij, aby przejść do Appgallery",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
+        destinationUrl = "https://appgallery.huawei.com/#/app/C101440411",
         targetFlavor = AppFlavor.HMS,
         types = listOf(
             MessageType.DASHBOARD_MESSAGE,
