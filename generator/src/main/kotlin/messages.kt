@@ -2,8 +2,8 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
-        id = 43,
-        title = "Aktualizacja aplikacji",
+        id = 44,
+        title = "Wymagana aktualizacja aplikacji!",
         content = "Aktualizacja naprawiająca ostatnie problemy powinna być już u was dostępna. Kliknij, aby przejść do F-Droid",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
@@ -19,7 +19,7 @@ val messages = listOf(
     ),
     Message(
         id = 43,
-        title = "Aktualizacja aplikacji",
+        title = "Wymagana aktualizacja aplikacji!",
         content = "Aktualizacja naprawiająca ostatnie problemy powinna być już u was dostępna. Kliknij, aby przejść do Google Play",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
@@ -35,7 +35,7 @@ val messages = listOf(
     ),
     Message(
         id = 42,
-        title = "Ważny komunikat",
+        title = "Wymagana aktualizacja aplikacji!",
         content = "Aktualizacja naprawiająca ostatnie problemy powinna być już u was dostępna. Kliknij, aby przejść do Appgallery",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
