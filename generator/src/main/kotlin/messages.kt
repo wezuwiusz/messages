@@ -4,7 +4,23 @@ val messages = listOf(
     Message(
         id = 43,
         title = "Aktualizacja aplikacji",
-        content = "Aktualizacja naprawiająca ostatnie problemy powinna być u was już dostępna. Kliknij, aby przejść do Google Play",
+        content = "Aktualizacja naprawiająca ostatnie problemy powinna być już u was dostępna. Kliknij, aby przejść do F-Droid",
+        priority = MessagePriority.MEDIUM,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        destinationUrl = "https://f-droid.org/packages/io.github.wulkanowy/",
+        targetFlavor = AppFlavor.FDROID,
+        types = listOf(
+            MessageType.DASHBOARD_MESSAGE,
+            MessageType.LOGIN_MESSAGE,
+        ),
+        versionMax = 137,
+        isDismissible = false,
+        isVisible = true,
+    ),
+    Message(
+        id = 43,
+        title = "Aktualizacja aplikacji",
+        content = "Aktualizacja naprawiająca ostatnie problemy powinna być już u was dostępna. Kliknij, aby przejść do Google Play",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
         destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy&utm_source=message",
@@ -20,7 +36,7 @@ val messages = listOf(
     Message(
         id = 42,
         title = "Ważny komunikat",
-        content = "Aktualizacja naprawiająca ostatnie problemy powinna być u was juz dostępna. Kliknij, aby przejść do Appgallery",
+        content = "Aktualizacja naprawiająca ostatnie problemy powinna być już u was dostępna. Kliknij, aby przejść do Appgallery",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
         destinationUrl = "https://appgallery.huawei.com/#/app/C101440411",
