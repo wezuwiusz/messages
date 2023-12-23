@@ -7,7 +7,6 @@ val messages = listOf(
         content = "Od paru dni w Wulkanowym nie działa obsługa dziennika EduNet Miasta Tarnowa. Pracujemy nad przywróceniem działania, ale jeszcze nie wiemy ile to potrwa. W razie potrzeby skorzystania dziennika prosimy korzystać ze strony www dziennika lub oficjalnej aplikacji",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.UMT_TARNOW.url,
-        targetFlavor = AppFlavor.FDROID,
         types = listOf(
             MessageType.DASHBOARD_MESSAGE,
             MessageType.LOGIN_MESSAGE,
