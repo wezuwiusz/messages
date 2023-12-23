@@ -12,7 +12,6 @@ val messages = listOf(
             MessageType.DASHBOARD_MESSAGE,
             MessageType.LOGIN_MESSAGE,
         ),
-        versionMin = 138,
         isDismissible = false,
         isVisible = true,
     ),
