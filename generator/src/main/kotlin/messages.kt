@@ -2,6 +2,21 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 45,
+        title = "Informacja o problemach z dostępem do dziennika",
+        content = "Od paru dni w Wulkanowym nie działa obsługa dziennika EduNet Miasta Tarnowa. Pracujemy nad przywróceniem działania, ale jeszcze nie wiemy ile to potrwa. W razie potrzeby skorzystania dziennika prosimy korzystać ze strony www dziennika lub oficjalnej aplikacji",
+        priority = MessagePriority.MEDIUM,
+        targetRegisterHost = RegisterAddress.UMT_TARNOW,
+        targetFlavor = AppFlavor.FDROID,
+        types = listOf(
+            MessageType.DASHBOARD_MESSAGE,
+            MessageType.LOGIN_MESSAGE,
+        ),
+        versionMin = 138,
+        isDismissible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 44,
         title = "Wymagana aktualizacja aplikacji!",
         content = "Aktualizacja naprawiająca ostatnie problemy powinna być już u was dostępna. Kliknij, aby przejść do F-Droid",
