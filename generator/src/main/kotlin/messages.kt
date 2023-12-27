@@ -2,6 +2,19 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 46,
+        title = "Błędy, błędy, błędy",
+        content = "Wulkanowy nie działa. Wszystkim. Wiemy o problemie, pracujemy nad jego rozwiązaniem. Nie musicie nam już zgłaszać błędów, bo wiemy o nich :)",
+        priority = MessagePriority.MEDIUM,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        types = listOf(
+            MessageType.LOGIN_MESSAGE,
+            MessageType.DASHBOARD_MESSAGE,
+        ),
+        isDismissible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 45,
         title = "Informacja o problemach z dostępem do dziennika",
         content = "Od paru dni w Wulkanowym nie działa obsługa dziennika EduNet Miasta Tarnowa. Pracujemy nad przywróceniem działania, ale jeszcze nie wiemy ile to potrwa. W razie potrzeby skorzystania dziennika prosimy korzystać ze strony www dziennika lub oficjalnej aplikacji",
