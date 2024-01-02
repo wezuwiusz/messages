@@ -3,7 +3,7 @@ import io.github.wulkanowy.messages.pojo.*
 val messages = listOf(
     Message(
         id = 47,
-        title = "Wyjaśnienie trudności z dostępem do dziennika",
+        title = "Chcesz pomóc? Kliknij tutaj",
         content = "VULCAN w ostatnich dniach prowadzi prace konserwacyjne, przez które dostęp do dziennika przez Wulkanowego może być utrudniony lub nawet niemożliwy. Monitorujemy sytuację i jeśli trzeba będzie, to wydamy aktualizację aplikacji. W nagłych sytuacjach zalecamy korzystanie z dziennika przez stronę www",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
