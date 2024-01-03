@@ -2,6 +2,20 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 51,
+        title = "Ogłoszenie",
+        content = "„Krótka” informacja na temat tego, co się ostatnio działo z dziennikiem. Kliknij, żeby przeczytać",
+        priority = MessagePriority.LOW,
+        destinationUrl = "https://www.facebook.com/wulkanowy/posts/786064996869604",
+        types = listOf(
+            MessageType.DASHBOARD_MESSAGE,
+            MessageType.LOGIN_MESSAGE,
+        ),
+        versionMin = 141,
+        isDismissible = true,
+        isVisible = true,
+    ),
+    Message(
         id = 50,
         title = "Wymagana aktualizacja aplikacji!",
         content = "Aktualizacja naprawiająca ostatnie problemy powinna być już u was dostępna. Kliknij, aby przejść do F-Droid",
