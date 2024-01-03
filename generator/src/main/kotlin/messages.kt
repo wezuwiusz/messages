@@ -6,7 +6,7 @@ val messages = listOf(
         title = "Ogłoszenie",
         content = "„Krótka” informacja na temat tego, co się ostatnio działo z dziennikiem. Kliknij, żeby przeczytać",
         priority = MessagePriority.LOW,
-        destinationUrl = "https://www.facebook.com/wulkanowy/posts/786064996869604",
+        destinationUrl = "https://www.facebook.com/wulkanowy/posts/786639613478809",
         types = listOf(
             MessageType.DASHBOARD_MESSAGE,
             MessageType.LOGIN_MESSAGE,
