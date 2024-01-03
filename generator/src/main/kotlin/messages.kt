@@ -2,7 +2,6 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
-    Message(
         id = 50,
         title = "Wymagana aktualizacja aplikacji!",
         content = "Aktualizacja naprawiająca ostatnie problemy powinna być już u was dostępna. Kliknij, aby przejść do F-Droid",
