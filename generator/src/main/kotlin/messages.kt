@@ -2,6 +2,55 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+    Message(
+        id = 50,
+        title = "Wymagana aktualizacja aplikacji!",
+        content = "Aktualizacja naprawiająca ostatnie problemy powinna być już u was dostępna. Kliknij, aby przejść do F-Droid",
+        priority = MessagePriority.MEDIUM,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        destinationUrl = "https://f-droid.org/packages/io.github.wulkanowy/",
+        targetFlavor = AppFlavor.FDROID,
+        types = listOf(
+            MessageType.DASHBOARD_MESSAGE,
+            MessageType.LOGIN_MESSAGE,
+        ),
+        versionMax = 140,
+        isDismissible = false,
+        isVisible = false,
+    ),
+    Message(
+        id = 49,
+        title = "Wymagana aktualizacja aplikacji!",
+        content = "Aktualizacja naprawiająca ostatnie problemy powinna być już u was dostępna. Kliknij, aby przejść do Google Play",
+        priority = MessagePriority.MEDIUM,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy&utm_source=message",
+        targetFlavor = AppFlavor.PLAY,
+        types = listOf(
+            MessageType.DASHBOARD_MESSAGE,
+            MessageType.LOGIN_MESSAGE,
+        ),
+        versionMax = 140,
+        isDismissible = false,
+        isVisible = true,
+    ),
+    Message(
+        id = 48,
+        title = "Wymagana aktualizacja aplikacji!",
+        content = "Aktualizacja naprawiająca ostatnie problemy powinna być już u was dostępna. Kliknij, aby przejść do Appgallery",
+        priority = MessagePriority.MEDIUM,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        destinationUrl = "https://appgallery.huawei.com/#/app/C101440411",
+        targetFlavor = AppFlavor.HMS,
+        types = listOf(
+            MessageType.DASHBOARD_MESSAGE,
+            MessageType.LOGIN_MESSAGE,
+        ),
+        versionMax = 140,
+        isDismissible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 47,
         title = "Występują u ciebie błędy? Jeśli nie, to zignoruj ten komunikat",
         content = "Pracujemy nad poprawką, która powinna ograniczyć występujące błędy przy logowaniu i odświezaniu danych. Niedługo pojawi się aktualizacja",
@@ -14,7 +63,7 @@ val messages = listOf(
         ),
         versionMax = 140,
         isDismissible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 46,
