@@ -2,6 +2,20 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 52,
+        title = "Informacja od GPE",
+        content = "„Informujemy, że w najbliższy czwartek tj. 04.01.2024r. od godziny 22:00 do 06:00 dnia następnego mogą występować utrudnienia w dostępie do GPE spowodowane przerwą techniczną",
+        priority = MessagePriority.MEDIUM,
+        targetRegisterHost = RegisterAddress.EDU_GDANSK.url,
+        destinationUrl = "https://edu.gdansk.pl/",
+        types = listOf(
+            MessageType.DASHBOARD_MESSAGE,
+            MessageType.LOGIN_MESSAGE,
+        ),
+        isDismissible = true,
+        isVisible = true,
+    ),
+    Message(
         id = 51,
         title = "Ogłoszenie",
         content = "„Krótka” informacja na temat tego, co się ostatnio działo z dziennikiem. Kliknij, żeby przeczytać",
