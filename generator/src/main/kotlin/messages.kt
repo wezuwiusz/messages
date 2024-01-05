@@ -2,6 +2,19 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 53,
+        title = "Problemy z dziennikiem GPE",
+        content = "Od czwartku Wulkanowy pokazuje błędy informujące o błednej dacie na telefonie. W tym przypadku to akurat nieprawda. Błąd jest po stronie GPE. Przez ten błąd nie działa równiez Dzienniczek VULCAN (jeśli się mylimy to nas poprawcie). Radzimy zgłaszać problem na helpdesk GPE",
+        priority = MessagePriority.MEDIUM,
+        targetRegisterHost = RegisterAddress.EDU_GDANSK.url,
+        destinationUrl = "https://edu.gdansk.pl/",
+        types = listOf(
+            MessageType.DASHBOARD_MESSAGE,
+            MessageType.LOGIN_MESSAGE,
+        ),
+        isVisible = true,
+    ),
+    Message(
         id = 52,
         title = "Informacja od GPE",
         content = "„Informujemy, że w najbliższy czwartek tj. 04.01.2024r. od godziny 22:00 do 06:00 dnia następnego mogą występować utrudnienia w dostępie do GPE spowodowane przerwą techniczną",
@@ -12,7 +25,7 @@ val messages = listOf(
             MessageType.DASHBOARD_MESSAGE,
             MessageType.LOGIN_MESSAGE,
         ),
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 51,
