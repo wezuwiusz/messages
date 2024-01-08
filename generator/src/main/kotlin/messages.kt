@@ -12,7 +12,7 @@ val messages = listOf(
             MessageType.DASHBOARD_MESSAGE,
             MessageType.LOGIN_MESSAGE,
         ),
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 52,
