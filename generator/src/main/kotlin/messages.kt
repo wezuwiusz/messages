@@ -2,6 +2,22 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 54,
+        title = "Od czwartku nie działa u ciebie apka? Przeczytaj",
+        content = "Właśnie wydaliśmy aktualizację, która obchodzi ostatnie problemy z odświeżaniem danych i logowaniem. Znajdziesz ją klikając tutaj",
+        priority = MessagePriority.MEDIUM,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy&utm_source=message",
+        targetFlavor = AppFlavor.PLAY,
+        types = listOf(
+            MessageType.DASHBOARD_MESSAGE,
+            MessageType.LOGIN_MESSAGE,
+        ),
+        versionMax = 143,
+        isDismissible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 53,
         title = "Problemy z dziennikiem GPE",
         content = "Od czwartku Wulkanowy pokazuje błędy informujące o błednej dacie na telefonie. W tym przypadku to akurat nieprawda. Błąd jest po stronie GPE. Przez ten błąd nie działa równiez Dzienniczek VULCAN (jeśli się mylimy to nas poprawcie). Radzimy zgłaszać problem na helpdesk GPE",
