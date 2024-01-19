@@ -13,7 +13,7 @@ val messages = listOf(
             MessageType.LOGIN_MESSAGE,
         ),
         isDismissible = true,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 54,
