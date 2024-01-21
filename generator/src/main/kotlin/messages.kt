@@ -12,7 +12,8 @@ val messages = listOf(
             MessageType.DASHBOARD_MESSAGE,
             MessageType.LOGIN_MESSAGE,
         ),
-        isDismissible = true,
+        isXVisible = false,
+        isOkVisible = true,
         isVisible = false,
     ),
     Message(
@@ -28,7 +29,7 @@ val messages = listOf(
             MessageType.LOGIN_MESSAGE,
         ),
         versionMax = 143,
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = true,
     ),
     Message(
@@ -68,7 +69,7 @@ val messages = listOf(
             MessageType.LOGIN_MESSAGE,
         ),
         versionMin = 141,
-        isDismissible = true,
+        isOkVisible = true,
         isVisible = false,
     ),
     Message(
@@ -84,7 +85,7 @@ val messages = listOf(
             MessageType.LOGIN_MESSAGE,
         ),
         versionMax = 140,
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = false,
     ),
     Message(
@@ -100,7 +101,7 @@ val messages = listOf(
             MessageType.LOGIN_MESSAGE,
         ),
         versionMax = 140,
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = true,
     ),
     Message(
@@ -116,7 +117,7 @@ val messages = listOf(
             MessageType.LOGIN_MESSAGE,
         ),
         versionMax = 140,
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = true,
     ),
     Message(
@@ -131,7 +132,7 @@ val messages = listOf(
             MessageType.DASHBOARD_MESSAGE,
         ),
         versionMax = 140,
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = false,
     ),
     Message(
@@ -145,7 +146,7 @@ val messages = listOf(
             MessageType.DASHBOARD_MESSAGE,
         ),
         versionMax = 138,
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = false,
     ),
     Message(
@@ -158,7 +159,7 @@ val messages = listOf(
             MessageType.DASHBOARD_MESSAGE,
             MessageType.LOGIN_MESSAGE,
         ),
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = true,
     ),
     Message(
@@ -174,7 +175,7 @@ val messages = listOf(
             MessageType.LOGIN_MESSAGE,
         ),
         versionMax = 137,
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = true,
     ),
     Message(
@@ -190,7 +191,7 @@ val messages = listOf(
             MessageType.LOGIN_MESSAGE,
         ),
         versionMax = 137,
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = true,
     ),
     Message(
@@ -206,7 +207,7 @@ val messages = listOf(
             MessageType.LOGIN_MESSAGE,
         ),
         versionMax = 137,
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = true,
     ),
     Message(
@@ -219,7 +220,7 @@ val messages = listOf(
             MessageType.DASHBOARD_MESSAGE,
         ),
         versionMax = 137,
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = false,
     ),
     Message(
@@ -232,7 +233,7 @@ val messages = listOf(
             MessageType.LOGIN_MESSAGE,
         ),
         versionMax = 137,
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = false,
     ),
     Message(
@@ -244,7 +245,7 @@ val messages = listOf(
         types = listOf(
             MessageType.LOGIN_MESSAGE,
         ),
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = true,
     ),
     Message(
@@ -256,7 +257,7 @@ val messages = listOf(
         types = listOf(
             MessageType.LOGIN_MESSAGE,
         ),
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = false,
     ),
     Message(
@@ -265,7 +266,7 @@ val messages = listOf(
         content = "Otrzymujemy zgłoszenia dotyczące problemów z logowaniem i odświeżaniem danych w Wulkanowym u użytkowników GPE. To nie jest błąd po stronie Wulkanowego i nic z tym nie możemy zrobić. Problem należy zgłaszać do administracji GPE",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.EDU_GDANSK.url,
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = false,
     ),
     Message(
@@ -275,7 +276,7 @@ val messages = listOf(
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
         destinationUrl = "https://www.vulcan.edu.pl/aktualnosci/planowana-przerwa-techniczna-w-e-dzienniku-uonet-529",
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = false,
     ),
     Message(
@@ -283,7 +284,7 @@ val messages = listOf(
         title = "Przerwa techniczna systemu UONET+",
         content = "Tak, zgadza się. Trzeci dzień z rzędu dziennik nie działa. To awaria całego systemu UONET+, a nie naszej apki. Nic na to nie poradzimy, trzeba czekać na reakcję VULCANa",
         priority = MessagePriority.MEDIUM,
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = false,
     ),
     Message(
@@ -293,7 +294,7 @@ val messages = listOf(
         priority = MessagePriority.LOW,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/646383727504399",
         versionMin = 125,
-        isDismissible = true,
+        isOkVisible = true,
         isVisible = false,
     ),
     Message(
@@ -304,7 +305,7 @@ val messages = listOf(
         targetFlavor = AppFlavor.HMS,
         destinationUrl = "https://appgallery.huawei.com/#/app/C101440411",
         versionMax = 129,
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = true,
     ),
     Message(
@@ -315,7 +316,7 @@ val messages = listOf(
         targetFlavor = AppFlavor.PLAY,
         destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy",
         versionMax = 129,
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = true,
     ),
     Message(
@@ -326,7 +327,7 @@ val messages = listOf(
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/643278101148295",
         versionMax = 123,
         versionMin = 122,
-        isDismissible = true,
+        isOkVisible = true,
         isVisible = false,
     ),
     Message(
@@ -336,7 +337,7 @@ val messages = listOf(
         priority = MessagePriority.LOW,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/643228434486595",
         versionMin = 122,
-        isDismissible = true,
+        isOkVisible = true,
         isVisible = false,
     ),
     Message(
@@ -347,7 +348,7 @@ val messages = listOf(
         targetRegisterHost = RegisterAddress.EDU_LUBLIN.url,
         destinationUrl = "https://twitter.com/wulkanowy/status/1654404443264122882",
         versionMax = 122,
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = false,
     ),
     Message(
@@ -358,7 +359,7 @@ val messages = listOf(
         targetRegisterHost = RegisterAddress.EDU_GDANSK.url,
         destinationUrl = "https://twitter.com/wulkanowy/status/1654404443264122882",
         versionMax = 122,
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = false,
     ),
     Message(
@@ -367,7 +368,7 @@ val messages = listOf(
         content = "System UONET+ ma obecnie problemy techniczne. W tym czasie może wyświetlać się komunikat o trwającej przerwie technicznej. Prosimy o cierpliwość i spróbowanie ponownie później",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = false,
     ),
     Message(
@@ -377,7 +378,7 @@ val messages = listOf(
         priority = MessagePriority.HIGH,
 
         targetRegisterHost = RegisterAddress.VULCAN.url,
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = false,
     ),
     Message(
@@ -386,7 +387,7 @@ val messages = listOf(
         content = "Wesołych, spokojnych Świąt Bożego Narodzenia oraz szczęśliwego, bezawaryjnego Nowego Roku życzy Wulkanowy zespół! 🎄",
         priority = MessagePriority.LOW,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/552841720191934",
-        isDismissible = true,
+        isOkVisible = true,
         isVisible = false,
     ),
     Message(
@@ -397,7 +398,7 @@ val messages = listOf(
         targetRegisterHost = RegisterAddress.RESMAN.url,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/546997824109657",
         versionMax = 116,
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = true,
     ),
     Message(
@@ -407,7 +408,7 @@ val messages = listOf(
         priority = MessagePriority.HIGH,
         targetRegisterHost = RegisterAddress.VULCAN.url,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/537177675091672",
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = false,
     ),
     Message(
@@ -417,7 +418,7 @@ val messages = listOf(
         priority = MessagePriority.HIGH,
         targetRegisterHost = RegisterAddress.VULCAN.url,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/536251861850920",
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = false,
     ),
     Message(
@@ -427,7 +428,7 @@ val messages = listOf(
         priority = MessagePriority.MEDIUM,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/534950415314398",
         versionMax = 115,
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = true,
     ),
     Message(
@@ -437,7 +438,7 @@ val messages = listOf(
         priority = MessagePriority.LOW,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/525359099606863",
         versionMin = 116,
-        isDismissible = true,
+        isOkVisible = true,
         isVisible = false,
     ),
     Message(
@@ -447,7 +448,7 @@ val messages = listOf(
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/524562059686567",
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = false,
     ),
     Message(
@@ -455,7 +456,7 @@ val messages = listOf(
         title = "Problemy techniczne z systemem UONET+",
         content = "Obserwujemy problemy z dostępem do dziennika UONET+. To NIE JEST błąd po stronie aplikacji tylko po stronie serwerów VULCANa. Spróbuj ponownie później",
         priority = MessagePriority.HIGH,
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = false,
     ),
     Message(
@@ -463,7 +464,7 @@ val messages = listOf(
         title = "Awaria systemu UONET+",
         content = "Obserwujemy problemy z dostępem do dziennika UONET+. To NIE JEST błąd po stronie aplikacji tylko po stronie serwerów VULCANa. Spróbuj ponownie później",
         priority = MessagePriority.HIGH,
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = false,
     ),
     Message(
@@ -474,7 +475,7 @@ val messages = listOf(
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/459115399564567",
         versionMin = 108,
         versionMax = 111,
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = true,
     ),
     Message(
@@ -484,7 +485,7 @@ val messages = listOf(
         priority = MessagePriority.MEDIUM,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/453319193477521",
         versionMin = 108,
-        isDismissible = true,
+        isOkVisible = true,
         isVisible = false,
     ),
     Message(
@@ -495,7 +496,7 @@ val messages = listOf(
         targetFlavor = AppFlavor.PLAY,
         destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy",
         versionMax = 107,
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = true,
     ),
     Message(
@@ -506,7 +507,7 @@ val messages = listOf(
         targetFlavor = AppFlavor.HMS,
         destinationUrl = "https://appgallery.huawei.com/#/app/C101440411",
         versionMax = 107,
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = true,
     ),
     Message(
@@ -516,7 +517,7 @@ val messages = listOf(
         priority = MessagePriority.HIGH,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/450349017107872",
         versionMax = 108,
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = false,
     ),
     Message(
@@ -525,7 +526,7 @@ val messages = listOf(
         content = "Ostatnia aktualizacja systemu VULCAN UONET+ zepsuła w Wulkanowym logowanie do dziennika i odświeżanie danych. Pracujemy nad poprawką, ale nie wiemy kiedy uda nam się ją przygotować. Do tego czasu prosimy o cierpliwość",
         priority = MessagePriority.HIGH,
         targetRegisterHost = RegisterAddress.VULCAN.url,
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = false,
     ),
     Message(
@@ -534,7 +535,7 @@ val messages = listOf(
         content = "Aktualnie trwają prace konserwacyjne. Nie mamy pojęcia kiedy się zakończą. Prosimy o zachowanie cierpliwości i sprawdzenie dziennika ponownie za jakiś czas",
         priority = MessagePriority.HIGH,
         targetRegisterHost = RegisterAddress.VULCAN.url,
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = false,
     ),
     Message(
@@ -570,7 +571,7 @@ val messages = listOf(
         content = "Informujemy o problemach z połączeniem z dziennikiem. Do czasu jego rozwiązania Wulkanowy może wyświetlać mylące komunikaty informujące o wystąpieniu błędu i zalecające sprawdzenie poprawności daty na urządzeniu, mimo że to nie ona stanowi problem. Należy poczekać na rozwiązanie problemu przez administratorów dziennika",
         priority = MessagePriority.HIGH,
         targetRegisterHost = RegisterAddress.RESMAN.url,
-        isDismissible = false,
+        isOkVisible = false,
         isVisible = false,
     ),
     Message(
@@ -579,7 +580,7 @@ val messages = listOf(
         content = "Wesołych, spokojnych świąt oraz szczęśliwego, bezawaryjnego Nowego Roku życzy zespół Wulkanowego! 🎄",
         priority = MessagePriority.LOW,
         versionMin = 102,
-        isDismissible = true,
+        isOkVisible = true,
         isVisible = false,
     ),
     Message(
@@ -617,7 +618,7 @@ val messages = listOf(
         content = "Zaktualizowaliśmy politykę prywatności. Kliknij aby zobaczyć więcej",
         priority = MessagePriority.LOW,
         destinationUrl = "https://wulkanowy.github.io/polityka-prywatnosci",
-        isDismissible = true,
+        isOkVisible = true,
         isVisible = false,
     )
 )

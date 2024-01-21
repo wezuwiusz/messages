@@ -7,6 +7,7 @@ data class Message(
     val id: Long,
     val title: String,
     val content: String,
+    @Deprecated("use types")
     val type: MessageType? = null,
     val types: List<MessageType>? = null,
     val priority: MessagePriority = MessagePriority.LOW,
@@ -15,6 +16,9 @@ data class Message(
     val versionMax: Int? = null,
     val targetRegisterHost: String? = null,
     val targetFlavor: AppFlavor? = null,
+    val isXVisible: Boolean = false,
+    val isOkVisible: Boolean = false,
+    @Deprecated("use isXVisible or isOkVisible")
     val isDismissible: Boolean = false,
     val isVisible: Boolean = true,
 )

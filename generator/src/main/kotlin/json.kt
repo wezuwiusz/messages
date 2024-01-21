@@ -29,6 +29,10 @@ private fun List<Message>.addNewTypeMigration(): List<Message> {
                 )
             }
 
+            it.isXVisible -> it.copy(
+                isDismissible = true, // used up to version 145
+            )
+
             else -> it.copy(
                 type = MessageType.DASHBOARD_MESSAGE, // default value up to version 130
             )
