@@ -12,7 +12,7 @@ val messages = listOf(
             MessageType.DASHBOARD_MESSAGE,
         ),
         isXVisible = true,
-        isOkVisible = true,
+        isOkVisible = false,
         isVisible = true,
     ),
     Message(
