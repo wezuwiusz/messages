@@ -2,6 +2,20 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 56,
+        title = "Informacje o bieżących problemach z dziennikiem",
+        content = "Masz jakiś problem z apką? Kliknij tutaj i napisz o nim",
+        priority = MessagePriority.MEDIUM,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        destinationUrl = "https://www.facebook.com/wulkanowy/posts/807158678093569",
+        types = listOf(
+            MessageType.DASHBOARD_MESSAGE,
+        ),
+        isXVisible = true,
+        isOkVisible = true,
+        isVisible = true,
+    ),
+    Message(
         id = 55,
         title = "Piątkowa awaria",
         content = "Zgłaszacie nam problemy z dostępem do dziennika. To prawda - VULCAN (nie Wulkanowy) ma awarię. Kliknij, by przeczytać więcej",
