@@ -14,7 +14,7 @@ val messages = listOf(
         ),
         isXVisible = true,
         isOkVisible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 56,
