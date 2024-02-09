@@ -2,6 +2,21 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 58,
+        title = "Wymagana aktualizacja aplikacji!",
+        content = "Na obecnej wersji nie działa logowanie do dziennika. Spowodowane jest to ostatnimi zmianami po stronie firmy VULCAN. Kliknij tutaj, by przejść do sklepu Play",
+        priority = MessagePriority.HIGH,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy&utm_source=message",
+        targetFlavor = AppFlavor.PLAY,
+        types = listOf(
+            MessageType.LOGIN_MESSAGE,
+        ),
+        versionMax = 145,
+        isOkVisible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 57,
         title = "Dziejsze problemy z dziennikiem",
         content = "VULCAN ma dzisiaj od rana problemy ze sobą. To NIE JEST problem po stronie naszej nieoficjalnej apki. Zalecamy cierpliwość, aż VULCAN to naprawi",
