@@ -2,6 +2,22 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 59,
+        title = "Informacje o najnowszej aktualizacji",
+        content = "Używasz najnowszej wersji Wulkanowego! Naprawiliśmy w niej ostatnie znane problemy. Jeśli borykasz się ciągle z jakimiś - kliknij i napisz o tym",
+        priority = MessagePriority.LOW,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        destinationUrl = "https://www.facebook.com/wulkanowy/posts/817776823698421",
+        targetFlavor = AppFlavor.PLAY,
+        types = listOf(
+            MessageType.LOGIN_MESSAGE,
+        ),
+        versionMax = 148,
+        isOkVisible = false,
+        isXVisible = true,
+        isVisible = true,
+    ),
+    Message(
         id = 58,
         title = "Wymagana aktualizacja aplikacji!",
         content = "Na obecnej wersji nie działa logowanie do dziennika. Spowodowane jest to ostatnimi zmianami po stronie firmy VULCAN. Kliknij tutaj, by przejść do sklepu Play",
