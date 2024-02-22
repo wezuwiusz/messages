@@ -12,7 +12,7 @@ val messages = listOf(
         types = listOf(
             MessageType.LOGIN_MESSAGE,
         ),
-        versionMax = 148,
+        versionMin = 148,
         isOkVisible = false,
         isXVisible = true,
         isVisible = true,
