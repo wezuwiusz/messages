@@ -10,7 +10,7 @@ val messages = listOf(
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/817776823698421",
         targetFlavor = AppFlavor.PLAY,
         types = listOf(
-            MessageType.LOGIN_MESSAGE,
+            MessageType.DASHBOARD_MESSAGE,
         ),
         versionMin = 148,
         isOkVisible = false,
