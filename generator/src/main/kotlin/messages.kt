@@ -2,6 +2,20 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 60,
+        title = "Weekendowe problemy z dziennikiem",
+        content = "Obserwujemy zwiększoną liczbę zgłoszeń problemów z dziennikiem od około 1:00 w nocy z piątku na sobotę. Raczej się spodziewamy, że VULCAN naprawi to przed poniedziałkiem :) Zalecamy cierpliwość i nieodświeżanie apki \"na siłe\" bo to tylko pogarsza sytuację",
+        priority = MessagePriority.MEDIUM,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        types = listOf(
+            MessageType.DASHBOARD_MESSAGE,
+            MessageType.LOGIN_MESSAGE,
+        ),
+        isXVisible = false,
+        isOkVisible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 59,
         title = "Informacje o najnowszej aktualizacji",
         content = "Używasz najnowszej wersji Wulkanowego! Naprawiliśmy w niej ostatnie znane problemy. Jeśli borykasz się ciągle z jakimiś - kliknij i napisz o tym",
