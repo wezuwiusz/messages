@@ -4,7 +4,7 @@ val messages = listOf(
     Message(
         id = 60,
         title = "Weekendowe problemy z dziennikiem",
-        content = "Obserwujemy zwiększoną liczbę zgłoszeń problemów z dziennikiem od około 1:00 w nocy z piątku na sobotę. Raczej się spodziewamy, że VULCAN naprawi to przed poniedziałkiem :) Zalecamy cierpliwość i nieodświeżanie apki \"na siłe\" bo to tylko pogarsza sytuację",
+        content = "Obserwujemy zwiększoną liczbę zgłoszeń problemów z dziennikiem od około 1:00 w nocy z piątku na sobotę. Raczej nie się spodziewamy, że VULCAN naprawi to przed poniedziałkiem :) Zalecamy cierpliwość i nieodświeżanie apki \"na siłe\" bo to tylko pogarsza sytuację",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
         types = listOf(
