@@ -2,6 +2,20 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 61,
+        title = "Informacja dla użytkowników systemu eduOne",
+        content = "W poniedziałkowej aktualizacji dziennika, VULCAN wprowadził zmianę, przez którą system eduOne nie działa w Wulkanowym. Objawia się to ciągłym wyświeltaniem ekranu z prośbą o wpisanie numeru PESEL (co oczywiście jest błędem). Poprawka zajmie nam dużo czasu. Zalecamy przez ten czasu używanie dziennika przez stronę www albo oficjalną aplikację od VULCANa",
+        priority = MessagePriority.MEDIUM,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        types = listOf(
+            MessageType.DASHBOARD_MESSAGE,
+            MessageType.LOGIN_MESSAGE,
+        ),
+        isXVisible = true,
+        isOkVisible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 60,
         title = "Weekendowe problemy z dziennikiem",
         content = "Obserwujemy zwiększoną liczbę zgłoszeń problemów z dziennikiem od około 1:00 w nocy z piątku na sobotę. Raczej nie się spodziewamy, że VULCAN naprawi to przed poniedziałkiem :) Zalecamy cierpliwość i nieodświeżanie apki \"na siłe\" bo to tylko pogarsza sytuację",
