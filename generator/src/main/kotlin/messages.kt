@@ -2,9 +2,37 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 62,
+        title = "Masz problemy z weryfikacją captcha?",
+        content = "Jeśli weryfikacja captcha się zapętliła i nie mozesz przejść dalej, to spróbuj zaktualizować WebView (albo zainstalować i ustawić w ustawieniach systemowych jako domyślną implementację WebView)",
+        priority = MessagePriority.MEDIUM,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        destinationUrl = "https://play.google.com/store/apps/details?id=com.google.android.webview",
+        types = listOf(
+            MessageType.LOGIN_MESSAGE,
+        ),
+        versionMin = 151,
+        isOkVisible = false,
+        isVisible = true,
+    ),
+    Message(
+        id = 62,
+        title = "Masz problemy z ładowaniem rzeczy w apce? Przeczytaj",
+        content = "Jeśli jesteś uzytkownikiem eduOne i mimo aktualizacji nic nie działa, to spróbuj wylogować się i zalogować ponownie",
+        priority = MessagePriority.MEDIUM,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        types = listOf(
+            MessageType.DASHBOARD_MESSAGE,
+        ),
+        versionMin = 151,
+        isXVisible = true,
+        isOkVisible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 61,
         title = "Informacja dla użytkowników systemu eduOne",
-        content = "W poniedziałkowej aktualizacji dziennika, VULCAN wprowadził zmianę, przez którą system eduOne nie działa w Wulkanowym. Objawia się to ciągłym wyświeltaniem ekranu z prośbą o wpisanie numeru PESEL (co oczywiście jest błędem). Poprawka zajmie nam dużo czasu. Zalecamy przez ten czasu używanie dziennika przez stronę www albo oficjalną aplikację od VULCANa",
+        content = "W poniedziałkowej aktualizacji dziennika, VULCAN wprowadził zmianę, przez którą system eduOne nie działa w Wulkanowym. Wydaliśmy aktualizację, która rozwiązuje większość problemów (kolejna jest w drodze). Uprzejmie prosimy o zaktualizowanie aplikacji w sklepie Play lub AppGallery",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
         types = listOf(
@@ -12,7 +40,7 @@ val messages = listOf(
             MessageType.LOGIN_MESSAGE,
         ),
         versionMax = 150,
-        isXVisible = true,
+        isXVisible = false,
         isOkVisible = false,
         isVisible = true,
     ),
