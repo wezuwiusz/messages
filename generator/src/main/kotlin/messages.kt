@@ -2,7 +2,7 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
-        id = 62,
+        id = 63,
         title = "Masz problemy z weryfikacją captcha?",
         content = "Jeśli weryfikacja captcha się zapętliła i nie mozesz przejść dalej, to spróbuj zaktualizować WebView (albo zainstalować i ustawić w ustawieniach systemowych jako domyślną implementację WebView)",
         priority = MessagePriority.MEDIUM,
