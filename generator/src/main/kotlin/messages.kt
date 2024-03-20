@@ -11,6 +11,7 @@ val messages = listOf(
             MessageType.DASHBOARD_MESSAGE,
             MessageType.LOGIN_MESSAGE,
         ),
+        versionMax = 150,
         isXVisible = true,
         isOkVisible = false,
         isVisible = true,
