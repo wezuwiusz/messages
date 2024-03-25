@@ -2,6 +2,22 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 64,
+        title = "Dostępna aktualizacja",
+        content = "Aktualizacja naprawiająca większość błędów z ładowaniem danych jest dostępna w sklepie Play. Klikjnij, aby przejść",
+        priority = MessagePriority.MEDIUM,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy&utm_source=message",
+        targetFlavor = AppFlavor.PLAY,
+        types = listOf(
+            MessageType.DASHBOARD_MESSAGE,
+        ),
+        versionMax = 151,
+        isXVisible = false,
+        isOkVisible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 63,
         title = "Masz problemy z weryfikacją captcha?",
         content = "Jeśli weryfikacja captcha się zapętliła i nie mozesz przejść dalej, to spróbuj zaktualizować WebView (albo zainstalować i ustawić w ustawieniach systemowych jako domyślną implementację WebView)",
