@@ -4,7 +4,7 @@ val messages = listOf(
     Message(
         id = 64,
         title = "Dostępna aktualizacja",
-        content = "Aktualizacja naprawiająca większość błędów z ładowaniem danych jest dostępna w sklepie Play. Klikjnij, aby przejść",
+        content = "Aktualizacja naprawiająca większość błędów z ładowaniem danych jest dostępna w sklepie Play. Kliknij, aby przejść",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
         destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy&utm_source=message",
@@ -12,7 +12,7 @@ val messages = listOf(
         types = listOf(
             MessageType.DASHBOARD_MESSAGE,
         ),
-        versionMax = 151,
+        versionMax = 152,
         isXVisible = false,
         isOkVisible = false,
         isVisible = true,
