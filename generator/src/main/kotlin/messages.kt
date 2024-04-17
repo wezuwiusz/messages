@@ -2,6 +2,19 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 65,
+        title = "Problemy z logowaniem",
+        content = "Wiemy o problemach z lgoowaniem do Lubelskiego Portalu Oświatowego, ale niestety nie wiemy czym są one spowodowane. Badamy sprawę. Póki co zalecamy korzystanie z oficjalnej apki od VULCANa",
+        priority = MessagePriority.HIGH,
+        targetRegisterHost = RegisterAddress.EDU_LUBLIN.url,
+        types = listOf(
+            MessageType.LOGIN_MESSAGE,
+        ),
+        isXVisible = false,
+        isOkVisible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 64,
         title = "Dostępna aktualizacja",
         content = "Aktualizacja naprawiająca większość błędów z ładowaniem danych jest dostępna w sklepie Play. Kliknij, aby przejść",
