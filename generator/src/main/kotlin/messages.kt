@@ -4,7 +4,7 @@ val messages = listOf(
     Message(
         id = 68,
         title = "O zmianach w średniej",
-        content = "Firma VULCAN (którą przecież NIE JESTEŚMY) niespodziewania dokonała zmiany w wyświetlaniu średniej w ocenach, na co Wulkanowy nie był gotowy. Dlatego nasza apka nagle mogła zacząć pokazywać inną średnią, która jest tą z tylko biezącego semestru. Niedługo wydamy aktualizację, która to poprawi",
+        content = "Firma VULCAN (którą przecież NIE JESTEŚMY) niespodziewania dokonała zmiany w wyświetlaniu średniej w ocenach, na co Wulkanowy nie był gotowy. Dlatego nasza apka nagle mogła zacząć pokazywać inną średnią, która jest tą z tylko biezącego semestru. Niedługo będzie dostępna aktualizacja, która to naprawi",
         priority = MessagePriority.MEDIUM,
         types = listOf(
             MessageType.DASHBOARD_MESSAGE,
@@ -12,6 +12,7 @@ val messages = listOf(
         isXVisible = false,
         isOkVisible = false,
         isVisible = true,
+        versionMax = 155,
     ),
     Message(
         id = 67,
