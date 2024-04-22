@@ -2,6 +2,47 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 68,
+        title = "O zmianach w średniej",
+        content = "Firma VULCAN (którą przecież NIE JESTEŚMY) niespodziewania dokonała zmiany w wyświetlaniu średniej w ocenach, na co Wulkanowy nie był gotowy. Dlatego nasza apka nagle mogła zacząć pokazywać inną średnią, która jest tą z tylko biezącego semestru. Niedługo wydamy aktualizację, która to poprawi",
+        priority = MessagePriority.MEDIUM,
+        types = listOf(
+            MessageType.DASHBOARD_MESSAGE,
+        ),
+        isXVisible = false,
+        isOkVisible = false,
+        isVisible = true,
+        versionMax = 154,
+    ),
+    Message(
+        id = 67,
+        title = "O problemach z logowaniem",
+        content = "Dostępna jest aktualizacja naprawiająca ostatnie problemy z logowaniem. Kliknij, by przejść do sklepu AppGallery i zaktualizować aplikację",
+        destinationUrl = "https://appgallery.huawei.com/#/app/C101440411",
+        priority = MessagePriority.HIGH,
+        types = listOf(
+            MessageType.LOGIN_MESSAGE,
+        ),
+        isXVisible = false,
+        isOkVisible = false,
+        isVisible = true,
+        versionMax = 154,
+    ),
+    Message(
+        id = 66,
+        title = "O problemach z logowaniem",
+        content = "Dostępna jest aktualizacja naprawiająca ostatnie problemy z logowaniem. Kliknij, by przejść do sklepu Play i zaktualizować aplikację",
+        destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy&utm_source=message",
+        priority = MessagePriority.HIGH,
+        types = listOf(
+            MessageType.LOGIN_MESSAGE,
+        ),
+        isXVisible = false,
+        isOkVisible = false,
+        isVisible = true,
+        versionMax = 154,
+    ),
+    Message(
         id = 65,
         title = "Problemy z logowaniem",
         content = "Wiemy o problemach z lgoowaniem do Lubelskiego Portalu Oświatowego, ale niestety nie wiemy czym są one spowodowane. Badamy sprawę. Póki co zalecamy korzystanie z oficjalnej apki od VULCANa",
@@ -12,7 +53,7 @@ val messages = listOf(
         ),
         isXVisible = false,
         isOkVisible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 64,
