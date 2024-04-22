@@ -20,6 +20,7 @@ val messages = listOf(
         content = "Dostępna jest aktualizacja naprawiająca ostatnie problemy z logowaniem. Kliknij, by przejść do sklepu AppGallery i zaktualizować aplikację",
         destinationUrl = "https://appgallery.huawei.com/#/app/C101440411",
         priority = MessagePriority.HIGH,
+        targetFlavor = AppFlavor.HMS,
         types = listOf(
             MessageType.LOGIN_MESSAGE,
         ),
@@ -34,6 +35,7 @@ val messages = listOf(
         content = "Dostępna jest aktualizacja naprawiająca ostatnie problemy z logowaniem. Kliknij, by przejść do sklepu Play i zaktualizować aplikację",
         destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy&utm_source=message",
         priority = MessagePriority.HIGH,
+        targetFlavor = AppFlavor.PLAY,
         types = listOf(
             MessageType.LOGIN_MESSAGE,
         ),
