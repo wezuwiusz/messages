@@ -2,6 +2,23 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 70,
+        title = "VULCAN NAS ZABLOKOWAŁ, ale naprawiliśmy",
+        content = "Aktualizacja z łatką jest dostępna w sklepie Play. Kliknij, aby przejść do sklepu i zaktualizować",
+        priority = MessagePriority.MEDIUM,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy&utm_source=message",
+        targetFlavor = AppFlavor.PLAY,
+        types = listOf(
+            MessageType.DASHBOARD_MESSAGE,
+            MessageType.LOGIN_MESSAGE,
+        ),
+        versionMax = 156,
+        isXVisible = false,
+        isOkVisible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 69,
         title = "VULCAN nas zablokował",
         content = "U wielu z was pojawił się dziś komunikat o nieaktywnym koncie z zaleceniem ponownego zalogowania, a po ponownym zalogowaniu jest tylko Brak uprawnień. To przez akcję wycelowaną w Wulkanowego. Kliknij, by przejść do posta na Facebooku",
