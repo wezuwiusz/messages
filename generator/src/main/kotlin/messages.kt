@@ -6,6 +6,7 @@ val messages = listOf(
         title = "VULCAN nas zablokował",
         content = "U wielu z was pojawił się dziś komunikat o nieaktywnym koncie z zaleceniem ponownego zalogowania, a po ponownym zalogowaniu jest tylko Brak uprawnień. To przez akcję wycelowaną w Wulkanowego. Kliknij, by przejść do posta na Facebooku",
         priority = MessagePriority.HIGH,
+        destinationUrl = "https://www.facebook.com/wulkanowy/posts/856818469794256",
         targetRegisterHost = RegisterAddress.VULCAN.url,
         types = listOf(
             MessageType.DASHBOARD_MESSAGE,
