@@ -2,6 +2,20 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 69,
+        title = "VULCAN nas zablokował",
+        content = "U wielu z was pojawił się dziś komunikat o nieaktywnym koncie z zaleceniem ponownego zalogowania, a po ponownym zalogowaniu jest tylko Brak uprawnień. To przez akcję wycelowaną w Wulkanowego. Kliknij, by przejść do posta na Facebooku",
+        priority = MessagePriority.HIGH,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        types = listOf(
+            MessageType.DASHBOARD_MESSAGE,
+            MessageType.LOGIN_MESSAGE,
+        ),
+        isXVisible = false,
+        isOkVisible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 68,
         title = "O zmianach w średniej",
         content = "Firma VULCAN (którą przecież NIE JESTEŚMY) niespodziewania dokonała zmiany w wyświetlaniu średniej w ocenach, na co Wulkanowy nie był gotowy. Dlatego nasza apka nagle mogła zacząć pokazywać inną średnią, która jest tą z tylko biezącego semestru. Niedługo będzie dostępna aktualizacja, która to naprawi",
