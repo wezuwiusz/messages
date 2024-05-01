@@ -14,28 +14,46 @@ fun generateJson(messages: List<Message>): String {
     return json.encodeToString(messages.addNewTypeMigration())
 }
 
+private val supportedTypes130 = listOf(
+    MessageType.DASHBOARD_MESSAGE,
+)
+
+private val supportedTypes157 = listOf(
+    MessageType.GENERAL_MESSAGE,
+    MessageType.DASHBOARD_MESSAGE,
+    MessageType.LOGIN_MESSAGE,
+    MessageType.PASS_RESET_MESSAGE,
+    MessageType.ERROR_OVERRIDE,
+)
+
+@Suppress("DEPRECATION")
 private fun List<Message>.addNewTypeMigration(): List<Message> {
-    return map {
-        when {
-            MessageType.DASHBOARD_MESSAGE in it.types.orEmpty() -> it.copy(
-                type = MessageType.DASHBOARD_MESSAGE,
-            )
-
-            !it.types.isNullOrEmpty() -> {
-                it.copy(
-                    // first app version, which correctly handles other types
-                    versionMin = 131,
-                    type = it.types?.first(),
-                )
+    return map { item ->
+        item.copy(
+            type = when {
+                MessageType.DASHBOARD_MESSAGE in item.types.orEmpty() -> MessageType.DASHBOARD_MESSAGE
+                // default value up to version 130
+                item.messageTypes.isNullOrEmpty() -> MessageType.DASHBOARD_MESSAGE
+                else -> item.type ?: item.messageTypes
+                    ?.firstOrNull { it in supportedTypes130 }
+            },
+            types = item.types ?: item.messageTypes
+                ?.filter { it in supportedTypes157 }
+                ?.takeIf { it.isNotEmpty() },
+            versionMin = item.versionMin ?: when {
+                // limit new message types to first version that will support it
+                (item.messageTypes.orEmpty().let { types ->
+                    types.isNotEmpty() && types.all { it !in supportedTypes157 }
+                }) -> 158
+                // first app version, which correctly handles other types
+                (item.messageTypes.orEmpty() - supportedTypes130).isNotEmpty() -> 131
+                else -> null
+            },
+            // used up to version 145
+            isDismissible = when {
+                item.isXVisible -> true
+                else -> item.isDismissible
             }
-
-            it.isXVisible -> it.copy(
-                isDismissible = true, // used up to version 145
-            )
-
-            else -> it.copy(
-                type = MessageType.DASHBOARD_MESSAGE, // default value up to version 130
-            )
-        }
+        )
     }
 }

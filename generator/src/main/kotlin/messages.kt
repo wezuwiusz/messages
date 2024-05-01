@@ -7,8 +7,8 @@ val messages = listOf(
         content = "Poniżej znajdują się szkoły i uczniowie, w których Wulkanowy wykrył uczniów podpiętych do Twojego konta. Jeśli jakiegoś ucznia brakuje to upewnij się najpierw, że po zalogowaniu przez stronę www dziennika go widać",
         priority = MessagePriority.LOW,
         targetRegisterHost = RegisterAddress.VULCAN.url,
-        types = listOf(
-            MessageType.PASS_RESET_MESSAGE,
+        messageTypes = listOf(
+            MessageType.LOGIN_STUDENT_SELECT_MESSAGE,
         ),
         isXVisible = false,
         isOkVisible = false,
@@ -20,8 +20,8 @@ val messages = listOf(
         content = "Symbol jest stały, zależny od szkoły. Jego podanie zazwyczaj nie jest potrzebne. Pierwsze logowanie do dziennika zalecamy wykonać przez stronę www według zaleceń szkoły",
         priority = MessagePriority.LOW,
         targetRegisterHost = RegisterAddress.VULCAN.url,
-        types = listOf(
-            MessageType.ERROR_OVERRIDE,
+        messageTypes = listOf(
+            MessageType.LOGIN_SYMBOL_MESSAGE,
         ),
         isXVisible = false,
         isOkVisible = false,
@@ -35,7 +35,7 @@ val messages = listOf(
         targetRegisterHost = RegisterAddress.VULCAN.url,
         destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy&utm_source=message",
         targetFlavor = AppFlavor.PLAY,
-        types = listOf(
+        messageTypes = listOf(
             MessageType.DASHBOARD_MESSAGE,
             MessageType.LOGIN_MESSAGE,
         ),
@@ -51,7 +51,7 @@ val messages = listOf(
         priority = MessagePriority.HIGH,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/856818469794256",
         targetRegisterHost = RegisterAddress.VULCAN.url,
-        types = listOf(
+        messageTypes = listOf(
             MessageType.DASHBOARD_MESSAGE,
             MessageType.LOGIN_MESSAGE,
         ),
@@ -65,7 +65,7 @@ val messages = listOf(
         title = "O zmianach w średniej",
         content = "Firma VULCAN (którą przecież NIE JESTEŚMY) niespodziewania dokonała zmiany w wyświetlaniu średniej w ocenach, na co Wulkanowy nie był gotowy. Dlatego nasza apka nagle mogła zacząć pokazywać inną średnią, która jest tą z tylko biezącego semestru. Niedługo będzie dostępna aktualizacja, która to naprawi",
         priority = MessagePriority.MEDIUM,
-        types = listOf(
+        messageTypes = listOf(
             MessageType.DASHBOARD_MESSAGE,
         ),
         isXVisible = false,
@@ -80,7 +80,7 @@ val messages = listOf(
         destinationUrl = "https://appgallery.huawei.com/#/app/C101440411",
         priority = MessagePriority.HIGH,
         targetFlavor = AppFlavor.HMS,
-        types = listOf(
+        messageTypes = listOf(
             MessageType.LOGIN_MESSAGE,
         ),
         isXVisible = false,
@@ -95,7 +95,7 @@ val messages = listOf(
         destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy&utm_source=message",
         priority = MessagePriority.HIGH,
         targetFlavor = AppFlavor.PLAY,
-        types = listOf(
+        messageTypes = listOf(
             MessageType.LOGIN_MESSAGE,
         ),
         isXVisible = false,
@@ -109,7 +109,7 @@ val messages = listOf(
         content = "Wiemy o problemach z lgoowaniem do Lubelskiego Portalu Oświatowego, ale niestety nie wiemy czym są one spowodowane. Badamy sprawę. Póki co zalecamy korzystanie z oficjalnej apki od VULCANa",
         priority = MessagePriority.HIGH,
         targetRegisterHost = RegisterAddress.EDU_LUBLIN.url,
-        types = listOf(
+        messageTypes = listOf(
             MessageType.LOGIN_MESSAGE,
         ),
         isXVisible = false,
@@ -124,7 +124,7 @@ val messages = listOf(
         targetRegisterHost = RegisterAddress.VULCAN.url,
         destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy&utm_source=message",
         targetFlavor = AppFlavor.PLAY,
-        types = listOf(
+        messageTypes = listOf(
             MessageType.DASHBOARD_MESSAGE,
         ),
         versionMax = 152,
@@ -139,7 +139,7 @@ val messages = listOf(
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
         destinationUrl = "https://play.google.com/store/apps/details?id=com.google.android.webview",
-        types = listOf(
+        messageTypes = listOf(
             MessageType.LOGIN_MESSAGE,
         ),
         versionMin = 151,
@@ -152,7 +152,7 @@ val messages = listOf(
         content = "Jeśli jesteś uzytkownikiem eduOne i mimo aktualizacji nic nie działa, to spróbuj wylogować się i zalogować ponownie",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
-        types = listOf(
+        messageTypes = listOf(
             MessageType.DASHBOARD_MESSAGE,
         ),
         versionMin = 151,
@@ -166,7 +166,7 @@ val messages = listOf(
         content = "W poniedziałkowej aktualizacji dziennika, VULCAN wprowadził zmianę, przez którą system eduOne nie działa w Wulkanowym. Wydaliśmy aktualizację, która rozwiązuje większość problemów (kolejna jest w drodze). Uprzejmie prosimy o zaktualizowanie aplikacji w sklepie Play lub AppGallery",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
-        types = listOf(
+        messageTypes = listOf(
             MessageType.DASHBOARD_MESSAGE,
             MessageType.LOGIN_MESSAGE,
         ),
@@ -181,7 +181,7 @@ val messages = listOf(
         content = "Obserwujemy zwiększoną liczbę zgłoszeń problemów z dziennikiem od około 1:00 w nocy z piątku na sobotę. Raczej nie się spodziewamy, że VULCAN naprawi to przed poniedziałkiem :) Zalecamy cierpliwość i nieodświeżanie apki \"na siłe\" bo to tylko pogarsza sytuację",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
-        types = listOf(
+        messageTypes = listOf(
             MessageType.DASHBOARD_MESSAGE,
             MessageType.LOGIN_MESSAGE,
         ),
@@ -197,7 +197,7 @@ val messages = listOf(
         targetRegisterHost = RegisterAddress.VULCAN.url,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/817776823698421",
         targetFlavor = AppFlavor.PLAY,
-        types = listOf(
+        messageTypes = listOf(
             MessageType.DASHBOARD_MESSAGE,
         ),
         versionMin = 148,
@@ -213,7 +213,7 @@ val messages = listOf(
         targetRegisterHost = RegisterAddress.VULCAN.url,
         destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy&utm_source=message",
         targetFlavor = AppFlavor.PLAY,
-        types = listOf(
+        messageTypes = listOf(
             MessageType.LOGIN_MESSAGE,
         ),
         versionMax = 145,
@@ -227,7 +227,7 @@ val messages = listOf(
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/807473091395461",
-        types = listOf(
+        messageTypes = listOf(
             MessageType.DASHBOARD_MESSAGE,
             MessageType.LOGIN_MESSAGE,
         ),
@@ -242,7 +242,7 @@ val messages = listOf(
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/807158678093569",
-        types = listOf(
+        messageTypes = listOf(
             MessageType.DASHBOARD_MESSAGE,
         ),
         isXVisible = true,
@@ -256,7 +256,7 @@ val messages = listOf(
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/796088305867273",
-        types = listOf(
+        messageTypes = listOf(
             MessageType.DASHBOARD_MESSAGE,
             MessageType.LOGIN_MESSAGE,
         ),
@@ -272,7 +272,7 @@ val messages = listOf(
         targetRegisterHost = RegisterAddress.VULCAN.url,
         destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy&utm_source=message",
         targetFlavor = AppFlavor.PLAY,
-        types = listOf(
+        messageTypes = listOf(
             MessageType.DASHBOARD_MESSAGE,
             MessageType.LOGIN_MESSAGE,
         ),
@@ -287,7 +287,7 @@ val messages = listOf(
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.EDU_GDANSK.url,
         destinationUrl = "https://edu.gdansk.pl/",
-        types = listOf(
+        messageTypes = listOf(
             MessageType.DASHBOARD_MESSAGE,
             MessageType.LOGIN_MESSAGE,
         ),
@@ -300,7 +300,7 @@ val messages = listOf(
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.EDU_GDANSK.url,
         destinationUrl = "https://edu.gdansk.pl/",
-        types = listOf(
+        messageTypes = listOf(
             MessageType.DASHBOARD_MESSAGE,
             MessageType.LOGIN_MESSAGE,
         ),
@@ -312,7 +312,7 @@ val messages = listOf(
         content = "„Krótka” informacja na temat tego, co się ostatnio działo z dziennikiem. Kliknij, żeby przeczytać",
         priority = MessagePriority.LOW,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/786639613478809",
-        types = listOf(
+        messageTypes = listOf(
             MessageType.DASHBOARD_MESSAGE,
             MessageType.LOGIN_MESSAGE,
         ),
@@ -328,7 +328,7 @@ val messages = listOf(
         targetRegisterHost = RegisterAddress.VULCAN.url,
         destinationUrl = "https://f-droid.org/packages/io.github.wulkanowy/",
         targetFlavor = AppFlavor.FDROID,
-        types = listOf(
+        messageTypes = listOf(
             MessageType.DASHBOARD_MESSAGE,
             MessageType.LOGIN_MESSAGE,
         ),
@@ -344,7 +344,7 @@ val messages = listOf(
         targetRegisterHost = RegisterAddress.VULCAN.url,
         destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy&utm_source=message",
         targetFlavor = AppFlavor.PLAY,
-        types = listOf(
+        messageTypes = listOf(
             MessageType.DASHBOARD_MESSAGE,
             MessageType.LOGIN_MESSAGE,
         ),
@@ -360,7 +360,7 @@ val messages = listOf(
         targetRegisterHost = RegisterAddress.VULCAN.url,
         destinationUrl = "https://appgallery.huawei.com/#/app/C101440411",
         targetFlavor = AppFlavor.HMS,
-        types = listOf(
+        messageTypes = listOf(
             MessageType.DASHBOARD_MESSAGE,
             MessageType.LOGIN_MESSAGE,
         ),
@@ -375,7 +375,7 @@ val messages = listOf(
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/786064996869604",
-        types = listOf(
+        messageTypes = listOf(
             MessageType.LOGIN_MESSAGE,
             MessageType.DASHBOARD_MESSAGE,
         ),
@@ -389,7 +389,7 @@ val messages = listOf(
         content = "Wulkanowy nie działa. Wszystkim. Wiemy o problemie, pracujemy nad jego rozwiązaniem. Nie musicie nam już zgłaszać błędów, bo wiemy o nich :)",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
-        types = listOf(
+        messageTypes = listOf(
             MessageType.LOGIN_MESSAGE,
             MessageType.DASHBOARD_MESSAGE,
         ),
@@ -403,7 +403,7 @@ val messages = listOf(
         content = "Od paru dni w Wulkanowym nie działa obsługa dziennika EduNet Miasta Tarnowa. Pracujemy nad przywróceniem działania, ale jeszcze nie wiemy ile to potrwa. W razie potrzeby skorzystania dziennika prosimy korzystać ze strony www dziennika lub oficjalnej aplikacji",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.UMT_TARNOW.url,
-        types = listOf(
+        messageTypes = listOf(
             MessageType.DASHBOARD_MESSAGE,
             MessageType.LOGIN_MESSAGE,
         ),
@@ -418,7 +418,7 @@ val messages = listOf(
         targetRegisterHost = RegisterAddress.VULCAN.url,
         destinationUrl = "https://f-droid.org/packages/io.github.wulkanowy/",
         targetFlavor = AppFlavor.FDROID,
-        types = listOf(
+        messageTypes = listOf(
             MessageType.DASHBOARD_MESSAGE,
             MessageType.LOGIN_MESSAGE,
         ),
@@ -434,7 +434,7 @@ val messages = listOf(
         targetRegisterHost = RegisterAddress.VULCAN.url,
         destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy&utm_source=message",
         targetFlavor = AppFlavor.PLAY,
-        types = listOf(
+        messageTypes = listOf(
             MessageType.DASHBOARD_MESSAGE,
             MessageType.LOGIN_MESSAGE,
         ),
@@ -450,7 +450,7 @@ val messages = listOf(
         targetRegisterHost = RegisterAddress.VULCAN.url,
         destinationUrl = "https://appgallery.huawei.com/#/app/C101440411",
         targetFlavor = AppFlavor.HMS,
-        types = listOf(
+        messageTypes = listOf(
             MessageType.DASHBOARD_MESSAGE,
             MessageType.LOGIN_MESSAGE,
         ),
@@ -464,7 +464,7 @@ val messages = listOf(
         content = "Widzisz nieznane błędy dziennika? Nie tylko ty! To przez ostatnią aktualizację systemu dziennika. Nic na to nie poradzimy i nie wiemy kiedy zostanie to naprawione",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
-        types = listOf(
+        messageTypes = listOf(
             MessageType.DASHBOARD_MESSAGE,
         ),
         versionMax = 137,
@@ -477,7 +477,7 @@ val messages = listOf(
         content = "Widzisz nieznane błędy dziennika lub komunikat \"Trwa wylogowanie...\"? Nie tylko ty! To przez ostatnią aktualizację systemu dziennika. Nic na to nie poradzimy i nie wiemy kiedy zostanie to naprawione",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
-        types = listOf(
+        messageTypes = listOf(
             MessageType.LOGIN_MESSAGE,
         ),
         versionMax = 137,
@@ -490,7 +490,7 @@ val messages = listOf(
         content = "Kliknij tutaj, by zobaczyć najczęstsze znane problemy z logowaniem.\n\nPS. Pierwsze logowanie do dziennika zalecamy robić przez stronę www dziennika według instrukcji szkoły",
         priority = MessagePriority.MEDIUM,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/711506164325488",
-        types = listOf(
+        messageTypes = listOf(
             MessageType.LOGIN_MESSAGE,
         ),
         isOkVisible = false,
@@ -502,7 +502,7 @@ val messages = listOf(
         content = "Jeśli po wpisaniu hasła zobaczysz czerwony komunikat \"Trwa wylogowywanie...\" to... spróbuj ponownie później :)",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
-        types = listOf(
+        messageTypes = listOf(
             MessageType.LOGIN_MESSAGE,
         ),
         isOkVisible = false,

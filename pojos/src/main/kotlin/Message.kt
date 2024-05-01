@@ -9,7 +9,9 @@ data class Message(
     val content: String,
     @Deprecated("use types")
     val type: MessageType? = null,
+    @Deprecated("use messageTypes")
     val types: List<MessageType>? = null,
+    val messageTypes: List<MessageType>? = null,
     val priority: MessagePriority = MessagePriority.LOW,
     val destinationUrl: String? = null,
     val versionMin: Int? = null,
