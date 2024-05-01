@@ -2,6 +2,32 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 72,
+        title = "O wyborze uczniów",
+        content = "Poniżej znajdują się szkoły i uczniowie, w których Wulkanowy wykrył uczniów podpiętych do Twojego konta. Jeśli jakiegoś ucznia brakuje to upewnij się najpierw, że po zalogowaniu przez stronę www dziennika go widać",
+        priority = MessagePriority.LOW,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        types = listOf(
+            MessageType.LOGIN_STUDENT_SELECT_MESSAGE,
+        ),
+        isXVisible = false,
+        isOkVisible = false,
+        isVisible = true,
+    ),
+    Message(
+        id = 71,
+        title = "O symbolu",
+        content = "Symbol jest stały, zależny od szkoły. Jego podanie zazwyczaj nie jest potrzebne. Pierwsze logowanie do dziennika zalecamy wykonać przez stronę www według zaleceń szkoły",
+        priority = MessagePriority.LOW,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        types = listOf(
+            MessageType.LOGIN_SYMBOL_MESSAGE,
+        ),
+        isXVisible = false,
+        isOkVisible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 70,
         title = "VULCAN NAS ZABLOKOWAŁ, ale naprawiliśmy",
         content = "Aktualizacja z łatką jest dostępna w sklepie Play. Kliknij, aby przejść do sklepu i zaktualizować",
