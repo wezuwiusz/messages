@@ -8,7 +8,7 @@ val messages = listOf(
         priority = MessagePriority.LOW,
         targetRegisterHost = RegisterAddress.VULCAN.url,
         types = listOf(
-            MessageType.LOGIN_STUDENT_SELECT_MESSAGE,
+            MessageType.PASS_RESET_MESSAGE,
         ),
         isXVisible = false,
         isOkVisible = false,
@@ -21,7 +21,7 @@ val messages = listOf(
         priority = MessagePriority.LOW,
         targetRegisterHost = RegisterAddress.VULCAN.url,
         types = listOf(
-            MessageType.LOGIN_SYMBOL_MESSAGE,
+            MessageType.ERROR_OVERRIDE,
         ),
         isXVisible = false,
         isOkVisible = false,
