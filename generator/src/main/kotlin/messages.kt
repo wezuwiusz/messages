@@ -408,7 +408,7 @@ val messages = listOf(
             MessageType.LOGIN_MESSAGE,
         ),
         isOkVisible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 44,
