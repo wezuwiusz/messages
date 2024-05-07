@@ -2,6 +2,19 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 73,
+        title = "Historia się powtarza...",
+        content = "Przez aktualizację dziennika nasza nieoficjalna apka przestała znowu działać. Wiemy o problemy i szukamy sposobu naprawy. Prosimy o zachowanie cierpliwości i przypominamy, że dziennik można też sprawdzić przez stronę www",
+        priority = MessagePriority.MEDIUM,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        messageTypes = listOf(
+            MessageType.DASHBOARD_MESSAGE,
+        ),
+        isXVisible = false,
+        isOkVisible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 72,
         title = "O wyborze uczniów",
         content = "Poniżej znajdują się szkoły i uczniowie, w których Wulkanowy wykrył uczniów podpiętych do Twojego konta. Jeśli jakiegoś ucznia brakuje to upewnij się najpierw, że po zalogowaniu przez stronę www dziennika go widać",
