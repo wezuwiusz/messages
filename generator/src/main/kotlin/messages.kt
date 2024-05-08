@@ -2,10 +2,25 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 74,
+        title = "O ostatnich problemach=",
+        content = "Historia się powtarza... kliknij, aby przeczytać podsumowanie ostatnich problmów z dostępem do dziennika przez naszą aplikację",
+        priority = MessagePriority.MEDIUM,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        destinationUrl = "https://www.facebook.com/wulkanowy/posts/865106782298758",
+        messageTypes = listOf(
+            MessageType.DASHBOARD_MESSAGE,
+        ),
+        isXVisible = true,
+        isOkVisible = false,
+        versionMin = 161,
+        isVisible = true,
+    ),
+    Message(
         id = 73,
         title = "Historia się powtarza...",
-        content = "Przez aktualizację dziennika nasza nieoficjalna apka przestała znowu działać. Niedługo pojawi się aktualizacja. Prosimy o zachowanie cierpliwości i przypominamy, że dziennik można też sprawdzać przez stronę www",
-        priority = MessagePriority.MEDIUM,
+        content = "Przez aktualizację dziennika nasza nieoficjalna apka przestała znowu działać. Aktualizacja jest już dostępna",
+        priority = MessagePriority.HIGH,
         targetRegisterHost = RegisterAddress.VULCAN.url,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/865106782298758",
         messageTypes = listOf(
@@ -14,6 +29,7 @@ val messages = listOf(
         ),
         isXVisible = false,
         isOkVisible = false,
+        versionMax = 161,
         isVisible = true,
     ),
     Message(
