@@ -4,11 +4,13 @@ val messages = listOf(
     Message(
         id = 73,
         title = "Historia się powtarza...",
-        content = "Przez aktualizację dziennika nasza nieoficjalna apka przestała znowu działać. Wiemy o problemy i szukamy sposobu naprawy. Prosimy o zachowanie cierpliwości i przypominamy, że dziennik można też sprawdzić przez stronę www",
+        content = "Przez aktualizację dziennika nasza nieoficjalna apka przestała znowu działać. Niedługo pojawi się aktualizacja. Prosimy o zachowanie cierpliwości i przypominamy, że dziennik można też sprawdzać przez stronę www",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
+        destinationUrl = "https://www.facebook.com/wulkanowy/posts/865106782298758",
         messageTypes = listOf(
             MessageType.DASHBOARD_MESSAGE,
+            MessageType.LOGIN_MESSAGE,
         ),
         isXVisible = false,
         isOkVisible = false,
