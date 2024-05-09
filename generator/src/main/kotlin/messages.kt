@@ -3,7 +3,7 @@ import io.github.wulkanowy.messages.pojo.*
 val messages = listOf(
     Message(
         id = 74,
-        title = "O ostatnich problemach=",
+        title = "O ostatnich problemach",
         content = "Historia się powtarza... kliknij, aby przeczytać podsumowanie ostatnich problmów z dostępem do dziennika przez naszą aplikację",
         priority = MessagePriority.MEDIUM,
         targetRegisterHost = RegisterAddress.VULCAN.url,
