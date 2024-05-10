@@ -2,9 +2,24 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 76,
+        title = "Drodzy użytkownicy",
+        content = "Klikajcie tutaj, żeby przeczytać wątek o ostatnich problemach",
+        priority = MessagePriority.MEDIUM,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        destinationUrl = "https://www.facebook.com/wulkanowy/posts/865106782298758",
+        messageTypes = listOf(
+            MessageType.DASHBOARD_MESSAGE,
+        ),
+        isXVisible = true,
+        isOkVisible = false,
+        isVisible = true,
+        versionMin = 164,
+    ),
+    Message(
         id = 75,
         title = "Drodzy użytkownicy",
-        content = "Zablokowali nas. Znowu",
+        content = "Zablokowali nas. Znowu. Niedługo będzie aktualizacja z poprawką",
         priority = MessagePriority.HIGH,
         targetRegisterHost = RegisterAddress.VULCAN.url,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/865106782298758",
@@ -13,9 +28,10 @@ val messages = listOf(
             MessageType.LOGIN_MESSAGE,
             MessageType.LOGIN_STUDENT_SELECT_MESSAGE,
         ),
-        isXVisible = true,
+        isXVisible = false,
         isOkVisible = false,
         isVisible = true,
+        versionMax = 163,
     ),
     Message(
         id = 74,
