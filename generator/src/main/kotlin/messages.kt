@@ -2,6 +2,24 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 77,
+        title = "Drodzy użytkownicy",
+        content = "Aktualizacja, z obejściem próby blokady nas, jest do pobrania w AppGallery",
+        priority = MessagePriority.HIGH,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        destinationUrl = "https://appgallery.huawei.com/#/app/C101440411",
+        targetFlavor = AppFlavor.HMS,
+        messageTypes = listOf(
+            MessageType.DASHBOARD_MESSAGE,
+            MessageType.LOGIN_MESSAGE,
+            MessageType.LOGIN_STUDENT_SELECT_MESSAGE,
+        ),
+        isXVisible = false,
+        isOkVisible = false,
+        isVisible = true,
+        versionMax = 163,
+    ),
+    Message(
         id = 76,
         title = "Drodzy użytkownicy",
         content = "Klikajcie tutaj, żeby przeczytać wątek o ostatnich problemach",
@@ -19,10 +37,11 @@ val messages = listOf(
     Message(
         id = 75,
         title = "Drodzy użytkownicy",
-        content = "Zablokowali nas. Znowu. Niedługo będzie aktualizacja z poprawką",
+        content = "Aktualizacja, z obejściem próby blokady nas, jest do pobrania w sklepie Play",
         priority = MessagePriority.HIGH,
         targetRegisterHost = RegisterAddress.VULCAN.url,
-        destinationUrl = "https://www.facebook.com/wulkanowy/posts/865106782298758",
+        destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy",
+        targetFlavor = AppFlavor.PLAY,
         messageTypes = listOf(
             MessageType.DASHBOARD_MESSAGE,
             MessageType.LOGIN_MESSAGE,
