@@ -2,6 +2,22 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 75,
+        title = "Drodzy użytkownicy",
+        content = "Zablokowali nas. Znowu",
+        priority = MessagePriority.HIGH,
+        targetRegisterHost = RegisterAddress.VULCAN.url,
+        destinationUrl = "https://www.facebook.com/wulkanowy/posts/865106782298758",
+        messageTypes = listOf(
+            MessageType.DASHBOARD_MESSAGE,
+            MessageType.LOGIN_MESSAGE,
+            MessageType.LOGIN_STUDENT_SELECT_MESSAGE,
+        ),
+        isXVisible = true,
+        isOkVisible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 74,
         title = "O ostatnich problemach",
         content = "Historia się powtarza... kliknij, aby przeczytać podsumowanie ostatnich problmów z dostępem do dziennika przez naszą aplikację",
