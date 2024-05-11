@@ -10,8 +10,15 @@ val json = Json {
     explicitNulls = false
 }
 
-fun generateJson(messages: List<Message>): String {
+fun generateMessagesJson(messages: List<Message>): String {
     return json.encodeToString(messages.addNewTypeMigration())
+}
+
+fun generateMappingJson(
+    endpoints: Map<String, Map<String, Map<String, String>>>,
+    vToken: Map<String, Map<String, Map<String, String>>>,
+): String {
+    return json.encodeToString(mapOf("endpoints" to endpoints, "vTokens" to vToken))
 }
 
 private val supportedTypes130 = listOf(
