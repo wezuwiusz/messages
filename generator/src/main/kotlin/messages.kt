@@ -4,7 +4,7 @@ val messages = listOf(
     Message(
         id = 77,
         title = "Drodzy użytkownicy",
-        content = "Aktualizacja, z obejściem próby blokady nas, jest do pobrania w AppGallery",
+        content = "Aktualizacja naprawiająca większość błedów jest dostępna do pobrania w AppGallery. Niestety eduOne ciągle nie działa",
         priority = MessagePriority.HIGH,
         destinationUrl = "https://appgallery.huawei.com/#/app/C101440411",
         targetFlavor = AppFlavor.HMS,
@@ -21,11 +21,13 @@ val messages = listOf(
     Message(
         id = 76,
         title = "Drodzy użytkownicy",
-        content = "Klikajcie tutaj, żeby przeczytać wątek o ostatnich problemach",
+        content = "Klikajcie tutaj, żeby przeczytać wątek o ostatnich problemach.\n\nPS. eduOne ciągle nie działa",
         priority = MessagePriority.MEDIUM,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/865106782298758",
         messageTypes = listOf(
             MessageType.DASHBOARD_MESSAGE,
+            MessageType.LOGIN_MESSAGE,
+            MessageType.LOGIN_STUDENT_SELECT_MESSAGE,
         ),
         isXVisible = true,
         isOkVisible = false,
@@ -35,7 +37,7 @@ val messages = listOf(
     Message(
         id = 75,
         title = "Drodzy użytkownicy",
-        content = "Aktualizacja, z obejściem próby blokady nas, jest do pobrania w sklepie Play",
+        content = "Aktualizacja naprawiająca większość błedów jest dostępna do pobrania w sklepie Play. Niestety eduOne ciągle nie działa",
         priority = MessagePriority.HIGH,
         destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy",
         targetFlavor = AppFlavor.PLAY,
