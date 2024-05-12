@@ -20,6 +20,9 @@ val messages = listOf(
         content = "Niestety aktualizacje z F-Droid pojawiają się z dużym opóźnieniem i nie mamy na to wpływu. Jeśli masz problemy z aplikacją to zalecamy instalację Wulkanowego ze sklepu Play lub z apk dostępnego na naszej stronie. Kliknij, aby przejść do niej",
         priority = MessagePriority.HIGH,
         targetFlavor = AppFlavor.FDROID,
+        messageTypes = listOf(
+            MessageType.GENERAL_MESSAGE,
+        ),
         destinationUrl = "https://wulkanowy.github.io/",
         versionMax = 164,
         isOkVisible = false,
@@ -31,6 +34,9 @@ val messages = listOf(
         content = "Jeśli na wersji której używasz występują problemy, to zaktualizuj Wulkanowego do najnowszej wersji w AppGallery. Bez aktualizacji samo się nie naprawi :)",
         priority = MessagePriority.MEDIUM,
         targetFlavor = AppFlavor.HMS,
+        messageTypes = listOf(
+            MessageType.GENERAL_MESSAGE,
+        ),
         destinationUrl = "https://appgallery.huawei.com/#/app/C101440411",
         versionMax = 164,
         isOkVisible = false,
@@ -42,6 +48,9 @@ val messages = listOf(
         content = "Jeśli na wersji której używasz występują problemy, to zaktualizuj Wulkanowego do najnowszej wersji w sklepie Play. Bez aktualizacji samo się nie naprawi :)",
         priority = MessagePriority.MEDIUM,
         targetFlavor = AppFlavor.PLAY,
+        messageTypes = listOf(
+            MessageType.GENERAL_MESSAGE,
+        ),
         destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy",
         versionMax = 164,
         isOkVisible = false,
