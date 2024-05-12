@@ -15,7 +15,7 @@ val messages = listOf(
         ),
         isXVisible = false,
         isOkVisible = false,
-        isVisible = true,
+        isVisible = false,
         versionMax = 163,
     ),
     Message(
@@ -31,7 +31,7 @@ val messages = listOf(
         ),
         isXVisible = true,
         isOkVisible = false,
-        isVisible = true,
+        isVisible = false,
         versionMin = 164,
         versionMax = 164,
     ),
@@ -49,7 +49,7 @@ val messages = listOf(
         ),
         isXVisible = false,
         isOkVisible = false,
-        isVisible = true,
+        isVisible = false,
         versionMax = 163,
     ),
     Message(
@@ -64,7 +64,7 @@ val messages = listOf(
         isXVisible = true,
         isOkVisible = false,
         versionMin = 161,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 73,
@@ -79,7 +79,7 @@ val messages = listOf(
         isXVisible = false,
         isOkVisible = false,
         versionMax = 161,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 72,
@@ -120,7 +120,7 @@ val messages = listOf(
         versionMax = 156,
         isXVisible = false,
         isOkVisible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 69,
@@ -135,7 +135,7 @@ val messages = listOf(
         ),
         isXVisible = false,
         isOkVisible = false,
-        isVisible = true,
+        isVisible = false,
         versionMax = 156,
     ),
     Message(
@@ -148,7 +148,7 @@ val messages = listOf(
         ),
         isXVisible = false,
         isOkVisible = false,
-        isVisible = true,
+        isVisible = false,
         versionMax = 155,
     ),
     Message(
@@ -163,7 +163,7 @@ val messages = listOf(
         ),
         isXVisible = false,
         isOkVisible = false,
-        isVisible = true,
+        isVisible = false,
         versionMax = 154,
     ),
     Message(
@@ -178,7 +178,7 @@ val messages = listOf(
         ),
         isXVisible = false,
         isOkVisible = false,
-        isVisible = true,
+        isVisible = false,
         versionMax = 154,
     ),
     Message(
@@ -251,7 +251,7 @@ val messages = listOf(
         versionMax = 150,
         isXVisible = false,
         isOkVisible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 60,
@@ -296,7 +296,7 @@ val messages = listOf(
         ),
         versionMax = 145,
         isOkVisible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 57,
@@ -356,7 +356,7 @@ val messages = listOf(
         ),
         versionMax = 143,
         isOkVisible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 53,
@@ -428,7 +428,7 @@ val messages = listOf(
         ),
         versionMax = 140,
         isOkVisible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 48,
@@ -444,7 +444,7 @@ val messages = listOf(
         ),
         versionMax = 140,
         isOkVisible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 47,
@@ -502,7 +502,7 @@ val messages = listOf(
         ),
         versionMax = 137,
         isOkVisible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 43,
@@ -518,7 +518,7 @@ val messages = listOf(
         ),
         versionMax = 137,
         isOkVisible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 42,
@@ -534,7 +534,7 @@ val messages = listOf(
         ),
         versionMax = 137,
         isOkVisible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 41,
@@ -632,7 +632,7 @@ val messages = listOf(
         destinationUrl = "https://appgallery.huawei.com/#/app/C101440411",
         versionMax = 129,
         isOkVisible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 32,
@@ -643,7 +643,7 @@ val messages = listOf(
         destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy",
         versionMax = 129,
         isOkVisible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 31,
@@ -725,7 +725,7 @@ val messages = listOf(
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/546997824109657",
         versionMax = 116,
         isOkVisible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 23,
@@ -755,7 +755,7 @@ val messages = listOf(
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/534950415314398",
         versionMax = 115,
         isOkVisible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 20,
@@ -802,7 +802,7 @@ val messages = listOf(
         versionMin = 108,
         versionMax = 111,
         isOkVisible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 15,
@@ -823,7 +823,7 @@ val messages = listOf(
         destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy",
         versionMax = 107,
         isOkVisible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 13,
@@ -834,7 +834,7 @@ val messages = listOf(
         destinationUrl = "https://appgallery.huawei.com/#/app/C101440411",
         versionMax = 107,
         isOkVisible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 12,
@@ -879,7 +879,7 @@ val messages = listOf(
         priority = MessagePriority.HIGH,
         targetFlavor = AppFlavor.HMS,
         versionMax = 107,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 7,
@@ -889,7 +889,7 @@ val messages = listOf(
         priority = MessagePriority.HIGH,
         targetFlavor = AppFlavor.PLAY,
         versionMax = 107,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 6,
@@ -918,7 +918,7 @@ val messages = listOf(
         targetRegisterHost = RegisterAddress.EDU_GDANSK.url,
         targetFlavor = AppFlavor.HMS,
         versionMax = 101,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 3,
@@ -929,7 +929,7 @@ val messages = listOf(
         targetRegisterHost = RegisterAddress.EDU_GDANSK.url,
         targetFlavor = AppFlavor.PLAY,
         versionMax = 101,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 2,
