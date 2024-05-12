@@ -7,6 +7,9 @@ val messages = listOf(
         content = "Wulkanowy, będący nieoficjalną aplikacją, stał się najwyraźniej niewygodny dla... wiadomo kogo :) Z tego powodu w ostatnim czasie tyle informacji o blokadach naszej apki i prób jej blokowania.\nKliknij, żeby przejść do wątku na Facebooku",
         priority = MessagePriority.LOW,
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/865106782298758",
+        messageTypes = listOf(
+            MessageType.DASHBOARD_MESSAGE,
+        ),
         versionMin = 165,
         isXVisible = true,
         isVisible = true,
@@ -14,7 +17,7 @@ val messages = listOf(
     Message(
         id = 80,
         title = "Używasz starej wersji aplikacji",
-        content = "Niestety aktualizacje z F-Droid pojawiaą się z dużym opóźnieniem i nie mamy na to wpływu. Jeśli masz problemy z aplikacją to zalecamy instalację Wulkanowego ze sklepu Play lub z apk dostępnego na naszej stronie. Kliknij, aby przejść do niej",
+        content = "Niestety aktualizacje z F-Droid pojawiają się z dużym opóźnieniem i nie mamy na to wpływu. Jeśli masz problemy z aplikacją to zalecamy instalację Wulkanowego ze sklepu Play lub z apk dostępnego na naszej stronie. Kliknij, aby przejść do niej",
         priority = MessagePriority.HIGH,
         targetFlavor = AppFlavor.FDROID,
         destinationUrl = "https://wulkanowy.github.io/",
