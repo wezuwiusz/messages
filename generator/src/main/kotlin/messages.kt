@@ -33,6 +33,7 @@ val messages = listOf(
         isOkVisible = false,
         isVisible = true,
         versionMin = 164,
+        versionMax = 164,
     ),
     Message(
         id = 75,
