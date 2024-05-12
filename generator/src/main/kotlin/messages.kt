@@ -2,6 +2,40 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 80,
+        title = "Używasz starej wersji aplikacji",
+        content = "Niestety aktualizacje z F-Droid pojawiaą się z dużym opóźnieniem i nie mamy na to wpływu. Jeśli masz problemy z aplikacją to zalecamy instalację Wulkanowego ze sklepu Play lub z apk dostępnego na naszej stronie. Kliknij, aby przejść do niej",
+        priority = MessagePriority.HIGH,
+        targetFlavor = AppFlavor.FDROID,
+        destinationUrl = "https://wulkanowy.github.io/",
+        versionMax = 164,
+        isOkVisible = false,
+        isVisible = true,
+    ),
+    Message(
+        id = 79,
+        title = "Dostępna aktualizacja",
+        content = "Jeśli na wersji której używasz występują problemy to zaktualizuj Wulkanowego do najnowszej wersji w AppGallery. Bez aktualizacji samo się nie naprawi :)",
+        priority = MessagePriority.MEDIUM,
+        targetFlavor = AppFlavor.HMS,
+        destinationUrl = "https://appgallery.huawei.com/#/app/C101440411",
+        versionMax = 164,
+        isOkVisible = false,
+        isVisible = true,
+    ),
+    Message(
+        id = 78,
+        title = "Dostępna aktualizacja",
+        content = "Jeśli na wersji której używasz występują problemy to zaktualizuj Wulkanowego do najnowszej wersji w sklepie Play. Bez aktualizacji samo się nie naprawi :)",
+        priority = MessagePriority.MEDIUM,
+        targetFlavor = AppFlavor.PLAY,
+        destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy",
+        versionMax = 164,
+        isOkVisible = false,
+        isVisible = true,
+    ),
+
+    Message(
         id = 77,
         title = "Drodzy użytkownicy",
         content = "Aktualizacja naprawiająca większość błedów jest dostępna do pobrania w AppGallery. Niestety eduOne ciągle nie działa",
