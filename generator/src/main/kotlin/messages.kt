@@ -2,6 +2,16 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 81,
+        title = "O przyczynie ostatnich problemów",
+        content = "Wulkanowy, będący nieoficjalną aplikacją, stał się najwyraźniej niewygodny dla... wiadomo kogo :) Z tego powodu w ostatnim czasie tyle informacji o blokadach naszej apki i prób jej blokowania.\nKliknij, żeby przejść do wątku na Facebooku",
+        priority = MessagePriority.LOW,
+        destinationUrl = "https://www.facebook.com/wulkanowy/posts/865106782298758",
+        versionMin = 165,
+        isXVisible = true,
+        isVisible = true,
+    ),
+    Message(
         id = 80,
         title = "Używasz starej wersji aplikacji",
         content = "Niestety aktualizacje z F-Droid pojawiaą się z dużym opóźnieniem i nie mamy na to wpływu. Jeśli masz problemy z aplikacją to zalecamy instalację Wulkanowego ze sklepu Play lub z apk dostępnego na naszej stronie. Kliknij, aby przejść do niej",
@@ -15,7 +25,7 @@ val messages = listOf(
     Message(
         id = 79,
         title = "Dostępna aktualizacja",
-        content = "Jeśli na wersji której używasz występują problemy to zaktualizuj Wulkanowego do najnowszej wersji w AppGallery. Bez aktualizacji samo się nie naprawi :)",
+        content = "Jeśli na wersji której używasz występują problemy, to zaktualizuj Wulkanowego do najnowszej wersji w AppGallery. Bez aktualizacji samo się nie naprawi :)",
         priority = MessagePriority.MEDIUM,
         targetFlavor = AppFlavor.HMS,
         destinationUrl = "https://appgallery.huawei.com/#/app/C101440411",
@@ -26,7 +36,7 @@ val messages = listOf(
     Message(
         id = 78,
         title = "Dostępna aktualizacja",
-        content = "Jeśli na wersji której używasz występują problemy to zaktualizuj Wulkanowego do najnowszej wersji w sklepie Play. Bez aktualizacji samo się nie naprawi :)",
+        content = "Jeśli na wersji której używasz występują problemy, to zaktualizuj Wulkanowego do najnowszej wersji w sklepie Play. Bez aktualizacji samo się nie naprawi :)",
         priority = MessagePriority.MEDIUM,
         targetFlavor = AppFlavor.PLAY,
         destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy",
