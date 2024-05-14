@@ -206,6 +206,14 @@ val ApiEndpointsMap = mapOf(
             "ZebraniaObecnosc" to "a4b6e50d-704d-47aa-baa1-cc18cf0685cc",
             "ZgloszoneNieobecnosci" to "cc9b9bdd-39b5-4772-905f-5cb11ff48fc9",
         ),
+        "uonetplus-wiadomosciplus" to mapOf(
+            "WiadomoscSzczegoly" to "ba1abab4-5725-4483-942e-c6f016fdf25c",
+            "WiadomoscOdpowiedzPrzekaz" to "24592d75-3dbb-4238-9a5f-48f7da951673",
+            "WiadomoscNowa" to "28409679-2864-454c-add1-5c7025f51489",
+            "Pracownicy" to "3c6002ef-477d-4258-81ac-ebfd4d6b9759",
+            "MoveTrash" to "1dbc70aa-be5d-463d-9763-0d82cf8f22de",
+            "RestoreTrash" to "e47d302c-035d-4bbe-bdb7-ae1b7658c549",
+        ),
     ),
 )
 
