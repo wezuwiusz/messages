@@ -7,7 +7,12 @@ fun main() {
 
     val messagesV1 = generateMessagesJson(filteredMessages)
     val mappingV1 = generateMappingJson(
-        endpoints = ApiEndpointsMap,
+        endpoints = ApiEndpointsMap165,
+        vTokenMap = ApiEndpointsVTokenMap,
+        vTokenSchemeMap = ApiEndpointsVTokenSchemeMap,
+    )
+    val mappingV2 = generateMappingJson(
+        endpoints = ApiEndpointsMap166,
         vTokenMap = ApiEndpointsVTokenMap,
         vTokenSchemeMap = ApiEndpointsVTokenSchemeMap,
     )
@@ -15,5 +20,6 @@ fun main() {
 
     File("../dist/v1.json").writeText(messagesV1)
     File("../dist/mapping1.json").writeText(mappingV1)
+    File("../dist/mapping2.json").writeText(mappingV2)
     File("../dist/index.html").writeText(html)
 }
