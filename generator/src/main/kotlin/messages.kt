@@ -9,7 +9,7 @@ val messages = listOf(
         messageTypes = listOf(
             MessageType.GENERAL_MESSAGE,
         ),
-        destinationUrl = "https://www.facebook.com/wulkanowy/posts/869272875215482"
+        destinationUrl = "https://www.facebook.com/wulkanowy/posts/869272875215482",
         versionMin = 165,
         isXVisible = false,
         isVisible = true,
