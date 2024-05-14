@@ -251,3 +251,12 @@ val ApiEndpointsVTokenMap = mapOf(
         ),
     ),
 )
+
+val ApiEndpointsVTokenSchemeMap = mapOf(
+    "24.04.0003.58698" to mapOf(
+        "uonetplus-wiadomosciplus" to "{UUID}-{name}-{appCustomerDb}-{appVersion}",
+    ),
+    "24.04.0004.58722" to mapOf(
+        "uonetplus-wiadomosciplus" to "{UUID}-{appCustomerDb}-{appVersion}",
+    ),
+)

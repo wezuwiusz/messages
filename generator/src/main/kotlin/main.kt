@@ -6,7 +6,11 @@ fun main() {
     val filteredMessages = messages.filter { it.isVisible }
 
     val messagesV1 = generateMessagesJson(filteredMessages)
-    val mappingV1 = generateMappingJson(ApiEndpointsMap, ApiEndpointsVTokenMap)
+    val mappingV1 = generateMappingJson(
+        endpoints = ApiEndpointsMap,
+        vTokenMap = ApiEndpointsVTokenMap,
+        vTokenSchemeMap = ApiEndpointsVTokenSchemeMap,
+    )
     val html = generateHtml(filteredMessages)
 
     File("../dist/v1.json").writeText(messagesV1)

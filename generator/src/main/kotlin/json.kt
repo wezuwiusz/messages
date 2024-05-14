@@ -16,9 +16,16 @@ fun generateMessagesJson(messages: List<Message>): String {
 
 fun generateMappingJson(
     endpoints: Map<String, Map<String, Map<String, String>>>,
-    vToken: Map<String, Map<String, Map<String, String>>>,
+    vTokenMap: Map<String, Map<String, Map<String, String>>>,
+    vTokenSchemeMap: Map<String, Map<String, String>>,
 ): String {
-    return json.encodeToString(mapOf("endpoints" to endpoints, "vTokens" to vToken))
+    return json.encodeToString(
+        mapOf(
+            "endpoints" to endpoints,
+            "vTokens" to vTokenMap,
+            "vTokenScheme" to vTokenSchemeMap,
+        )
+    )
 }
 
 private val supportedTypes130 = listOf(
