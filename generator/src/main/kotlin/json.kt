@@ -20,10 +20,10 @@ fun generateMappingJson(
     vTokenSchemeMap: Map<String, Map<String, String>>,
 ): String {
     return json.encodeToString(
-        mapOf(
-            "endpoints" to endpoints,
-            "vTokens" to vTokenMap,
-            "vTokenScheme" to vTokenSchemeMap,
+        Mapping(
+            endpoints = endpoints,
+            vTokens = vTokenMap,
+            vTokenScheme = vTokenSchemeMap,
         )
     )
 }
