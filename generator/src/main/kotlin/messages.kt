@@ -2,6 +2,18 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 82,
+        title = "Znowu nas zablokowali",
+        content = "Wulkanowy został ponownie zablokowoany przez firmę o której mówić nie można. Pracujemy już nad poprawkami które naprawią aplikację",
+        priority = MessagePriority.HIGH,
+        messageTypes = listOf(
+            MessageType.GENERAL_MESSAGE,
+        ),
+        versionMin = 165,
+        isXVisible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 81,
         title = "O przyczynie ostatnich problemów",
         content = "Wulkanowy, będący nieoficjalną aplikacją, stał się najwyraźniej niewygodny dla... wiadomo kogo :) Z tego powodu w ostatnim czasie tyle informacji o blokadach naszej apki i prób jej blokowania.\nKliknij, żeby przejść do wątku na Facebooku",
@@ -12,7 +24,7 @@ val messages = listOf(
         ),
         versionMin = 165,
         isXVisible = true,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 80,
