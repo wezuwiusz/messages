@@ -163,6 +163,33 @@ val ApiEndpointsMap = mapOf(
             "RestoreTrash" to "caf5eacb-a2ab-44d7-82c1-bcbd0b7612ed",
         ),
     ),
+    "24.04.0004.58722" to mapOf(
+        "uonetplus-uczen" to mapOf(
+            "EgzaminyZewnetrzne" to "18d9c26a-0ee4-400b-959b-56a01d5e3bea",
+            "Frekwencja" to "26517c9a-a193-410f-b9a2-70cbcc98a542",
+            "FrekwencjaStatystyki" to "9a216ff7-4a99-48ce-9876-e1d1ec756e25",
+            "FrekwencjaStatystykiPrzedmioty" to "47d27f71-0ebb-4e2a-b0bd-664281397420",
+            "Homework" to "c913fbbb-e163-4427-b2f9-82cdf3f3db8c",
+            "LekcjeZaplanowane" to "bf20db85-be85-41b1-a857-a663bdc9e112",
+            "LekcjeZrealizowane" to "5bde0359-6b17-45d5-8004-d8f86b3991b5",
+            "Oceny" to  "52d0e143-54b9-4131-8e40-44478135e7d7",
+            "Ogloszenia" to "3fc35e9e-1b0a-4589-b517-f09c66a27704",
+            "PlanZajec" to "f6d28f27-284a-40bc-af75-060838ad9b54",
+            "PodrecznikiLataSzkolne" to "87d29cc9-eeb9-4185-bbf3-3c60beb0560c",
+            "PodrecznikiUcznia" to "828eb747-99c4-42d8-99ee-a0b6c0cc00d1",
+            "RejestracjaUrzadzeniaToken" to "da3c352f-81ec-4aa9-9481-e3fc79d55701",
+            "RejestracjaUrzadzeniaTokenCertyfikat" to "da3c352f-81ec-4aa9-9481-e3fc79d55701",
+            "Sprawdziany" to "1ce3d57f-72a0-487e-84f2-ad1690ec41bb",
+            "SzkolaINauczyciele" to "4642415b-947d-4ec9-955f-0af48a7e5b9b",
+            "Uczen" to "d8756ab6-cffa-4c36-a525-08796c6540e7",
+            "UczenCache" to "a0bb024d-647e-4ee9-8bc6-6fc649925585",
+            "UczenDziennik" to "7459f626-08ff-4ae5-874e-ab5f9e68a565",
+            "UczenZdjecie" to "b56f7048-2630-4950-a941-47d8f7f97386",
+            "UwagiIOsiagniecia" to "74fd052f-eb86-496b-a5e7-7f1a53e908f5",
+            "ZarejestrowaneUrzadzenia" to "32e18d4e-5702-4bdb-ab9d-1987cb5749f8",
+            "Zebrania" to "94ae9ded-cc09-48e1-898f-84bbb6cc85a5",
+        )
+    ),
 )
 
 val ApiEndpointsVTokenMap = mapOf(
