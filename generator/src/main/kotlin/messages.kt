@@ -3,12 +3,13 @@ import io.github.wulkanowy.messages.pojo.*
 val messages = listOf(
     Message(
         id = 82,
-        title = "Znowu nas zablokowali",
-        content = "Wulkanowy został ponownie zablokowoany przez firmę o której mówić nie można. Pracujemy już nad poprawkami które naprawią aplikację",
-        priority = MessagePriority.HIGH,
+        title = "Informacje o aktualnym stanie",
+        content = "Wulkanowy został ponownie zablokowoany przez firmę o której mówić nie można. Przywróciliśmy działanie części aplikacji. Nie działają tylko Wiadomości i uczniowie z systemem EduOne.\nKliknij, żeby przejść do wątku na Facebooku",
+        priority = MessagePriority.MEDIUM,
         messageTypes = listOf(
             MessageType.GENERAL_MESSAGE,
         ),
+        destinationUrl = "https://www.facebook.com/wulkanowy/posts/869272875215482"
         versionMin = 165,
         isXVisible = false,
         isVisible = true,
