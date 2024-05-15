@@ -4,7 +4,7 @@ val messages = listOf(
     Message(
         id = 82,
         title = "Informacje o aktualnym stanie",
-        content = "Wulkanowy został ponownie zablokowoany przez firmę o której mówić nie można. Przywróciliśmy działanie części aplikacji. Nie działają tylko Wiadomości i uczniowie z systemem EduOne.\nKliknij, żeby przejść do wątku na Facebooku",
+        content = "Wulkanowy został ponownie zablokowany przez firmę, o której mówić nie można. Przywróciliśmy działanie aplikacji. Jeśli nie działają wiadomości, to zaktualizuj apkę. Niestety nadal nie działa EduOne.\nKliknij, żeby przejść do wątku na Facebooku",
         priority = MessagePriority.MEDIUM,
         messageTypes = listOf(
             MessageType.GENERAL_MESSAGE,
