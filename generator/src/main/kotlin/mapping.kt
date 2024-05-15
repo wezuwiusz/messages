@@ -308,6 +308,21 @@ val ApiEndpointsMap166 = mapOf(
     ),
     "24.04.0005.58736" to mapOf(
         "uonetplus-uczen" to ApiEndpoints0005Student,
+        "uonetplus-wiadomosciplus" to mapOf(
+            "Skrzynki" to "d5b9960b-2219-43e2-b5d6-fd26462b8d93",
+            "Odebrane" to "0c37d367-4ec9-44c3-8f76-ca66c21dfde7",
+            "OdebraneSkrzynka" to "ee8f83ab-c15e-4674-99b8-f36113c0f55d",
+            "Wyslane" to "09b50259-54e8-40f8-bbe0-5e45d2eb9170",
+            "WyslaneSkrzynka" to "fce8bde0-79f1-49f1-8c74-15c7d2afd15a",
+            "Usuniete" to "db885258-86de-4d3b-9bd3-ce20c366f1f6",
+            "UsunieteSkrzynka" to "fc060d87-23e1-4200-b4bf-b9525072a66a",
+            "WiadomoscSzczegoly" to "67123fc2-61f3-4b4d-93e2-05166f00b00b",
+            "WiadomoscOdpowiedzPrzekaz" to "020cf8bf-30ea-458d-ab6a-1aa41d8e2162",
+            "WiadomoscNowa" to "bb023253-3976-4257-b510-5c8c827f70f2",
+            "Pracownicy" to "d34320d6-4acd-4cec-b959-35a3de5cdf25",
+            "MoveTrash" to "63ba79a2-ea29-49e2-bf94-43fc5f7f2989",
+            "RestoreTrash" to "38828e7a-d1bd-4054-832b-2fc1d124e41e",
+        )
     ),
 )
 
@@ -355,6 +370,17 @@ val ApiEndpointsVTokenMap = mapOf(
             "UsunieteSkrzynka" to "82dd1d9b-6dd9-4f55-8698-5af0c5c55dd1",
         ),
     ),
+    "24.04.0005.58736" to mapOf(
+        "uonetplus-wiadomosciplus" to mapOf(
+            "Skrzynki" to "0de7ceb4-175a-42ca-a8d2-09410c5841b0",
+            "Odebrane" to "a34390ce-3af3-496a-97c5-6e28dca9edb8",
+            "OdebraneSkrzynka" to "749ddb70-72cf-4861-a4eb-751b368e46cd",
+            "Wyslane" to "4b891b13-ecaa-47a5-be24-f8808d94e226",
+            "WyslaneSkrzynka" to "045cc8fb-1f83-47e7-8f13-06978a33000b",
+            "Usuniete" to "b79ebf8a-db1c-4658-a3b5-a9effca3facf",
+            "UsunieteSkrzynka" to "620429d7-57b7-474b-b978-adfa1dc7049a",
+        ),
+    ),
 )
 
 val ApiEndpointsVTokenSchemeMap = mapOf(
@@ -363,5 +389,8 @@ val ApiEndpointsVTokenSchemeMap = mapOf(
     ),
     "24.04.0004.58722" to mapOf(
         "uonetplus-wiadomosciplus" to "{UUID}-{appCustomerDb}-{appVersion}",
+    ),
+    "24.04.0005.58736" to mapOf(
+        "uonetplus-wiadomosciplus" to "{UUID}-{appCustomerDb}-{appVersion}-{apiKey}",
     ),
 )
