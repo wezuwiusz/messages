@@ -288,6 +288,50 @@ private val ApiEndpoints0005Student = mapOf(
     "ZgloszoneNieobecnosci" to "bd469d6f-be21-4806-a1fe-d93fefbb10d6",
 )
 
+private val ApiEndpoints0006Student = mapOf(
+    "Autoryzacja" to "48000dd3-47f4-420c-be20-02f2f8ea7519"
+    "DostepOffice" to "e2521d26-8247-4aa7-a30d-74957530e9d6"
+    "EgzaminySemestralne" to "37fd9e21-5d07-4f37-a84c-985fa219400d"
+    "EgzaminyZewnetrzne" to "1e7839ea-d736-4408-ba9a-2f0e5ef4e481"
+    "EwidencjaObecnosci" to "a894cd94-9107-49f5-b4b7-1db873bc72ff"
+    "FormularzeSzablony" to "8114ebf1-3d3f-45d9-b0f6-b964bf7c76fe"
+    "FormularzeWysylanie" to "84f76c91-a7c2-481b-94d0-5cd51764d1e1"
+    "Frekwencja" to "ab864850-7fbc-4699-bd2b-f4d14a1c6dfc"
+    "FrekwencjaStatystyki" to "24f19397-4859-405f-8574-0ea44f13ad32"
+    "FrekwencjaStatystykiPrzedmioty" to "79ef0465-026d-4a5b-a0af-2a5f375a1089"
+    "Homework" to "d3f909d5-63d0-44c2-a404-132e0ddac121"
+    "Jadlospis" to "61c0e909-c307-402b-8cb1-67029ffdeca6"
+    "LekcjeZaplanowane" to "0fe7707d-fbbd-4757-ac94-a6f58335eaea"
+    "LekcjeZrealizowane" to "13ac9c1d-a53d-4250-9111-ebccbd44e28b"
+    "Oceny" to "1bb0dc78-acef-4430-8f66-46f482259142"
+    "Ogloszenia" to "c30df593-1907-48ce-a752-5cfd5ed03f24"
+    "Oplaty" to "51ae0f70-6327-430c-a7f1-be036e8e44e2"
+    "PlanZajec" to "01c94be1-ac72-4aca-95e4-29342dc57782"
+    "Platnosc" to "6d4957dc-1418-41db-9598-18d12a870217"
+    "PlatnoscMetadata" to "9d2cc24a-c022-4a40-9e7c-662e398b797c"
+    "PodrecznikiLataSzkolne" to "e278e2c3-6fd9-472e-9963-60e1a10290d6"
+    "PodrecznikiUcznia" to "568a3da1-2c5c-4ea2-8f24-f1fbc0d3bae4"
+    "Pomoc" to "db34bd5f-1417-4479-ba4b-2e847dc7781e"
+    "RejestracjaUrzadzeniaToken" to "0d7ec4e7-afcb-4fca-9b9b-7102804f4af9"
+    "RejestracjaUrzadzeniaTokenCertyfikat" to "9c675268-4e7f-43ba-924d-cbe0bbe20321"
+    "RozpoczeciePlatnosci" to "f2ba09db-727b-4c61-927e-6e7b7b350926"
+    "ScalanieKont" to "ea1f58ea-2f27-41bb-b94d-818a8fbecabc"
+    "Sprawdziany" to "6f43a00d-2846-4be3-b8d3-49a42f18acd9"
+    "Statystyki" to "59a8772d-8082-4927-8351-a711da917995"
+    "SzkolaINauczyciele" to "4aafbcb8-0b92-4dcb-849a-1a69f8d0cf63"
+    "Uczen" to "badb2896-942f-4c80-8eeb-a6c0cdaada96"
+    "UczenCache" to "be5e0cdc-b442-41ea-8079-1fc2ebde99a8"
+    "UczenDziennik" to "1c462d92-8b30-4c3d-9803-cc1caac26da0"
+    "UczenZdjecie" to "8923cafb-ff76-4305-84c3-d2ae4891306c"
+    "Usprawiedliwienia" to "982537df-6fb1-47ef-a9e0-1ee68e3b868f"
+    "UwagiIOsiagniecia" to "e5cd2a74-a930-46a4-81db-66cd05506cff"
+    "ZarejestrowaneUrzadzenia" to "77d0875d-4c5e-4903-94cc-5757e6081288"
+    "Zebrania" to "f455060f-76e6-4d43-9708-0ba51a4778f6"
+    "ZebraniaObecnosc" to "638ed2ad-0cce-4736-bd55-40b8f6977767"
+    "ZgloszoneNieobecnosci" to "5e394724-80f5-4472-9858-b769cdc3c4fd"
+)
+
+
 val ApiEndpointsMap165 = mapOf(
     "24.04.0002.58666" to ApiEndpoints0002,
     "24.04.0003.58698" to ApiEndpoints0003,
@@ -297,6 +341,9 @@ val ApiEndpointsMap165 = mapOf(
     ),
     "24.04.0005.58736" to mapOf(
         "uonetplus-uczen" to ApiEndpoints0005Student,
+    ),
+    "24.04.0006.58753" to mapOf(
+        "uonetplus-uczen" to ApiEndpoints0006Student,
     ),
 )
 val ApiEndpointsMap166 = mapOf(
@@ -309,6 +356,24 @@ val ApiEndpointsMap166 = mapOf(
     "24.04.0005.58736" to mapOf(
         "uonetplus-uczen" to ApiEndpoints0005Student,
         "uonetplus-wiadomosciplus" to mapOf(
+            "Skrzynki" to "d5b9960b-2219-43e2-b5d6-fd26462b8d93",
+            "Odebrane" to "0c37d367-4ec9-44c3-8f76-ca66c21dfde7",
+            "OdebraneSkrzynka" to "ee8f83ab-c15e-4674-99b8-f36113c0f55d",
+            "Wyslane" to "09b50259-54e8-40f8-bbe0-5e45d2eb9170",
+            "WyslaneSkrzynka" to "fce8bde0-79f1-49f1-8c74-15c7d2afd15a",
+            "Usuniete" to "db885258-86de-4d3b-9bd3-ce20c366f1f6",
+            "UsunieteSkrzynka" to "fc060d87-23e1-4200-b4bf-b9525072a66a",
+            "WiadomoscSzczegoly" to "67123fc2-61f3-4b4d-93e2-05166f00b00b",
+            "WiadomoscOdpowiedzPrzekaz" to "020cf8bf-30ea-458d-ab6a-1aa41d8e2162",
+            "WiadomoscNowa" to "bb023253-3976-4257-b510-5c8c827f70f2",
+            "Pracownicy" to "d34320d6-4acd-4cec-b959-35a3de5cdf25",
+            "MoveTrash" to "63ba79a2-ea29-49e2-bf94-43fc5f7f2989",
+            "RestoreTrash" to "38828e7a-d1bd-4054-832b-2fc1d124e41e",
+        )
+    ),
+    "24.04.0006.58753" to mapOf(
+        "uonetplus-uczen" to ApiEndpoints0006Student,
+        "uonetplus-wiadomosciplus" to mapOf( // FIXME
             "Skrzynki" to "d5b9960b-2219-43e2-b5d6-fd26462b8d93",
             "Odebrane" to "0c37d367-4ec9-44c3-8f76-ca66c21dfde7",
             "OdebraneSkrzynka" to "ee8f83ab-c15e-4674-99b8-f36113c0f55d",
@@ -381,6 +446,17 @@ val ApiEndpointsVTokenMap = mapOf(
             "UsunieteSkrzynka" to "620429d7-57b7-474b-b978-adfa1dc7049a",
         ),
     ),
+    "24.04.0006.58753" to mapOf( // FIXME
+        "uonetplus-wiadomosciplus" to mapOf(
+            "Skrzynki" to "0de7ceb4-175a-42ca-a8d2-09410c5841b0",
+            "Odebrane" to "a34390ce-3af3-496a-97c5-6e28dca9edb8",
+            "OdebraneSkrzynka" to "749ddb70-72cf-4861-a4eb-751b368e46cd",
+            "Wyslane" to "4b891b13-ecaa-47a5-be24-f8808d94e226",
+            "WyslaneSkrzynka" to "045cc8fb-1f83-47e7-8f13-06978a33000b",
+            "Usuniete" to "b79ebf8a-db1c-4658-a3b5-a9effca3facf",
+            "UsunieteSkrzynka" to "620429d7-57b7-474b-b978-adfa1dc7049a",
+        ),
+    ),
 )
 
 val ApiEndpointsVTokenSchemeMap = mapOf(
@@ -392,5 +468,8 @@ val ApiEndpointsVTokenSchemeMap = mapOf(
     ),
     "24.04.0005.58736" to mapOf(
         "uonetplus-wiadomosciplus" to "{UUID}-{appCustomerDb}-{appVersion}-{apiKey}",
+    ),
+    "24.04.0005.58736" to mapOf(
+        "uonetplus-wiadomosciplus" to "{UUID}-{appCustomerDb}-{appVersion}-{apiKey}", // FIXME
     ),
 )
