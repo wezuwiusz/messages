@@ -373,20 +373,20 @@ val ApiEndpointsMap166 = mapOf(
     ),
     "24.04.0006.58753" to mapOf(
         "uonetplus-uczen" to ApiEndpoints0006Student,
-        "uonetplus-wiadomosciplus" to mapOf( // FIXME
-            "Skrzynki" to "d5b9960b-2219-43e2-b5d6-fd26462b8d93",
-            "Odebrane" to "0c37d367-4ec9-44c3-8f76-ca66c21dfde7",
-            "OdebraneSkrzynka" to "ee8f83ab-c15e-4674-99b8-f36113c0f55d",
-            "Wyslane" to "09b50259-54e8-40f8-bbe0-5e45d2eb9170",
-            "WyslaneSkrzynka" to "fce8bde0-79f1-49f1-8c74-15c7d2afd15a",
-            "Usuniete" to "db885258-86de-4d3b-9bd3-ce20c366f1f6",
-            "UsunieteSkrzynka" to "fc060d87-23e1-4200-b4bf-b9525072a66a",
-            "WiadomoscSzczegoly" to "67123fc2-61f3-4b4d-93e2-05166f00b00b",
-            "WiadomoscOdpowiedzPrzekaz" to "020cf8bf-30ea-458d-ab6a-1aa41d8e2162",
-            "WiadomoscNowa" to "bb023253-3976-4257-b510-5c8c827f70f2",
-            "Pracownicy" to "d34320d6-4acd-4cec-b959-35a3de5cdf25",
-            "MoveTrash" to "63ba79a2-ea29-49e2-bf94-43fc5f7f2989",
-            "RestoreTrash" to "38828e7a-d1bd-4054-832b-2fc1d124e41e",
+        "uonetplus-wiadomosciplus" to mapOf(
+            "Skrzynki" to "5a974012-36a9-4438-ba79-7fa49dfe0b80",
+            "Odebrane" to "729ab399-a18b-42d1-8d8e-64212e1ed38a",
+            "OdebraneSkrzynka" to "c623a66d-e5ff-4156-a89a-713c59da1258",
+            "Wyslane" to "f08fb519-69f0-431c-946b-6bca1459cea8",
+            "WyslaneSkrzynka" to "35af724e-d964-4191-ab32-7272a8d91aaa",
+            "Usuniete" to "f7a83737-2377-4796-bd98-c7148988c02d",
+            "UsunieteSkrzynka" to "fdd0ce95-b9b9-432a-ac67-45cf9dea0872",
+            "WiadomoscSzczegoly" to "b6cbb0b5-57bc-4efc-8d0f-cfca7f2d13c2",
+            "WiadomoscOdpowiedzPrzekaz" to "b8c15629-f7bd-4d18-8a7a-d414e8560ba0",
+            "WiadomoscNowa" to "67601f5e-c268-43d6-8083-09c4dc3381e6",
+            "Pracownicy" to "8c104c09-55b2-44b8-9b6a-22bd5cb86f39",
+            "MoveTrash" to "51a490c5-a6dc-4cff-9216-b2dadb0707df",
+            "RestoreTrash" to "c9848486-e687-4179-a73e-55b1781f3e19",
         )
     ),
 )
@@ -446,15 +446,15 @@ val ApiEndpointsVTokenMap = mapOf(
             "UsunieteSkrzynka" to "620429d7-57b7-474b-b978-adfa1dc7049a",
         ),
     ),
-    "24.04.0006.58753" to mapOf( // FIXME
+    "24.04.0006.58753" to mapOf(
         "uonetplus-wiadomosciplus" to mapOf(
-            "Skrzynki" to "0de7ceb4-175a-42ca-a8d2-09410c5841b0",
-            "Odebrane" to "a34390ce-3af3-496a-97c5-6e28dca9edb8",
-            "OdebraneSkrzynka" to "749ddb70-72cf-4861-a4eb-751b368e46cd",
-            "Wyslane" to "4b891b13-ecaa-47a5-be24-f8808d94e226",
-            "WyslaneSkrzynka" to "045cc8fb-1f83-47e7-8f13-06978a33000b",
-            "Usuniete" to "b79ebf8a-db1c-4658-a3b5-a9effca3facf",
-            "UsunieteSkrzynka" to "620429d7-57b7-474b-b978-adfa1dc7049a",
+            "Skrzynki" to "3d3b9fb5-1471-4a32-9cae-cfc7e578ec44",
+            "Odebrane" to "7c3a7ff9-04b6-4a0a-9cfd-b62d2089becc",
+            "OdebraneSkrzynka" to "af38e4f6-882a-4bf7-8391-965bcbf81d98",
+            "Wyslane" to "e4380487-89c8-445c-a28e-984284a8bf2b",
+            "WyslaneSkrzynka" to "2d8ddc9b-ed39-4093-9604-7247884753cd",
+            "Usuniete" to "6fb7f517-7287-41c3-8d30-64e654f647a7",
+            "UsunieteSkrzynka" to "937cd3ba-6fa9-4e44-bb99-e4fd282803c2",
         ),
     ),
 )
