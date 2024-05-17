@@ -4,14 +4,14 @@ val messages = listOf(
     Message(
         id = 83,
         title = "Informacje o aktualnym stanie",
-        content = "Wulkanowy został ponownie zablokowany przez firmę Vulcan ale już przywróciliśmy pełną funkcjonalność aplikacji. \n\nKliknij, żeby przejść do wątku na Facebooku",
+        content = "Wulkanowy został ponownie zablokowany przez firmę Vulcan. Przywróciliśmy część funkcjonalności aplikacji. Nie działa moduł ucznia eduOne. \n\nKliknij, żeby przejść do wątku na Facebooku",
         priority = MessagePriority.MEDIUM,
         messageTypes = listOf(
-            MessageType.DASHBOARD_MESSAGE,
+            MessageType.GENERAL_MESSAGE,
         ),
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/869272875215482",
         versionMin = 168,
-        isXVisible = true,
+        isXVisible = false,
         isVisible = true,
     ),
     Message(
