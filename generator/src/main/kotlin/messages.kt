@@ -2,6 +2,19 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 83,
+        title = "Informacje o aktualnym stanie",
+        content = "Wulkanowy został ponownie zablokowany przez firmę Vulcan ale już przywróciliśmy pełną funkcjonalność aplikacji. \n\nKliknij, żeby przejść do wątku na Facebooku",
+        priority = MessagePriority.MEDIUM,
+        messageTypes = listOf(
+            MessageType.DASHBOARD_MESSAGE,
+        ),
+        destinationUrl = "https://www.facebook.com/wulkanowy/posts/869272875215482",
+        versionMin = 168,
+        isXVisible = true,
+        isVisible = true,
+    ),
+    Message(
         id = 82,
         title = "Informacje o aktualnym stanie",
         content = "Wulkanowy został ponownie zablokowany przez firmę Vulcan. Przywróciliśmy działanie modułu uczeń. Wiadomości znowu nie działają w piątek. Za parę godzin będzie aktualizacja.\nKliknij, żeby przejść do wątku na Facebooku",
@@ -10,6 +23,7 @@ val messages = listOf(
             MessageType.GENERAL_MESSAGE,
         ),
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/869272875215482",
+        versionMax = 167,
         versionMin = 165,
         isXVisible = false,
         isVisible = true,
