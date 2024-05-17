@@ -2,6 +2,34 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 85,
+        title = "Dostępna aktualizacja",
+        content = "Wulkanowy został ponownie zablokowany przez firmę Vulcan. Dostępna jest aktulizacja naprawiająca część funkcji aplikacji.",
+        priority = MessagePriority.MEDIUM,
+        targetFlavor = AppFlavor.HMS,
+        messageTypes = listOf(
+            MessageType.GENERAL_MESSAGE,
+        ),
+        destinationUrl = "https://appgallery.huawei.com/#/app/C101440411",
+        versionMax = 167,
+        isXVisible = false,
+        isVisible = true,
+    ),
+    Message(
+        id = 84,
+        title = "Dostępna aktualizacja",
+        content = "Wulkanowy został ponownie zablokowany przez firmę Vulcan. Dostępna jest aktulizacja naprawiająca część funkcji aplikacji.",
+        priority = MessagePriority.MEDIUM,
+        targetFlavor = AppFlavor.PLAY,
+        messageTypes = listOf(
+            MessageType.GENERAL_MESSAGE,
+        ),
+        destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy",
+        versionMax = 167,
+        isXVisible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 83,
         title = "Informacje o aktualnym stanie",
         content = "Wulkanowy został ponownie zablokowany przez firmę Vulcan. Przywróciliśmy część funkcjonalności aplikacji. Nie działa moduł ucznia eduOne. \n\nKliknij, żeby przejść do wątku na Facebooku",
@@ -26,7 +54,7 @@ val messages = listOf(
         versionMax = 167,
         versionMin = 165,
         isXVisible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 81,
