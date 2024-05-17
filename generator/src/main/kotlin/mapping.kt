@@ -396,7 +396,7 @@ val ApiEndpointsMap166 = mapOf(
             // "AutoryzacjaPesel" to "AutoryzacjaPesel",
             "Frekwencja" to "686d7b16-e83e-46ab-bb94-c50db61ebb7f",
             "Usprawiedliwienia" to "0d8b19a8-a654-4249-8ae9-dc20114063bc",
-            "FrekwencjaStatystyki" to "0fc4d586-dc34-4013-9599-0aaf93eac84",
+            "FrekwencjaStatystyki" to "0fc4d586-dc34-4013-9599-0aaf93eac847",
             "ZarejestrowaneUrzadzenia" to "6adb7f16-f4ae-43a1-9909-f16c0b99a574",
             "RejestracjaUrzadzeniaToken" to "bb3dca90-bcaf-4e6d-9b71-97af697a88ce",
             "Zebrania" to "38bab3c8-1ebb-45e8-9b7c-454b71bad009",
