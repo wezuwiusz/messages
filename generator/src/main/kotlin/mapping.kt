@@ -389,6 +389,24 @@ val ApiEndpointsMap166 = mapOf(
             "RestoreTrash" to "c9848486-e687-4179-a73e-55b1781f3e19",
         )
     ),
+    "24.04.0007.58773" to mapOf(
+        "uonetplus-uczen" to ApiEndpoints0006Student,
+        "uonetplus-wiadomosciplus" to mapOf(
+            "Skrzynki" to "5a974012-36a9-4438-ba79-7fa49dfe0b80",
+            "Odebrane" to "729ab399-a18b-42d1-8d8e-64212e1ed38a",
+            "OdebraneSkrzynka" to "c623a66d-e5ff-4156-a89a-713c59da1258",
+            "Wyslane" to "f08fb519-69f0-431c-946b-6bca1459cea8",
+            "WyslaneSkrzynka" to "35af724e-d964-4191-ab32-7272a8d91aaa",
+            "Usuniete" to "f7a83737-2377-4796-bd98-c7148988c02d",
+            "UsunieteSkrzynka" to "fdd0ce95-b9b9-432a-ac67-45cf9dea0872",
+            "WiadomoscSzczegoly" to "b6cbb0b5-57bc-4efc-8d0f-cfca7f2d13c2",
+            "WiadomoscOdpowiedzPrzekaz" to "b8c15629-f7bd-4d18-8a7a-d414e8560ba0",
+            "WiadomoscNowa" to "67601f5e-c268-43d6-8083-09c4dc3381e6",
+            "Pracownicy" to "8c104c09-55b2-44b8-9b6a-22bd5cb86f39",
+            "MoveTrash" to "51a490c5-a6dc-4cff-9216-b2dadb0707df",
+            "RestoreTrash" to "c9848486-e687-4179-a73e-55b1781f3e19",
+        )
+    ),
 )
 
 val ApiEndpointsVTokenMap = mapOf(
