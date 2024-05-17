@@ -475,6 +475,17 @@ val ApiEndpointsVTokenMap = mapOf(
             "UsunieteSkrzynka" to "937cd3ba-6fa9-4e44-bb99-e4fd282803c2",
         ),
     ),
+    "24.04.0007.58773" to mapOf(
+        "uonetplus-wiadomosciplus" to mapOf(
+            "Skrzynki" to "3d3b9fb5-1471-4a32-9cae-cfc7e578ec44",
+            "Odebrane" to "7c3a7ff9-04b6-4a0a-9cfd-b62d2089becc",
+            "OdebraneSkrzynka" to "af38e4f6-882a-4bf7-8391-965bcbf81d98",
+            "Wyslane" to "e4380487-89c8-445c-a28e-984284a8bf2b",
+            "WyslaneSkrzynka" to "2d8ddc9b-ed39-4093-9604-7247884753cd",
+            "Usuniete" to "6fb7f517-7287-41c3-8d30-64e654f647a7",
+            "UsunieteSkrzynka" to "937cd3ba-6fa9-4e44-bb99-e4fd282803c2",
+        ),
+    ),
 )
 
 val ApiEndpointsVTokenSchemeMap = mapOf(
@@ -487,7 +498,10 @@ val ApiEndpointsVTokenSchemeMap = mapOf(
     "24.04.0005.58736" to mapOf(
         "uonetplus-wiadomosciplus" to "{UUID}-{appCustomerDb}-{appVersion}-{apiKey}",
     ),
-    "24.04.0005.58736" to mapOf(
-        "uonetplus-wiadomosciplus" to "{UUID}-{appCustomerDb}-{appVersion}-{apiKey}", // FIXME
+    "24.04.0006.58753" to mapOf(
+        "uonetplus-wiadomosciplus" to "{UUID}-{appCustomerDb}-{appVersion}-{apiKey}",
+    ),
+    "24.04.0007.58773" to mapOf(
+        "uonetplus-wiadomosciplus" to "{UUID}-{appCustomerDb}-{appVersion}-{apiKey}",
     ),
 )

@@ -4,7 +4,7 @@ val messages = listOf(
     Message(
         id = 82,
         title = "Informacje o aktualnym stanie",
-        content = "Wulkanowy został ponownie zablokowany przez firmę Vulcan. Przywróciliśmy działanie modułu uczeń. Poprawka z odczytywaniem wiadomości znajduje się w wersji 2.6.7 (do pobrania w sklepie Play teraz).\nKliknij, żeby przejść do wątku na Facebooku",
+        content = "Wulkanowy został ponownie zablokowany przez firmę Vulcan. Przywróciliśmy działanie modułu uczeń. Wiadomości znowu nie działają w piątek. Za parę godzin będzie aktualizacja.\nKliknij, żeby przejść do wątku na Facebooku",
         priority = MessagePriority.MEDIUM,
         messageTypes = listOf(
             MessageType.GENERAL_MESSAGE,
