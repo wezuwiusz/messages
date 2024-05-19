@@ -333,7 +333,7 @@ val messages = listOf(
         ),
         versionMin = 151,
         isOkVisible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 62,
