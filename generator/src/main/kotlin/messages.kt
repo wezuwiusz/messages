@@ -1,6 +1,19 @@
 import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
+     Message(
+        id = 86,
+        title = "Informacje o aktualnym stanie",
+        content = "Z powodu ostatnich blokad dziennika przez firmę VULCAN, u niektórych użytkowników mogą nadal występować problemy z ładowaniem danych. Pracujemy nad poprawkami.",
+        priority = MessagePriority.MEDIUM,
+        targetFlavor = AppFlavor.HMS,
+        messageTypes = listOf(
+            MessageType.GENERAL_MESSAGE,
+        ),
+        versionMin = 169,
+        isXVisible = true,
+        isVisible = true,
+    )
     Message(
         id = 85,
         title = "Dostępna aktualizacja",
