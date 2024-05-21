@@ -12,7 +12,7 @@ val messages = listOf(
         versionMin = 169,
         isXVisible = true,
         isVisible = true,
-    )
+    ),
     Message(
         id = 85,
         title = "Dostępna aktualizacja",
