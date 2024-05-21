@@ -6,7 +6,6 @@ val messages = listOf(
         title = "Informacje o aktualnym stanie",
         content = "Z powodu ostatnich blokad dziennika przez firmę VULCAN, u niektórych użytkowników mogą nadal występować problemy z ładowaniem danych. Pracujemy nad poprawkami.",
         priority = MessagePriority.MEDIUM,
-        targetFlavor = AppFlavor.HMS,
         messageTypes = listOf(
             MessageType.GENERAL_MESSAGE,
         ),
