@@ -2,6 +2,21 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 89,
+        title = "Dostępna aktualizacja",
+        content = "Wulkanowy został ponownie zablokowany przez firmę VULCAN. W sklepie AppGallery dostępna jest już aktualizacja naprawiająca część funkcji.",
+        priority = MessagePriority.MEDIUM,
+        targetFlavor = AppFlavor.HMS,
+        messageTypes = listOf(
+            MessageType.GENERAL_MESSAGE,
+        ),
+        destinationUrl = "https://appgallery.huawei.com/#/app/C101440411",
+        versionMin = 169,
+        versionMax = 170,
+        isXVisible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 88,
         title = "Informacje o aktualnym stanie",
         content = "Wulkanowy został ponownie zablokowany przez firmę VULCAN. Udało nam się przywrócić część funkcji aplikacji, jednak nadal mogą występować problemy z systemem Uczeń Plus (eduOne). Pracujemy nad kolejnymi poprawkami.\n\nKliknij, żeby przejść do wątku na Facebooku",
