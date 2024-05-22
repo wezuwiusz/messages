@@ -3,14 +3,16 @@ import io.github.wulkanowy.messages.pojo.*
 val messages = listOf(
      Message(
         id = 87,
-        title = "Blokada dziennika",
-        content = "Dzisiaj od rana ponownie dostajemy informacje o kolejnych blokadach dziennika wypuszczonych przez firmę VULCAN. Pracujemy nad poprawkami.\n\nKliknij, żeby przejść do wątku na Facebooku",
+        title = "Dostępna aktualizacja",
+        content = "Wulkanowy został ponownie zablokowany przez firmę VULCAN. W sklepie Google Play dostępna jest już aktualizacja naprawiająca część funkcji.",
         priority = MessagePriority.MEDIUM,
+        targetFlavor = AppFlavor.PLAY,
         messageTypes = listOf(
             MessageType.GENERAL_MESSAGE,
         ),
-        destinationUrl = "https://www.facebook.com/wulkanowy/posts/874741898001913",
+        destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy",
         versionMin = 169,
+        versionMax = 170,
         isXVisible = false,
         isVisible = true,
     ),
