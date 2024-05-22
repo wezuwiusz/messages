@@ -331,6 +331,49 @@ private val ApiEndpoints0006Student = mapOf(
     "ZgloszoneNieobecnosci" to "5e394724-80f5-4472-9858-b769cdc3c4fd",
 )
 
+private val ApiEndpoints0007Student = mapOf(
+    "Autoryzacja" to "",
+    "DostepOffice" to "",
+    "EgzaminySemestralne" to "",
+    "EgzaminyZewnetrzne" to "b8d28e7c-4b00-4a4a-abff-6eac436ea3fb",
+    "EwidencjaObecnosci" to "",
+    "FormularzeSzablony" to "",
+    "FormularzeWysylanie" to "",
+    "Frekwencja" to "f4c2509c-6edf-4a72-ac54-a87f30bfd84c",
+    "FrekwencjaStatystyki" to "ea014f22-525e-43a5-b710-1466048eb1a9",
+    "FrekwencjaStatystykiPrzedmioty" to "6d4c61da-2c43-4e56-b502-ba0ecb1b3a55",
+    "Homework" to "58073991-c9bd-4292-9ca1-2c5978378350",
+    "Jadlospis" to "",
+    "LekcjeZaplanowane" to "",
+    "LekcjeZrealizowane" to "",
+    "Oceny" to "76bd5155-3de3-44a1-b467-69d1c9e1ee6b",
+    "Ogloszenia" to "b5ce837f-f22f-4636-803e-3ebffcd56c65",
+    "Oplaty" to "",
+    "PlanZajec" to "db190396-14b8-4b7c-8ac7-b5ca5258a612",
+    "Platnosc" to "",
+    "PlatnoscMetadata" to "",
+    "PodrecznikiLataSzkolne" to "",
+    "PodrecznikiUcznia" to "",
+    "Pomoc" to "",
+    "RejestracjaUrzadzeniaToken" to "0d76b985-584a-4e5a-933e-96a12af404ff",
+    "RejestracjaUrzadzeniaTokenCertyfikat" to "7a5ac559-24fc-4e1b-ae43-4cf4a1cb61bf",
+    "RozpoczeciePlatnosci" to "",
+    "ScalanieKont" to "",
+    "Sprawdziany" to "3135d485-1e91-493d-95ed-087484634316",
+    "Statystyki" to "168228d4-5faa-492c-9066-f8dee19c9de5",
+    "SzkolaINauczyciele" to "7ad2dec1-fc3d-4cb3-9f79-32828d236e18",
+    "Uczen" to "a7120c5e-1d86-46ae-b7d6-5735b8cb5bd6",
+    "UczenCache" to "86da1228-334d-447b-9c43-2047f757571e",
+    "UczenDziennik" to "a02089e4-d37c-469c-a29f-2fd39245a62e",
+    "UczenZdjecie" to "1264beee-8d94-4a40-8b41-7f5102ed964b",
+    "Usprawiedliwienia" to "",
+    "UwagiIOsiagniecia" to "",
+    "ZarejestrowaneUrzadzenia" to "8c879c3f-3a25-4de5-990c-6c304e035f42",
+    "Zebrania" to "014f1192-369f-4d89-9189-9284022caa82",
+    "ZebraniaObecnosc" to "",
+    "ZgloszoneNieobecnosci" to "",
+)
+
 
 val ApiEndpointsMap165 = mapOf(
     "24.04.0002.58666" to ApiEndpoints0002,
@@ -344,6 +387,9 @@ val ApiEndpointsMap165 = mapOf(
     ),
     "24.04.0006.58753" to mapOf(
         "uonetplus-uczen" to ApiEndpoints0006Student,
+    ),
+    "24.04.0008.58830" to mapOf(
+        "uonetplus-uczen" to ApiEndpoints0007Student,
     ),
 )
 val ApiEndpointsMap166 = mapOf(
@@ -429,6 +475,9 @@ val ApiEndpointsMap166 = mapOf(
             "MoveTrash" to "51a490c5-a6dc-4cff-9216-b2dadb0707df",
             "RestoreTrash" to "c9848486-e687-4179-a73e-55b1781f3e19",
         )
+    ),
+    "24.04.0008.58830" to mapOf(
+        "uonetplus-uczen" to ApiEndpoints0007Student,
     ),
 )
 
