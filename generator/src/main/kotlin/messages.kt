@@ -2,6 +2,19 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
      Message(
+        id = 87,
+        title = "Blokada dziennika",
+        content = "Dzisiaj od rana ponownie dostajemy informacje o kolejnych blokadach dziennika wypuszczonych przez firmę VULCAN. Pracujemy nad poprawkami.\n\nKliknij, żeby przejść do wątku na Facebooku"
+        priority = MessagePriority.MEDIUM,
+        messageTypes = listOf(
+            MessageType.GENERAL_MESSAGE,
+        ),
+        destinationUrl = "https://www.facebook.com/wulkanowy/posts/874741898001913"
+        versionMin = 169,
+        isXVisible = false,
+        isVisible = false,
+    ),
+     Message(
         id = 86,
         title = "Informacje o aktualnym stanie",
         content = "Z powodu ostatnich blokad dziennika przez firmę VULCAN, u niektórych użytkowników mogą nadal występować problemy z ładowaniem danych. Pracujemy nad poprawkami.",
@@ -11,7 +24,7 @@ val messages = listOf(
         ),
         versionMin = 169,
         isXVisible = true,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 85,
