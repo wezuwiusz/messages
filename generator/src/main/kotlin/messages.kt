@@ -4,12 +4,12 @@ val messages = listOf(
      Message(
         id = 87,
         title = "Blokada dziennika",
-        content = "Dzisiaj od rana ponownie dostajemy informacje o kolejnych blokadach dziennika wypuszczonych przez firmę VULCAN. Pracujemy nad poprawkami.\n\nKliknij, żeby przejść do wątku na Facebooku"
+        content = "Dzisiaj od rana ponownie dostajemy informacje o kolejnych blokadach dziennika wypuszczonych przez firmę VULCAN. Pracujemy nad poprawkami.\n\nKliknij, żeby przejść do wątku na Facebooku",
         priority = MessagePriority.MEDIUM,
         messageTypes = listOf(
             MessageType.GENERAL_MESSAGE,
         ),
-        destinationUrl = "https://www.facebook.com/wulkanowy/posts/874741898001913"
+        destinationUrl = "https://www.facebook.com/wulkanowy/posts/874741898001913",
         versionMin = 169,
         isXVisible = false,
         isVisible = false,
