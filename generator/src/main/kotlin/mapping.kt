@@ -478,6 +478,21 @@ val ApiEndpointsMap166 = mapOf(
     ),
     "24.04.0008.58830" to mapOf(
         "uonetplus-uczen" to ApiEndpoints0007Student,
+        "uonetplus-wiadomosciplus" to mapOf(
+            "Skrzynki" to "a9421a22-455e-4831-8ba6-a02728ea21ba",
+            "Odebrane" to "363e98ea-d59e-4b45-b486-8ccbe6ad5f18",
+            "OdebraneSkrzynka" to "01a643e9-692c-406a-9188-d762eebe6e79",
+            "Wyslane" to "ab12c0c9-3404-4de3-b8f5-e64b084f7b31",
+            "WyslaneSkrzynka" to "af044079-41f6-4acf-906e-9830712d9819",
+            "Usuniete" to "abb2959a-716b-44ee-a9e3-f4395dbf9c87",
+            "UsunieteSkrzynka" to "a14ca076-175c-480b-b309-a4cc7f8d0d4b",
+            "WiadomoscSzczegoly" to "c4c1293c-8a63-4234-815a-de4148678d70",
+            "WiadomoscOdpowiedzPrzekaz" to "3ec48fb2-5bfc-4aff-93e7-baf216b9be10",
+            "WiadomoscNowa" to "2f51daf7-fac2-4a6b-abb8-a9175c9180fd",
+            "Pracownicy" to "d4339385-03d7-4d79-aa1f-bd6d7e18be59",
+            "MoveTrash" to "f6ebf886-0c58-4c8d-ae5e-98b2c2deceb7",
+            "RestoreTrash" to "87807c99-997a-48a4-a46f-4d1fe79154cd",
+        ),
     ),
 )
 
@@ -581,6 +596,17 @@ val ApiEndpointsVTokenMap = mapOf(
             "Oceny" to "86f8dd7b-e144-42d9-a389-0648503a479d",
         ),
     ),
+    "24.04.0008.58830" to mapOf(
+        "uonetplus-wiadomosciplus" to mapOf(
+            "Skrzynki" to "CUoEEhi",
+            "Odebrane" to "WrC0slg3Ma",
+            "OdebraneSkrzynka" to "3qrXHuBl",
+            "Wyslane" to "qe4fuJlU",
+            "WyslaneSkrzynka" to "HK1HkSixd",
+            "Usuniete" to "YU3NfDlYW6",
+            "UsunieteSkrzynka" to "anl2rbbj",
+        ),
+    ),
 )
 
 val ApiEndpointsVTokenSchemeMap = mapOf(
@@ -599,5 +625,8 @@ val ApiEndpointsVTokenSchemeMap = mapOf(
     "24.04.0007.58773" to mapOf(
         "uonetplus-wiadomosciplus" to "{UUID}-{appCustomerDb}-{appVersion}-{apiKey}",
         "uonetplus-uczenplus" to "{UUID}-{appCustomerDb}-{appVersion}-{apiKey}",
+    ),
+    "24.04.0008.58830" to mapOf(
+        "uonetplus-wiadomosciplus" to "{UUID}-{appCustomerDb}-{appCustomerDbSig}-{appVersion}-{apiKey}",
     ),
 )
