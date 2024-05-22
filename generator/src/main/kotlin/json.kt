@@ -3,6 +3,7 @@ import io.github.wulkanowy.messages.pojo.MessageType
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
+import mapping.Mapping
 
 @OptIn(ExperimentalSerializationApi::class)
 val json = Json {
@@ -18,12 +19,14 @@ fun generateMappingJson(
     endpoints: Map<String, Map<String, Map<String, String>>>,
     vTokenMap: Map<String, Map<String, Map<String, String>>>,
     vTokenSchemeMap: Map<String, Map<String, String>>,
+    vHeaders: Map<String, Map<String, Map<String, String>>> = mapOf(),
 ): String {
     return json.encodeToString(
         Mapping(
             endpoints = endpoints,
             vTokens = vTokenMap,
             vTokenScheme = vTokenSchemeMap,
+            vHeaders = vHeaders,
         )
     )
 }

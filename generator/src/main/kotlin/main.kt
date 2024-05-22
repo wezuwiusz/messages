@@ -1,3 +1,7 @@
+import mapping.ApiEndpointsMap
+import mapping.ApiEndpointsVHeaders
+import mapping.ApiEndpointsVTokenMap
+import mapping.ApiEndpointsVTokenSchemeMap
 import java.io.File
 
 fun main() {
@@ -7,14 +11,15 @@ fun main() {
 
     val messagesV1 = generateMessagesJson(filteredMessages)
     val mappingV1 = generateMappingJson(
-        endpoints = ApiEndpointsMap165,
+        endpoints = ApiEndpointsMap,
         vTokenMap = ApiEndpointsVTokenMap,
         vTokenSchemeMap = ApiEndpointsVTokenSchemeMap,
     )
     val mappingV2 = generateMappingJson(
-        endpoints = ApiEndpointsMap166,
+        endpoints = ApiEndpointsMap,
         vTokenMap = ApiEndpointsVTokenMap,
         vTokenSchemeMap = ApiEndpointsVTokenSchemeMap,
+        vHeaders = ApiEndpointsVHeaders,
     )
     val html = generateHtml(filteredMessages)
 
