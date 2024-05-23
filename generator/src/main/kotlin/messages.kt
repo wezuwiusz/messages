@@ -2,6 +2,17 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 90,
+        title = "Wulkanowy znowu zablokowany",
+        content = "Udało nam się przywrócić działanie modułu Uczeń. Nie działają wiadomości i Uczeń Plus. Prosimy o korzystanie ze strony www dziennika",
+        priority = MessagePriority.HIGH,
+        messageTypes = listOf(
+            MessageType.GENERAL_MESSAGE,
+        ),
+        isXVisible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 89,
         title = "Dostępna aktualizacja",
         content = "Wulkanowy został ponownie zablokowany przez firmę VULCAN. W sklepie AppGallery dostępna jest już aktualizacja naprawiająca część funkcji.",
@@ -14,7 +25,7 @@ val messages = listOf(
         versionMin = 169,
         versionMax = 170,
         isXVisible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 88,
@@ -27,7 +38,7 @@ val messages = listOf(
         destinationUrl = "https://www.facebook.com/wulkanowy/posts/874741898001913",
         versionMin = 170,
         isXVisible = false,
-        isVisible = true,
+        isVisible = false,
     ),
      Message(
         id = 87,
@@ -42,7 +53,7 @@ val messages = listOf(
         versionMin = 169,
         versionMax = 170,
         isXVisible = false,
-        isVisible = true,
+        isVisible = false,
     ),
      Message(
         id = 86,
@@ -68,7 +79,7 @@ val messages = listOf(
         destinationUrl = "https://appgallery.huawei.com/#/app/C101440411",
         versionMax = 167,
         isXVisible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 84,
@@ -82,7 +93,7 @@ val messages = listOf(
         destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy",
         versionMax = 167,
         isXVisible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 83,
