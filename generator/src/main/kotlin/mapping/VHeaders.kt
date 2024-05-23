@@ -44,4 +44,12 @@ val ApiEndpointsVHeaders = mapOf(
             "V-Apitoken" to "{UUID}-{appCustomerDb}-{appCustomerDbSig}-{appVersion}-{apiKey}",
         ),
     ),
+    "24.04.0009.58848" to mapOf(
+        // "uonetplus-wiadomosciplus" to mapOf(
+        //     "V-Apitoken" to "{UUID}-{appCustomerDb}-{appCustomerDbSig}-{appVersion}-{apiKey}",
+        // ),
+        "uonetplus-uczenplus" to mapOf(
+            "V-Apitoken" to "{UUID}-{appCustomerDb}-{appCustomerDbSig}-{appVersion}-{apiKey}",
+        ),
+    ),
 )
