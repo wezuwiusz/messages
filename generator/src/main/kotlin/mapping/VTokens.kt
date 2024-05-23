@@ -126,7 +126,7 @@ val ApiEndpointsVTokenMap = mapOf(
             "PlanZajec" to "At8M",
             "DniWolne" to "vXIzq",
             "Uwagi" to "TO9M0Q0Pyx",
-            "Nauczyciele" to "Qskx6"
+            "Nauczyciele" to "Qskx6",
             "Informacje" to "o8HckhUU",
             "DaneUcznia" to "7YzGe",
             "UczenZdjecie" to "cJ5XVtL",
