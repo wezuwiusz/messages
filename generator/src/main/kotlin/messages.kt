@@ -2,6 +2,17 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 91,
+        title = "Wulkanowy znowu nie działa",
+        content = "Jeśli logujesz się teraz do Wulkanowego, to prawdopodobnie ci się nie uda. Jeśli jesteś już zalogowany, to skorzystaj z przycisku Otwierającego stronę dziennika na najnowszej wersji aplikacji",
+        priority = MessagePriority.HIGH,
+        messageTypes = listOf(
+            MessageType.GENERAL_MESSAGE,
+        ),
+        isXVisible = false,
+        isVisible = false,
+    ),
+    Message(
         id = 90,
         title = "Wulkanowy znowu zablokowany",
         content = "Udało nam się przywrócić działanie modułu Uczeń. Nie działają wiadomości i Uczeń Plus. Prosimy o korzystanie ze strony www dziennika",
@@ -10,7 +21,7 @@ val messages = listOf(
             MessageType.GENERAL_MESSAGE,
         ),
         isXVisible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 89,
