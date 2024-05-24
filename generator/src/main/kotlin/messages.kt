@@ -4,13 +4,13 @@ val messages = listOf(
     Message(
         id = 91,
         title = "Wulkanowy znowu nie działa",
-        content = "Jeśli logujesz się teraz do Wulkanowego, to prawdopodobnie ci się nie uda. Jeśli jesteś już zalogowany, to skorzystaj z przycisku Otwierającego stronę dziennika na najnowszej wersji aplikacji",
+        content = "Jeśli logujesz się teraz do Wulkanowego, to prawdopodobnie ci się nie uda. Jeśli jesteś już zalogowany, to skorzystaj z przycisku Otwierającego stronę dziennika na najnowszej wersji aplikacji lub po prosty ze strony www dziennika",
         priority = MessagePriority.HIGH,
         messageTypes = listOf(
             MessageType.GENERAL_MESSAGE,
         ),
         isXVisible = false,
-        isVisible = false,
+        isVisible = true,
     ),
     Message(
         id = 90,
