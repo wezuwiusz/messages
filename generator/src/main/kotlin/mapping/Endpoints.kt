@@ -545,7 +545,7 @@ val ApiEndpointsMap = mapOf(
            "Oceny" to "4f2f158b-29cf-48d3-8078-50c74ccb6c9c",
        ),
     ),
-    "24.04.0010.58863" to mapOf(
+    "24.04.0010.58863-d" to mapOf(
         "uonetplus-uczen" to mapOf(
 //            "Autoryzacja" to "",
             "EgzaminyZewnetrzne" to "fe6b40ba-8a2f-4ad3-a519-343226a66a23",
