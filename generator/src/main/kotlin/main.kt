@@ -22,8 +22,10 @@ fun main() {
         vHeaders = ApiEndpointsVHeaders,
     )
     val html = generateHtml(filteredMessages)
+    val end = json.encodeToString(mapOf("end" to false))
 
     File("../dist/v1.json").writeText(messagesV1)
+    File("../dist/end.json").writeText(end)
     File("../dist/mapping1.json").writeText(mappingV1)
     File("../dist/mapping2.json").writeText(mappingV2)
     File("../dist/index.html").writeText(html)
