@@ -4,7 +4,7 @@ val messages = listOf(
     Message(
         id = 91,
         title = "Wulkanowy znowu nie działa",
-        content = "Jeśli logujesz się teraz do Wulkanowego, to prawdopodobnie ci się nie uda. Jeśli jesteś już zalogowany, to skorzystaj z przycisku \"Otwierającego stronę dziennika\" na najnowszej wersji aplikacji (2.6.13) lub po prostu ze strony www dziennika",
+        content = "Aplikacja nadal jest blokowana przez firmę VULCAN. Jeśli logujesz się teraz do Wulkanowego, to prawdopodobnie ci się nie uda. Jeśli jesteś już zalogowany, to skorzystaj z przycisku \"Otwierającego stronę dziennika\" na najnowszej wersji aplikacji (2.6.13) lub po prostu ze strony www dziennika",
         priority = MessagePriority.HIGH,
         messageTypes = listOf(
             MessageType.GENERAL_MESSAGE,
