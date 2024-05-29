@@ -59,7 +59,7 @@ jobs:
           url: https://api.cloudflare.com/client/v4/zones/0dd93531047ba376c2a1167f841c2bfd/purge_cache
           headers: ${{ secrets.custom_headers }}
           bearer-token: ${{ secrets.bearer_token }}
-          body: '{"files": ["https://messages.wulkanowy.net.pl/", "https://messages.wulkanowy.net.pl/v1.json", "https://messages.wulkanowy.net.pl/mapping1.json", "https://messages.wulkanowy.net.pl/mapping2.json", "https://messages.wulkanowy.net.pl/end.json"]}'
+          body: '{"files": ["https://messages.wulkanowy.net.pl/", "https://messages.wulkanowy.net.pl/v1.json", "https://messages.wulkanowy.net.pl/mapping1.json", "https://messages.wulkanowy.net.pl/mapping2.json", "https://messages.wulkanowy.net.pl/mapping3.json", "https://messages.wulkanowy.net.pl/end.json"]}'
           accept: 200
           log-response: false
           retries: 3
