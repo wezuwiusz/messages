@@ -1,8 +1,5 @@
 import kotlinx.serialization.encodeToString
-import mapping.ApiEndpointsMap
-import mapping.ApiEndpointsVHeaders
-import mapping.ApiEndpointsVTokenMap
-import mapping.ApiEndpointsVTokenSchemeMap
+import mapping.*
 import java.io.File
 
 fun main() {
@@ -22,6 +19,12 @@ fun main() {
         vTokenSchemeMap = ApiEndpointsVTokenSchemeMap,
         vHeaders = ApiEndpointsVHeaders,
     )
+    val mappingV3 = generateMappingJson(
+        endpoints = ApiEndpointsMapV3,
+        vTokenMap = ApiEndpointsVTokenMap,
+        vTokenSchemeMap = ApiEndpointsVTokenSchemeMap,
+        vHeaders = ApiEndpointsVHeaders,
+    )
     val html = generateHtml(filteredMessages)
     val end = json.encodeToString(endMessage)
 
@@ -29,5 +32,6 @@ fun main() {
     File("../dist/end.json").writeText(end)
     File("../dist/mapping1.json").writeText(mappingV1)
     File("../dist/mapping2.json").writeText(mappingV2)
+    File("../dist/mapping3.json").writeText(mappingV3)
     File("../dist/index.html").writeText(html)
 }
