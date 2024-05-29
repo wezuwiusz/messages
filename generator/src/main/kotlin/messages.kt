@@ -2,6 +2,17 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 92,
+        title = "Stan aplikacji",
+        content = "Przywróciliśy działanie modułu Uczeń w aktualizacji 2.6.14 Wulkanowego. Wiadomości oraz Uczeń Plus nadal nie działają. Przycisk \"Otwórz stronę dziennika\" umożliwia awaryjny dostęp do dziennika, gdy aplikacja nie działa.",
+        priority = MessagePriority.HIGH,
+        messageTypes = listOf(
+            MessageType.GENERAL_MESSAGE,
+        ),
+        isXVisible = false,
+        isVisible = true,
+    ),
+    Message(
         id = 91,
         title = "Wulkanowy znowu nie działa",
         content = "Aplikacja nadal jest blokowana przez firmę VULCAN. Jeśli logujesz się teraz do Wulkanowego, to prawdopodobnie ci się nie uda. Jeśli jesteś już zalogowany, to skorzystaj z przycisku \"Otwierającego stronę dziennika\" na najnowszej wersji aplikacji (2.6.13) lub po prostu ze strony www dziennika",
@@ -10,7 +21,7 @@ val messages = listOf(
             MessageType.GENERAL_MESSAGE,
         ),
         isXVisible = false,
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 90,
