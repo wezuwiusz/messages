@@ -38,6 +38,19 @@ internal val ApiEndpointsResponseMapping = mapOf(
                 "zalaczniki" to "GvtvvDBGvsAHEBsDsBJIJGtAtCvFswAI",
             ),
             "WiadomoscOdpowiedzPrzekaz" to mapOf(
+                "adresaci" to "AsrstFGtsDuuEsHCJFBDuICHHtCuwEuG",
+                "apiGlobalKey" to "CFHDJEstCsAvErGrJFCvvrvEJuABHFuD",
+                "data" to "BArtutvvEurtEwBuJrvrCAHFIsFrJCJu",
+                "id" to "HtIFwvAFwsJIEAsrJIrJCEvGuIrrCAIG",
+                "nadawcaInfo" to "AswHHvHvJDJsEIrJIHvrvDtCFErwBGtE",
+                "nadawcaSkrzynkaGlobalKey" to "BHuHEFHuDGHGEFIwsrssEIFBAuADsrFE",
+                "nadawcaSkrzynkaNazwa" to "DwGFGAHvJtvDEEGFstwICEwEBEDrAFID",
+                "temat" to "CHCsGwHIAIGJErwGsHJAHGBsArsDvBBG",
+                "tresc" to "FJFFFtAFHJvvErrEssGBGIwDJGrEGwrH",
+                "uzytkownikSkrzynkaGlobalKey" to "AsvwvAGGJsCCECrGJJIAvIrtBtwBttFG",
+                "zalaczniki" to "vvtvEJDDIFEGEuCIstEJsHIutAIDGrGJ",
+
+                // nested
                 "nazwa" to "IAACDtCusJrAEJsuJICCvIDCHrrAvEtw",
                 "skrzynkaGlobalKey" to "BrHECCDIvBCJEvsIJtGJAHwBuAFIHDGG",
             ),
