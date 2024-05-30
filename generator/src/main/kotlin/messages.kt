@@ -2,15 +2,28 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
-        id = 93,
-        title = "Stan aplikacji",
-        content = "Przywróciliśy działanie modułu Uczeń i wiadomości. Uczeń Plus nadal nie działa. Przycisk \"Otwórz stronę dziennika\" poniżej umożliwia awaryjny dostęp do dziennika, gdy aplikacja nie działa.",
+        id = 94,
+        title = "Dostępna aktualizacja",
+        content = "Przywróciliśmy działanie aplikacji. Przejdź do sklepu Play, by zaktualizować",
         priority = MessagePriority.MEDIUM,
+        destinationUrl = "https://play.google.com/store/apps/details?id=io.github.wulkanowy",
         messageTypes = listOf(
             MessageType.GENERAL_MESSAGE,
         ),
         isXVisible = false,
         isVisible = true,
+        versionMax = 174,
+    ),
+    Message(
+        id = 93,
+        title = "Stan aplikacji",
+        content = "Przywróciliśmy działanie aplikacji. Uczeń Plus nadal nie działa. Przycisk \"Otwórz stronę dziennika\" poniżej umożliwia awaryjny dostęp do dziennika, gdy aplikacja nie działa.",
+        priority = MessagePriority.MEDIUM,
+        messageTypes = listOf(
+            MessageType.GENERAL_MESSAGE,
+        ),
+        isXVisible = false,
+        isVisible = false,
         versionMin = 175,
     ),
     Message(
@@ -22,7 +35,7 @@ val messages = listOf(
             MessageType.GENERAL_MESSAGE,
         ),
         isXVisible = false,
-        isVisible = true,
+        isVisible = false,
         versionMax = 174,
     ),
     Message(
