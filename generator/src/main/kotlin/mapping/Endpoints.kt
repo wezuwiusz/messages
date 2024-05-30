@@ -550,7 +550,7 @@ val ApiEndpointsMap = mapOf(
 val ApiEndpointsMapV3 = ApiEndpointsMap + mapOf(
     "24.04.0010.58863" to mapOf(
         "uonetplus-uczen" to mapOf(
-//            "Autoryzacja" to "",
+            "Autoryzacja" to "325c0d1d-1b91-41e4-9bd9-7794ec90cca0",
             "EgzaminyZewnetrzne" to "fe6b40ba-8a2f-4ad3-a519-343226a66a23",
             "Frekwencja" to "c8dc2e1f-41e6-40c0-b04f-f49e3d5966ea",
             "FrekwencjaStatystyki" to "fcefe7af-4324-4e70-ae42-c63dbe988099",
@@ -572,7 +572,7 @@ val ApiEndpointsMapV3 = ApiEndpointsMap + mapOf(
             "UczenCache" to "333dce23-9766-4f2a-bc30-689bc04f0765",
             "UczenDziennik" to "6a523e4e-28dd-4123-98e5-ee10604f9e0b",
             "UczenZdjecie" to "f3e2de45-912f-4d47-943f-25667b3e8a7b",
-//            "Usprawiedliwienia" to "",
+            "Usprawiedliwienia" to "f13695db-b9d1-403e-8c7a-ad29b6e9ae7a",
             "UwagiIOsiagniecia" to "6ac1eafd-38c0-48ab-adce-75c5f901592c",
             "ZarejestrowaneUrzadzenia" to "1d63088d-02da-4feb-8906-08172e5fea1c",
             "Zebrania" to "2dd7a794-62d9-4711-b000-b73de88a7990",
