@@ -37,6 +37,10 @@ internal val ApiEndpointsResponseMapping = mapOf(
                 "wycofana" to "HrvHItBsstFrEABGIDtuuGJJIGBECwFu",
                 "zalaczniki" to "GvtvvDBGvsAHEBsDsBJIJGtAtCvFswAI",
             ),
+            "WiadomoscOdpowiedzPrzekaz" to mapOf(
+                "nazwa" to "IAACDtCusJrAEJsuJICCvIDCHrrAvEtw",
+                "skrzynkaGlobalKey" to "BrHECCDIvBCJEvsIJtGJAHwBuAFIHDGG",
+            ),
         ),
     ),
 )
