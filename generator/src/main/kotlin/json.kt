@@ -20,6 +20,7 @@ fun generateMappingJson(
     vTokenMap: Map<String, Map<String, Map<String, String>>>,
     vTokenSchemeMap: Map<String, Map<String, String>>,
     vHeaders: Map<String, Map<String, Map<String, String>>> = mapOf(),
+    responseMap: Map<String, Map<String, Map<String, Map<String, String>>>> = mapOf(),
 ): String {
     return json.encodeToString(
         Mapping(
@@ -27,6 +28,7 @@ fun generateMappingJson(
             vTokens = vTokenMap,
             vTokenScheme = vTokenSchemeMap,
             vHeaders = vHeaders,
+            responseMap = responseMap,
         )
     )
 }

@@ -197,5 +197,14 @@ val ApiEndpointsVTokenMap = mapOf(
             "SzkolaINauczyciele.mvc" to "fWw8j4JOE",
             "Ogloszenia.mvc" to "XKkaYNx",
         ),
+        "uonetplus-wiadomosciplus" to mapOf(
+            "Skrzynki" to "MevM",
+            "Odebrane" to "KfA5",
+            "OdebraneSkrzynka" to "YhQzStvs3U",
+            "Wyslane" to "9pNDCfZWVU",
+            "WyslaneSkrzynka" to "9pTPrt",
+            "Usuniete" to "eu0uh61KM",
+            "UsunieteSkrzynka" to "W8vyUYqP",
+        ),
     ),
 )

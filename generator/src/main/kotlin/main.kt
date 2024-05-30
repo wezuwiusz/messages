@@ -25,6 +25,13 @@ fun main() {
         vTokenSchemeMap = ApiEndpointsVTokenSchemeMap,
         vHeaders = ApiEndpointsVHeaders,
     )
+    val mappingV4 = generateMappingJson(
+        endpoints = ApiEndpointsMapV4,
+        vTokenMap = ApiEndpointsVTokenMap,
+        vTokenSchemeMap = ApiEndpointsVTokenSchemeMap,
+        vHeaders = ApiEndpointsVHeaders,
+        responseMap = ApiEndpointsResponseMapping,
+    )
     val html = generateHtml(filteredMessages)
     val end = json.encodeToString(endMessage)
 
@@ -33,5 +40,6 @@ fun main() {
     File("../dist/mapping1.json").writeText(mappingV1)
     File("../dist/mapping2.json").writeText(mappingV2)
     File("../dist/mapping3.json").writeText(mappingV3)
+    File("../dist/mapping4.json").writeText(mappingV4)
     File("../dist/index.html").writeText(html)
 }
