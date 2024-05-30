@@ -43,6 +43,30 @@ private val ApiEndpoints0006Student = mapOf(
     "ZgloszoneNieobecnosci" to "5e394724-80f5-4472-9858-b769cdc3c4fd",
 )
 
+private val ApiEndpoints0010StudentPlus = mapOf(
+    "Context" to "99f04f67-d7f6-4f30-9d02-61cdd656612f",
+    // "AutoryzacjaPesel" to "",
+    "Frekwencja" to "604fd0c1-ce58-4b60-9603-6e219b473676",
+    "Usprawiedliwienia" to "640531d3-f986-4c1d-a6dd-d57847ca9cd8",
+    "FrekwencjaStatystyki" to "1d15fb9f-dda6-42e4-a571-e8e0c2ecad72",
+    "ZarejestrowaneUrzadzenia" to "ca848077-9fbc-4716-b0ed-17c84b4fc86b",
+    "RejestracjaUrzadzeniaToken" to "2c9fc7e4-aa35-4346-9cf1-ae50008a95cb",
+    "Zebrania" to "374625d5-fd26-4082-9fc2-dcf960e6c718",
+    "RealizacjaZajec" to "0fc3ce8b-efa0-434a-b1a6-e23580ce7e0e",
+    "SprawdzianyZadaniaDomowe" to "a5371f1b-db92-48a5-88e8-604c716c36a3",
+    "SprawdzianSzczegoly" to "3365341e-56ce-42e4-a5ee-3f5e30599e02",
+    "ZadanieDomoweSzczegoly" to "f636feab-3bdf-429d-8837-fec248ac6a27",
+    "PlanZajec" to "79ad9207-6132-427d-bbfa-62a7cff7735f",
+    "DniWolne" to "c537e0ea-3a28-40a0-b1d0-4cb051588727",
+    "Uwagi" to "281cb35f-3943-43a3-910d-32c9198da099",
+    "Nauczyciele" to "298c16b8-a257-4420-aa96-627c1d8957bf",
+    "Informacje" to "6773b9c9-bd7c-47fd-9df6-9501d29c40d7",
+    "DaneUcznia" to "c40b5a6f-4eb5-4b10-b35c-dc8e063ec6f8",
+    "UczenZdjecie" to "c031961d-3700-494f-bb29-522a54a7097f",
+    "OkresyKlasyfikacyjne" to "18428deb-8f85-4f97-99b0-0ec35178edcc",
+    "Oceny" to "83cbb389-f3ab-404d-8ecc-9e687b1b958c",
+)
+
 val ApiEndpointsMap = mapOf(
     "24.04.0002.58666" to mapOf(
         "uonetplus-uczen" to mapOf(
@@ -545,6 +569,9 @@ val ApiEndpointsMap = mapOf(
             "Oceny" to "4f2f158b-29cf-48d3-8078-50c74ccb6c9c",
         ),
     ),
+    "24.04.0010.58863" to mapOf(
+        "uonetplus-uczenplus" to ApiEndpoints0010StudentPlus,
+    ),
 )
 
 private val UonetPlusUczen_24_04_0010_58863 = mapOf(
@@ -579,12 +606,14 @@ private val UonetPlusUczen_24_04_0010_58863 = mapOf(
 val ApiEndpointsMapV3 = ApiEndpointsMap + mapOf(
     "24.04.0010.58863" to mapOf(
         "uonetplus-uczen" to UonetPlusUczen_24_04_0010_58863,
+        "uonetplus-uczenplus" to ApiEndpoints0010StudentPlus,
     ),
 )
 
 val ApiEndpointsMapV4 = ApiEndpointsMap + mapOf(
     "24.04.0010.58863" to mapOf(
         "uonetplus-uczen" to UonetPlusUczen_24_04_0010_58863,
+        "uonetplus-uczenplus" to ApiEndpoints0010StudentPlus,
         "uonetplus-wiadomosciplus" to mapOf(
             "Skrzynki" to "99d282b8-c52a-486f-b182-081f17ab575b",
             "Odebrane" to "9a3adc9d-57c0-489a-96f4-17216ad7f39b",
