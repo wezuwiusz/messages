@@ -1,7 +1,6 @@
 package mapping
 
-internal val ApiEndpointsResponseMapping = mapOf(
-    "24.04.0010.58863" to mapOf(
+val responseMapping0010 = mapOf(
         "uonetplus-wiadomosciplus" to mapOf(
             "__common__" to mapOf(
                 "rtvrHBuCAwCEEAtIsBtuHJBtFttEtCIJ" to "apiGlobalKey",
@@ -66,5 +65,9 @@ internal val ApiEndpointsResponseMapping = mapOf(
                 "FvDrCwEBtwIvECBsIwIuAItCvBvGCvvB" to "zrodlo",
             ),
         ),
-    ),
+    )
+
+internal val ApiEndpointsResponseMapping = mapOf(
+    "24.04.0010.58863" to responseMapping0010,
+    "24.05.0000.59033" to responseMapping0010,
 )

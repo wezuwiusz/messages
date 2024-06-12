@@ -168,7 +168,7 @@ val ApiEndpointsVTokenMap = mapOf(
             "Oceny" to "LN8LI6",
         ),
     ),
-    "24.04.0010.58863" to mapOf(
+    "24.05.0000.59033" to mapOf(
         "uonetplus-uczen" to mapOf(
             "Autoryzacja.mvc" to "QIQqZdfpO",
             "Frekwencja.mvc" to "FFWp52i",

@@ -572,6 +572,9 @@ val ApiEndpointsMap = mapOf(
     "24.04.0010.58863" to mapOf(
         "uonetplus-uczenplus" to ApiEndpoints0010StudentPlus,
     ),
+    "24.05.0000.59033" to mapOf(
+        "uonetplus-uczenplus" to ApiEndpoints0010StudentPlus,
+    ),
 )
 
 private val UonetPlusUczen_24_04_0010_58863 = mapOf(
