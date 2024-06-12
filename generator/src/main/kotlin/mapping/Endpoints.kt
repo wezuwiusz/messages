@@ -67,6 +67,23 @@ private val ApiEndpoints0010StudentPlus = mapOf(
     "Oceny" to "83cbb389-f3ab-404d-8ecc-9e687b1b958c",
 )
 
+private val ApiEndpoints00010Messages = mapOf(
+    "Skrzynki" to "99d282b8-c52a-486f-b182-081f17ab575b",
+    "Odebrane" to "9a3adc9d-57c0-489a-96f4-17216ad7f39b",
+    "OdebraneSkrzynka" to "87002a35-79b5-4098-9217-2f4580ed5c4f",
+    "Wyslane" to "813de405-818e-4bea-bb27-bb9ca58e4b35",
+    "WyslaneSkrzynka" to "20fe222f-93ab-4862-ae1c-df4c6b91eed9",
+    "Usuniete" to "b7c90b28-9e16-4631-859b-416dc67988f4",
+    "UsunieteSkrzynka" to "845deb00-e600-420a-bec4-7f8424a09024",
+    "WiadomoscSzczegoly" to "69f036da-5615-4b31-af18-cec2f10d2f0e",
+    "WiadomoscOdpowiedzPrzekaz" to "05301b98-99e9-405e-b373-b6b475848191",
+    "WiadomoscNowa" to "47625b4d-8492-4177-bf98-e471e1e8345f",
+    "Pracownicy" to "89c9a7c2-e062-4d68-a66b-fb8406712351",
+    "MoveTrash" to "85be0a03-b0c0-4f2c-bd0c-660bb8ed7262",
+    "RestoreTrash" to "8aec05e6-218e-4917-9f0b-8baed1560435",
+    "Delete" to "c2a7feca-f2f8-4c29-8182-ee60d8dc0f8f",
+)
+
 val ApiEndpointsMap = mapOf(
     "24.04.0002.58666" to mapOf(
         "uonetplus-uczen" to mapOf(
@@ -572,9 +589,6 @@ val ApiEndpointsMap = mapOf(
     "24.04.0010.58863" to mapOf(
         "uonetplus-uczenplus" to ApiEndpoints0010StudentPlus,
     ),
-    "24.05.0000.59033" to mapOf(
-        "uonetplus-uczenplus" to ApiEndpoints0010StudentPlus,
-    ),
 )
 
 private val UonetPlusUczen_24_04_0010_58863 = mapOf(
@@ -617,21 +631,11 @@ val ApiEndpointsMapV4 = ApiEndpointsMap + mapOf(
     "24.04.0010.58863" to mapOf(
         "uonetplus-uczen" to UonetPlusUczen_24_04_0010_58863,
         "uonetplus-uczenplus" to ApiEndpoints0010StudentPlus,
-        "uonetplus-wiadomosciplus" to mapOf(
-            "Skrzynki" to "99d282b8-c52a-486f-b182-081f17ab575b",
-            "Odebrane" to "9a3adc9d-57c0-489a-96f4-17216ad7f39b",
-            "OdebraneSkrzynka" to "87002a35-79b5-4098-9217-2f4580ed5c4f",
-            "Wyslane" to "813de405-818e-4bea-bb27-bb9ca58e4b35",
-            "WyslaneSkrzynka" to "20fe222f-93ab-4862-ae1c-df4c6b91eed9",
-            "Usuniete" to "b7c90b28-9e16-4631-859b-416dc67988f4",
-            "UsunieteSkrzynka" to "845deb00-e600-420a-bec4-7f8424a09024",
-            "WiadomoscSzczegoly" to "69f036da-5615-4b31-af18-cec2f10d2f0e",
-            "WiadomoscOdpowiedzPrzekaz" to "05301b98-99e9-405e-b373-b6b475848191",
-            "WiadomoscNowa" to "47625b4d-8492-4177-bf98-e471e1e8345f",
-            "Pracownicy" to "89c9a7c2-e062-4d68-a66b-fb8406712351",
-            "MoveTrash" to "85be0a03-b0c0-4f2c-bd0c-660bb8ed7262",
-            "RestoreTrash" to "8aec05e6-218e-4917-9f0b-8baed1560435",
-            "Delete" to "c2a7feca-f2f8-4c29-8182-ee60d8dc0f8f",
-        )
+        "uonetplus-wiadomosciplus" to ApiEndpoints00010Messages,
+    ),
+    "24.05.0000.59033" to mapOf(
+        "uonetplus-uczen" to UonetPlusUczen_24_04_0010_58863,
+        "uonetplus-uczenplus" to ApiEndpoints0010StudentPlus,
+        "uonetplus-wiadomosciplus" to ApiEndpoints00010Messages,
     ),
 )
