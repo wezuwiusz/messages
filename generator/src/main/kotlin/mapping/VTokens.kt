@@ -231,4 +231,5 @@ val ApiEndpointsVTokenMap = mapOf(
     ),
     "24.04.0010.58863" to LastApiEndpointsVTokenMap,
     "24.05.0000.59033" to LastApiEndpointsVTokenMap,
+    "24.05.0001.59063" to LastApiEndpointsVTokenMap,
 )
