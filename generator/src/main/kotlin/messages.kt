@@ -2,6 +2,17 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 95,
+        title = "Wulkanowy powstał ponad 8 lat temu...",
+        content = "Kliknij, aby przeczytać podsumowania i podziękowania",
+        priority = MessagePriority.LOW,
+        destinationUrl = "https://www.facebook.com/wulkanowy/posts/892218486254254",
+        messageTypes = listOf(
+            MessageType.DASHBOARD_MESSAGE,
+        ),
+        isVisible = true,
+    ),
+    Message(
         id = 94,
         title = "Dostępna aktualizacja",
         content = "Przywróciliśmy działanie aplikacji. Przejdź do sklepu Play, by zaktualizować",
