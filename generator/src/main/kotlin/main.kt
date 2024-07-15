@@ -33,10 +33,8 @@ fun main() {
         responseMap = ApiEndpointsResponseMapping,
     )
     val html = generateHtml(filteredMessages)
-    val end = json.encodeToString(endMessage)
 
     File("../dist/v1.json").writeText(messagesV1)
-    File("../dist/end.json").writeText(end)
     File("../dist/mapping1.json").writeText(mappingV1)
     File("../dist/mapping2.json").writeText(mappingV2)
     File("../dist/mapping3.json").writeText(mappingV3)

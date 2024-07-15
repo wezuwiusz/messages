@@ -10,10 +10,10 @@ fun generateHtml(messages: List<Message>): String = buildString {
         lang = "pl"
         head {
             meta { charset = "UTF-8" }
-            title("Wulkanowy Messages")
+            title("Wezuwiusz Messages")
         }
         body {
-            h1 { +"Wulkanowy Messages" }
+            h1 { +"Wezuwiusz Messages" }
             ul {
                 messages.forEach {
                     li {
@@ -33,7 +33,7 @@ fun generateHtml(messages: List<Message>): String = buildString {
                 }
             }
             footer {
-                +"© ${LocalDate.now().year} by Wulkanowy | "
+                +"© ${LocalDate.now().year} by Wezuwiusz | "
                 +"wygenerowano ${LocalDateTime.now()} | "
                 a("v1.json") {
                     +"raw json"

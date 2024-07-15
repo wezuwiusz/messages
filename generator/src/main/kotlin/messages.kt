@@ -2,6 +2,17 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 96,
+        title = "Witamy w Dzienniczku Wezuwiusz!",
+        content = "Zapraszamy do uczestniczenia w tej przygodzie oraz do dołączenia do naszego kanału oraz chatu na telegramie.",
+        priority = MessagePriority.LOW,
+        destinationUrl = "https://t.me/neowulkanowy",
+        messageTypes = listOf(
+            MessageType.DASHBOARD_MESSAGE,
+        ),
+        isVisible = true
+    ),
+    Message(
         id = 95,
         title = "Wulkanowy powstał ponad 8 lat temu...",
         content = "Kliknij, aby przeczytać podsumowania i podziękowania",
