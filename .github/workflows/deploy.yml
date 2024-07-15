@@ -57,7 +57,6 @@ jobs:
         with:
           method: "POST"
           url: https://api.cloudflare.com/client/v4/zones/88e2f19e422dd0399289f04253d5af84/purge_cache
-          headers: ${{ secrets.custom_headers }}
           bearer-token: ${{ secrets.bearer_token }}
           body: '{"files": ["https://messages.wezuwiusz.eu/", "https://messages.wezuwiusz.eu/v1.json", "https://messages.wezuwiusz.eu/mapping1.json", "https://messages.wezuwiusz.eu/mapping2.json", "https://messages.wezuwiusz.eu/mapping3.json", "https://messages.wezuwiusz.eu//mapping4.json"]}'
           accept: 200
