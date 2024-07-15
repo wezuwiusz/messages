@@ -21,7 +21,7 @@ val messages = listOf(
         messageTypes = listOf(
             MessageType.DASHBOARD_MESSAGE,
         ),
-        isVisible = true,
+        isVisible = false,
     ),
     Message(
         id = 94,
