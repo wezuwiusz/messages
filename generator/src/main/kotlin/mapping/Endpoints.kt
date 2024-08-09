@@ -663,4 +663,9 @@ val ApiEndpointsMapV4 = ApiEndpointsMap + mapOf(
         "uonetplus-uczenplus" to ApiEndpoints0010StudentPlus,
         "uonetplus-wiadomosciplus" to ApiEndpoints00010Messages,
     ),
+    "24.07.0001.59644" to mapOf(
+        "uonetplus-uczen" to UonetPlusUczen_24_04_0010_58863,
+        "uonetplus-uczenplus" to ApiEndpoints0010StudentPlus,
+        "uonetplus-wiadomosciplus" to ApiEndpoints00010Messages,
+    )
 )
