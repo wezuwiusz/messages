@@ -6,7 +6,7 @@ val messages = listOf(
         title = "Witamy w Dzienniczku Wezuwiusz!",
         content = "Zapraszamy do uczestniczenia w tej przygodzie oraz do dołączenia do naszego kanału oraz chatu na telegramie.",
         priority = MessagePriority.LOW,
-        destinationUrl = "https://t.me/neowulkanowy",
+        destinationUrl = "https://t.me/dzienniczekwezuwiusz",
         messageTypes = listOf(
             MessageType.DASHBOARD_MESSAGE,
         ),
