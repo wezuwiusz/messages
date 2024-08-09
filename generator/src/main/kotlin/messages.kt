@@ -331,7 +331,7 @@ val messages = listOf(
     Message(
         id = 72,
         title = "O wyborze uczniów",
-        content = "Poniżej znajdują się szkoły i uczniowie, w których Wulkanowy wykrył uczniów podpiętych do Twojego konta. Jeśli jakiegoś ucznia brakuje to upewnij się najpierw, że po zalogowaniu przez stronę www dziennika go widać",
+        content = "Poniżej znajdują się szkoły i uczniowie, w których Wezuwiusz wykrył uczniów podpiętych do Twojego konta. Jeśli jakiegoś ucznia brakuje to upewnij się najpierw, że po zalogowaniu przez stronę www dziennika go widać",
         priority = MessagePriority.LOW,
         messageTypes = listOf(
             MessageType.LOGIN_STUDENT_SELECT_MESSAGE,
