@@ -2,6 +2,19 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 97,
+        title = "Dzienniczek Wezuwiusz Beta 2 wydana!",
+        content = "Wydaliśmy Betę 2 Dzienniczka Wezuwiusz. Zalecamy, aby wszyscy użytkownicy zaaktualizowali swoją aplikację do tej wersji.",
+        priority = MessagePriority.MEDIUM,
+        destinationUrl = "https://wezuwiusz.eu/blog/beta-2-released.html",
+        messageTypes = listOf(
+            MessageType.DASHBOARD_MESSAGE
+        ),
+        isVisible = true,
+        isXVisible = false,
+        versionMax = 178
+    ),
+    Message(
         id = 96,
         title = "Witamy w Dzienniczku Wezuwiusz!",
         content = "Zapraszamy do uczestniczenia w tej przygodzie oraz do dołączenia do naszego kanału oraz chatu na telegramie.",
