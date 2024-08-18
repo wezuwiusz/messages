@@ -76,5 +76,6 @@ internal val ApiEndpointsResponseMapping = mapOf(
     "24.06.0002.59394" to LastResponseMapping0010,
     "24.07.0000.59496" to LastResponseMapping0010,
     "24.07.0001.59644" to LastResponseMapping0010,
-    "24.07.0003.59704" to LastResponseMapping0010
+    "24.07.0003.59704" to LastResponseMapping0010,
+    "24.07.0005.59728" to LastResponseMapping0010
 )
