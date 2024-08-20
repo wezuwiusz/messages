@@ -2,6 +2,19 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 98,
+        title = "Dzienniczek Wezuwiusz nie działa.",
+        content = "Firma VULCAN wydała zupełnie nową wersję dziennika. Zapraszamy do zapoznania się z pełnym postem. Przywrócimy działanie przed początkiem roku szkolnego.",
+        priority = MessagePriority.HIGH,
+        destinationUrl = "https://t.me/dzienniczekwezuwiusz/69",
+        messageTypes = listOf(
+            MessageType.DASHBOARD_MESSAGE,
+            MessageType.LOGIN_MESSAGE
+        ),
+        isVisible = true,
+        isXVisible = false
+    ),
+    Message(
         id = 97,
         title = "Dzienniczek Wezuwiusz Beta 2 wydana!",
         content = "Wydaliśmy Betę 2 Dzienniczka Wezuwiusz. Zalecamy, aby wszyscy użytkownicy zaaktualizowali swoją aplikację do tej wersji.",
@@ -123,7 +136,7 @@ val messages = listOf(
         isXVisible = false,
         isVisible = false,
     ),
-     Message(
+    Message(
         id = 87,
         title = "Dostępna aktualizacja",
         content = "Wulkanowy został ponownie zablokowany przez firmę VULCAN. W sklepie Google Play dostępna jest już aktualizacja naprawiająca część funkcji.",
@@ -138,7 +151,7 @@ val messages = listOf(
         isXVisible = false,
         isVisible = false,
     ),
-     Message(
+    Message(
         id = 86,
         title = "Informacje o aktualnym stanie",
         content = "Z powodu ostatnich blokad dziennika przez firmę VULCAN, u niektórych użytkowników mogą nadal występować problemy z ładowaniem danych. Pracujemy nad poprawkami.",
