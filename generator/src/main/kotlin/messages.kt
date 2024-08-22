@@ -2,6 +2,19 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 99,
+        title = "Dzienniczek Wezuwiusz kończy działalność.",
+        content = "Z wielkim bólem serca muszę ogłosić, iż Dzienniczek Wezuwiusz kończy swoją działaność. Kliknij aby przeczytać więcej",
+        priority = MessagePriority.LOW,
+        messageTypes = listOf(
+            MessageType.DASHBOARD_MESSAGE,
+            MessageType.LOGIN_MESSAGE
+        ),
+        destinationUrl = "https://t.me/dzienniczekwezuwiusz/70",
+        isVisible = true,
+        isXVisible = false
+    ),
+    Message(
         id = 98,
         title = "Dzienniczek Wezuwiusz nie działa.",
         content = "Firma VULCAN wydała zupełnie nową wersję dziennika. Zapraszamy do zapoznania się z pełnym postem. Przywrócimy działanie przed początkiem roku szkolnego.",
@@ -11,7 +24,7 @@ val messages = listOf(
             MessageType.DASHBOARD_MESSAGE,
             MessageType.LOGIN_MESSAGE
         ),
-        isVisible = true,
+        isVisible = false,
         isXVisible = false
     ),
     Message(
